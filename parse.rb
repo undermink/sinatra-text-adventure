@@ -2,10 +2,14 @@
 require 'pp'
 
 class Room
-  attr_accessor :title,:name,:lines
+  attr_accessor :title,:name,:lines,:view
   def initialize(name)
     @name=name
     @lines=[]
+    @view=[]
+  end
+  def viewp
+    @view.join("")
   end
   def linesp
     @lines.join("").gsub(/\[\[([^|]+)\|([^\]]+)\]\]/,'<a href="/\1">\2</a>')
@@ -20,6 +24,8 @@ File.open("rooms.txt").read.each_line{|line|
    room=Room.new(line[1..-1].strip)
  when /^=.*/
    room.title=line[1..-1].strip
+ when /^%.*/
+   room.view<<line[1..-1]
  when /^.+$/
    room.lines<<line
  end

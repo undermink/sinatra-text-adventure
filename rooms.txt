@@ -1,12 +1,55 @@
 :welcome
-= Willkommen Überschrift
-Mein text blablalbas ideij 
-askjfewil
-lkjaskjkdsjkldas
-[[raum1|Zum 1. Raum]]
+= Das Zweitgolf Textadventure
+%============                              ============
+%##########//                              |###########
+%         //                               ||
+%        //                                ||
+%       //                                 ||
+%      //                                  ||
+%     //                                   ||
+%    //                _____  __  ________ ||       _____ ______ ||  ______
+%   //       ||     || =====  ==  ======== ||       ###|| ====== ||  ======
+%  //        ||     || ||     ||     ||    ||          || ||  || ||  ||
+% //         || //\ || ||===  ||     ||    ||          || ||  || ||  ||===
+%=========== ||// \\|| ||___  ||     ||    ============== ||__|| ||_ ||
+%########### ||/   \|| =====  ||     ||    ############## ====== ||= ||
+<br><br>
+Hallo und willkommen beim Zweitgolf Textadventure...<br>
+[[raum1|weiter...]]
 
 :raum1
-= Überschrift blablabla
-jkhcd l i uvh vnv xn ijocs sac
+= Raum 01
+%                    ____________
+%                    |          |
+%                    |          |
+%                    |          |
+%                    |---       |
+%                    |          |
+%                    |          |
+%                    |          |
+%____________________|__________|______________0-"_______
+<br><br>
+Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
+Du weisst nicht mehr wie Du hier gelandet bist.<br>
+Nur dunkel kannst Du dich daran erinnern gestern Abend auf einem Konzert gewesen zu sein.<br>
+Dein Schädel brummt...<br>
+Möchtest Du:<br><br>
+[[key01|den Raum durchsuchen?]]<br>
+[[door1|versuchen, die Tür zu öffnen?]]<br>
 
+:key01
+= Raum 01
+Auf dem Boden, neben der Tür liegt ein Schlüssel.<br>
+Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br>
+[[raum1|zurück]]
 
+:doorclosed
+= Tür
+Die Tür ist verschlossen<br>
+[[raum1|zurück]]
+
+:raum2
+= Raum 02
+Du öffnest die Tür mit hilfe des Schlüssels und betrittst einen weiteren Raum.<br>
+Möchtest Du:<br><br>
+[[raum1|zurück ind den letzten Raum?]]

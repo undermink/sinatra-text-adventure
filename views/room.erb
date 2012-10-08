@@ -1,2 +1,14 @@
-<h1><%=@room.title%></h1>
-<pre><%=@room.linesp%></pre>
+<html>
+	<head>
+		<link rel="shortcut icon" href="http://0.0.0.0:9292/zgico.ico">
+		<link rel="icon" href="http://0.0.0.0:9292/zgico.ico">
+		<title>Das Zweitgolf Text-Adventure</title>
+	</head>
+	<body>
+		<table align="center" >
+			<h1 align="center"><%=@room.title%></h1>
+			<div style="width:30em;margin:0 auto;border: 1px solid black;"><pre><%=@room.viewp%></pre></div>
+			<p align="center"><%=@room.linesp%></p>
+		</table>
+	</body>
+</html>
