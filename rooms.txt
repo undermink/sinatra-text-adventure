@@ -1,33 +1,33 @@
 :welcome
-= Das Zweitgolf Textadventure
-%============                              ============
-%##########//                              |###########
-%         //                               ||
-%        //                                ||
-%       //                                 ||
-%      //                                  ||
-%     //                                   ||
-%    //                _____  __  ________ ||       _____ ______ ||  ______
-%   //       ||     || =====  ==  ======== ||       ###|| ====== ||  ======
-%  //        ||     || ||     ||     ||    ||          || ||  || ||  ||
-% //         || //\ || ||===  ||     ||    ||          || ||  || ||  ||===
-%=========== ||// \\|| ||___  ||     ||    ============== ||__|| ||_ ||
-%########### ||/   \|| =====  ||     ||    ############## ====== ||= ||
-<br><br>
-Hallo und willkommen beim Zweitgolf Textadventure...<br>
+= 
+%  ============                              ============
+%  ##########//                              |###########
+%           //                               ||
+%          //                                ||
+%         //                                 ||
+%        //                                  ||
+%       //                                   ||
+%      //                _____  __  ________ ||       _____ ______ ||  ______
+%     //       ||     || =====  ==  ======== ||       ###|| ====== ||  ======
+%    //        ||     || ||     ||     ||    ||          || ||  || ||  ||
+%   //         || //\ || ||===  ||     ||    ||          || ||  || ||  ||===
+%  =========== ||// \\|| ||___  ||     ||    ============== ||__|| ||_ ||
+%  ########### ||/   \|| =====  ||     ||    ############## ====== ||= ||
+...Textadventure.<br>
 [[raum1|weiter...]]
+ </table>
 
 :raum1
 = Raum 01
-%                    ____________
-%                    |          |
-%                    |          |
-%                    |          |
-%                    |---       |
-%                    |          |
-%                    |          |
-%                    |          |
-%____________________|__________|______________0-"_______
+%                      ____________
+%                      |          |
+%                      |          |
+%                      |          |
+%                      |---       |
+%                      |          |
+%                      |          |
+%                      |          |
+%  ____________________|__________|______________0-"_______
 <br><br>
 Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
 Du weisst nicht mehr wie Du hier gelandet bist.<br>
@@ -36,6 +36,7 @@ Dein Schädel brummt...<br>
 Möchtest Du:<br><br>
 [[key01|den Raum durchsuchen?]]<br>
 [[door1|versuchen, die Tür zu öffnen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
 
 :key01
 = Raum 01
@@ -52,4 +53,9 @@ Die Tür ist verschlossen<br>
 = Raum 02
 Du öffnest die Tür mit hilfe des Schlüssels und betrittst einen weiteren Raum.<br>
 Möchtest Du:<br><br>
-[[raum1|zurück ind den letzten Raum?]]
+[[raum1|zurück in den letzten Raum?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:bagpack
+= Dein Rucksack
+In Deinem Rucksack ist:<br>
