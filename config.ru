@@ -54,7 +54,7 @@ get '/kisten1' do
   else
     show(:kisten1)    
   end
-end
+end 
 
 get '/kisten1a' do
   if session['messer'] == 1
