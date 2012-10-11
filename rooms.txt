@@ -51,10 +51,98 @@ Die Tür ist verschlossen<br>
 
 :raum2
 = Raum 02
+%                                               |
+%                     ______________           /o\
+%                     I|          |I
+%                     I|          |I
+%                     I|          |I
+%                     I|---       |I         _____________
+%                     I|          |I         |     |     |
+%                     I|          |I         |    :|:    |
+%                     I|          |I         |     |     |
+% ____________________I|__________|I_________|_____|_____|________
+%
 Du öffnest die Tür mit hilfe des Schlüssels und betrittst einen weiteren Raum.<br>
+In dem Raum steht ein kleiner Schrank.<br>
+Es gibt kein Fenster. Ein kleines Licht erhellt den Raum nur spärlich.<br>
+Auf der gegenüberliegenden Seite ist noch eine Tür.<br>
 Möchtest Du:<br><br>
+[[schrank1|den Schrank untersuchen?]]<br>
+[[raum3dunkel|die Tür öffnen?]]<br>
 [[raum1|zurück in den letzten Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum3dunkel
+Du bist jetzt im dritten Raum. Es ist stockdunkel...<br>
+Möchtest Du:<br>
+[[raum3|versuchen, das Licht einzuschlaten?]]<br>
+[[raum2|zurück in den 2.Raum?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum3
+= Raum 03
+%    ___________      ____________
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |==O       |
+%                     |          | 
+%                     |          |         _______    
+%                     |          |         |#####|  _____
+% ____________________|__________|_________|#####|__|###|___
+%
+In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+Das Fenster ist mit Brettern vernagelt.<br>
+Es scheint kein Licht hindurch.<br>
+Möchtest Du:<br>
+[[kisten1|die Kisten untersuchen?]]<br>
+[[fenster1|das Fenster begutachten?]]<br>
+[[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
+[[raum2|zurück in den letzten Raum gehen?]]<br>
+
+:kisten1
+= Raum 03 die Kisten
+Die erste der beiden Kisten ist sehr leicht und scheinbar leer.<br>
+Du kannst sie nicht öffnen.<br>
+Die zweite Kiste ist sehr schwer. Auch diese kannst Du ohne Werkzeug nicht öffnen.<br>
+Möchtest Du:<br><br>
+[[kisten1a|Deinen Rucksack nach einem Werkzeug durchsuchen?]]<br>
+[[raum3|die Kisten ignorieren]]
+
+:kisten1a
+= Raum 03 die Kisten
+Mit Hilfe des rostigen Messers bekommst Du die beiden Kisten auf.<br>
+In der großen ist ein Goldbarren und in der kleinen zehn Euro und Holzwolle.<br>
+Du steckst alles ein...<br>
+
+:kisten1b
+= Raum 03 die Kisten
+Die Kisten sind leer.<br><br>
+[[raum3|zurück]]
+
+:kisten1c
+= Raum 03 die Kisten
+Du hast leider kein geeignetes Werkzeug um die Kisten zu öffnen.<br>
+So etwas wie ein Messer wäre wunderbar...<br><br>
+[[raum3|zurück]]
+
+:messerweg
+=Raum 02
+Der Schrank ist jetzt leer.<br> 
+Das Messer ist in Deinem Rucksack<br><br>
+[[raum2|zurück]]
+
+:messer1
+=Raum 02
+%
+%
+%        ___________________
+%       (:::::::|___________\
+%
+Im Schrank liegt ein altes, rostiges Messer.<br>
+Du steckst es ein...<br>
+[[raum2|zurück]]
 
 :bagpack
 = Dein Rucksack
