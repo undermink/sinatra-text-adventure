@@ -100,6 +100,7 @@ Möchtest Du:<br>
 [[fenster1|das Fenster begutachten?]]<br>
 [[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
 [[raum2|zurück in den letzten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
 
 :kisten1
 = Raum 03 die Kisten
@@ -114,7 +115,8 @@ Möchtest Du:<br><br>
 = Raum 03 die Kisten
 Mit Hilfe des rostigen Messers bekommst Du die beiden Kisten auf.<br>
 In der großen ist ein Goldbarren und in der kleinen zehn Euro und Holzwolle.<br>
-Du steckst alles ein...<br>
+Du steckst alles ein...<br><br>
+[[raum3|weiter...]]
 
 :kisten1b
 = Raum 03 die Kisten
@@ -137,12 +139,125 @@ Das Messer ist in Deinem Rucksack<br><br>
 =Raum 02
 %
 %
-%        ___________________
-%       (:::::::|___________\
+%                  ___________________
+%                 (:::::::|___________\
 %
 Im Schrank liegt ein altes, rostiges Messer.<br>
 Du steckst es ein...<br>
 [[raum2|zurück]]
+
+:fenster1
+=Raum 03 Fenster
+%                      _________________
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                     |_________________|
+%                    /___________________\
+%
+Das Fenster scheint sehr gut vernagelt...<br>
+Willst Du versuchen die Bretter mit der Hand zu lösen?<br>
+[[fenster1a|ja]]<br>
+[[raum3|nein]]
+
+:fenster1a
+=Raum 03 Fenster
+%                                 __!!!__
+%                                /       \
+%                               |  O   O  |
+%                               |    "    |
+%                               |   ___   |
+%                               |  /   \  |
+%                                \_______/
+%          
+Die Bretter sitzen zu fest...<br><br>
+[[raum3|zurück]]
+
+:raum4
+=Raum 04
+%   |                 ______________             Ö
+%   |                 ||          ||
+%   |                 ||          ||
+%   |                 ||          ||
+%   |                 ||          ||
+%   |                 ||===       ||
+%   |                 ||          ||
+%   |                 ||          ||
+%   |                 ||          ||
+%   |                 ||          ||
+%   |_________________||__________||_________________________
+%  /
+% /
+Du bist im vierten Raum...<br>
+Auch hier brennt nur eine schwach leuchtende Birne an der Decke.<br>
+Möchtest Du:<br>
+[[raum4a|Den Raum durchsuchen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum5|Durch die Tür gehen?]]<br>
+[[raum3|zurück in den dritten Raum?]]
+
+:raum4a
+=Raum 04
+In dem Raum liegt ein Zettel auf dem Boden.<br>
+Willst Du ihn Dir ansehen?<br>
+[[raum4b|Klar doch!]]<br>
+[[raum4|Nö...]]
+
+:raum4b
+=Raum 04 der Zettel
+Du hebst den Zettel vom Boden auf und liest:<br><br>
+<a class="link" href="www.sunnata.de/zweitgolf">www.sunnata.de</a><br><br>
+[[raum4|den Zettel wieder auf den Boden werfen...]]
+
+:raum5
+=Raum 05
+Du befindest Dich im fünften Raum.<br>
+Dieser Raum ist gut beleuchtet und komplett gekachelt.<br>
+Links von Dir befindet sich ein Waschbecken.<br>
+Rechts von Dir steht ein Eimer aus Metall.<br>
+Es gibt zwei weitere Türen in diesem Raum.<br>
+Eine Holz- und eine Metalltür.<br>
+Möchstest Du:<br>
+[[waschbecken1|zum Waschbecken gehen?]]<br>
+[[eimer1|zum Eimer rüber gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum6|durch die Metalltür gehen?]]<br>
+[[raum7|durch die Holztür gehen?]]<br>
+[[raum4|zurück in den vierten Raum?]]<br>
+
+:waschbecken1
+=Raum 05 Waschbecken
+%       |                    ||
+%       |               ____o||o____
+%       |              |\___(==)___/|
+%       |              \|__________|/
+%       |_________________||____||_______
+%      /                  ||    ||
+%
+%
+Du gehst zum Waschbecken...
+
+:eimer1
+=Raum 05 der Eimer
+%                                                 |
+%                               _____             |
+%                              |\___/|            |
+%          ____________________|  _  |____________|
+%                              | ___ |             \
+%                              \_____/              \
+Du gehst zum Eimer rüber...
+
+:raum6
+=Raum 06
+Du öffnest die Metalltür...
+
+:raum7
+=Raum 07
+Du öffnest die Holztür...
 
 :bagpack
 = Dein Rucksack

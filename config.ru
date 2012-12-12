@@ -57,7 +57,7 @@ get '/kisten1' do
 end 
 
 get '/kisten1a' do
-  if session['messer'] == 1
+  if session['messer'] == 1 
       session['geld'] = 10
       session['goldbarren'] = 1
       session['holzwolle'] = 1
