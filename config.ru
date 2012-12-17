@@ -121,7 +121,7 @@ get '/raum6' do
   if session['key2'] == '1'
     show(:raum6a)
   else
-    show(:raum6a)
+    show(:raum6)
   end
 end
  
@@ -131,7 +131,6 @@ get '/tisch1' do
     session['bag'] += 'ein großer, alter Schlüssel<br>'
     show(:tisch1)
   else 
-    session['bag'] += 'ein großer, alter Schlüssel<br>'
     '<p align="center"><br><br>Der Tisch ist leer <br><br><a class="link" href="raum6">weiter</a> '
   end
 end
