@@ -297,7 +297,50 @@ Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
 
 :raum6
 =Raum 06
-Du öffnest die Metalltür...
+%
+%                                                      |
+%                                                      |
+%                                            .         |
+%                     ______0-"_____        /          |
+%                       ||      ||       __/________   |
+%                _______||______||_______| ======= |___|
+%                       |        |       |_(O)_(O)_|    \
+%                                                        \
+Du befindest Dich im sechsten Raum.<br>
+Der Raum ist ziemlich klein und linker Hand steht ein Tisch.<br>
+Rechter Hand liegt ein Radio auf dem Boden.<br><br>
+Möchtest Du:<br>
+[[tisch1|Den Tisch untersuchen]]<br>
+[[radio1|Das Radio bedienen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum5|Den Raum wieder verlassen?]]
+
+:raum6a
+=Raum 06
+%
+%                                                      |
+%                                                      |
+%                                            .         |
+%                     ______________        /          |
+%                       ||      ||       __/________   |
+%                _______||______||_______| ======= |___|
+%                       |        |       |_(O)_(O)_|    \
+%                                                        \
+Du befindest Dich im sechsten Raum.<br>
+Der Raum ist ziemlich klein und linker Hand steht ein Tisch.<br>
+Rechter Hand liegt ein Radio auf dem Boden.<br><br>
+Möchtest Du:<br>
+[[radio1|Das Radio bedienen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum5|Den Raum wieder verlassen?]]
+
+:radio1
+=Kandahar
+<object data="/kandahar.ogg" width="0" height="0">oggFile</object>
+Zweitgolf - Kandahar<br><br>
+Text:<br>
+"Der neue Bürgermeister von Kandahar kommt in Wirklichkeit aus den USA"<br><br>
+[[raum6|Radio ausschalten...]]
 
 :raum7
 =Raum 07

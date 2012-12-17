@@ -117,6 +117,30 @@ get '/eimer1a' do
   show(:eimer1a)
 end
 
+get '/raum6' do
+  if session['key2'] == '1'
+    show(:raum6a)
+  else
+    show(:raum6a)
+  end
+end
+ 
+get '/tisch1' do
+  if session['key2'] != '1'
+    session['key2'] = '1'
+    session['bag'] += 'ein großer, alter Schlüssel<br>'
+    show(:tisch1)
+  else 
+    session['bag'] += 'ein großer, alter Schlüssel<br>'
+    '<p align="center"><br><br>Der Tisch ist leer <br><br><a class="link" href="raum6">weiter</a> '
+  end
+end
+
+get '/radio1' do
+  session['kandahar'] = '1'
+  show(:radio1)
+end
+
 get '/bagpack' do
 #  @bag=session.keys.map{|k|translate(k)+" "+translate(session[k])}.join(", ")
 #  if @bag==""
