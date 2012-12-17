@@ -210,7 +210,7 @@ Willst Du ihn Dir ansehen?<br>
 :raum4b
 =Raum 04 der Zettel
 Du hebst den Zettel vom Boden auf und liest:<br><br>
-<a class="link" href="www.sunnata.de/zweitgolf">www.sunnata.de</a><br><br>
+<a class="link" href="http://www.sunnata.de/zweitgolf">www.sunnata.de</a><br><br>
 [[raum4|den Zettel wieder auf den Boden werfen...]]
 
 :raum5
@@ -239,7 +239,40 @@ Möchstest Du:<br>
 %      /                  ||    ||
 %
 %
-Du gehst zum Waschbecken...
+Du gehst zum Waschbecken...<br>
+Im Waschbecken liegt ein angebissener Hamburger.<br><br>
+Willst Du:<br>
+[[hamburger|Den Hamburger mitnehmen?]]<br>
+[[hamburger1|Den Wasserhahn bedienen?]]<br>
+[[raum5|Den Hamburger Hamburger sein lassen...]]<br>
+
+:hamburger
+=Der Hamburger
+Du willst den Hamburger in die Hand nehmen, doch kannst Dich nicht überwinden<br>
+so etwas ekeliges anzufassen... Du lässt ihn liegen.<br><br>
+[[waschbecken1|zurück zum Waschbecken]]<br>
+[[raum5|weg vom Waschbecken]]
+
+:hamburger2
+=Der Hamburger
+Du willst den Hamburger in die Hand nehmen, doch kannst Dich nicht überwinden<br>
+so etwas nasses anzufassen... Du lässt ihn liegen.<br><br>
+[[waschbecken1|zurück zum Waschbecken]]<br>
+[[raum5|weg vom Waschbecken]]
+
+:hamburger1
+=Der Hamburger und das Wasser...
+Du drehst den Wasserhahn auf...<br>
+Nach einigen Sekunden sieht der Hamburger noch ekeliger aus.<br><br>
+[[waschbecken1|zurück zum Waschbecken]]<br>
+[[raum5|weg vom Waschbecken]]
+
+:hamburger1a
+=Der Hamburger und das Wasser...
+Du drehst den Wasserhahn ab...<br>
+Der Hamburger ist aufgequollen und ekelig.<br><br>
+[[waschbecken1|zurück zum Waschbecken]]<br>
+[[raum5|weg vom Waschbecken]]
 
 :eimer1
 =Raum 05 der Eimer
@@ -249,7 +282,18 @@ Du gehst zum Waschbecken...
 %          ____________________|  _  |____________|
 %                              | ___ |             \
 %                              \_____/              \
-Du gehst zum Eimer rüber...
+Du gehst zum Eimer rüber...<br>
+Er ist leer, sieht aber robust aus.<br>
+Willst Du ihn mitnehmen?<br>
+[[eimer1a|Klar... einen Eimer kann ich gut gebrauchen]]<br>
+[[raum5|Nö...Eimer find ich doof]]
+
+:eimer1a
+=Der Eimer
+Du nimmst den Eimer mit.<br>
+Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
+[[raum5|weiter]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]
 
 :raum6
 =Raum 06
