@@ -132,15 +132,15 @@ So etwas wie ein Messer wäre wunderbar...<br><br>
 :messerweg
 =Raum 02
 Der Schrank ist jetzt leer.<br> 
-Das Messer ist in Deinem Rucksack<br><br>
+Das Messer ist in Deinem Rucksack...<br><br>
 [[raum2|zurück]]
 
 :messer1
 =Raum 02
 %
 %
-%                  ___________________
-%                 (:::::::|___________\
+%                                 ___________________
+%                                (:::::::|___________\
 %
 Im Schrank liegt ein altes, rostiges Messer.<br>
 Du steckst es ein...<br>
@@ -403,7 +403,6 @@ In dem Raum befindet sich ein Schreibtisch.<br>
 Darauf liegt ein zusammengerolltes Papier.<br>
 Rechter Hand steht ein Bücherregal.<br>
 Möchtest Du:<br><br>
-[[schreibtisch1|Zum Schreibtisch gehen?]]<br>
 [[regal1|Zum Bücherregal gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum9|Durch die Tür links gehen?]]<br>
@@ -411,6 +410,27 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7b
+=Raum 07
+%                          ____________
+%                         /|____/|*|/ |
+%                        | | |||||*|| |
+%           _____0_____  | |_|||||_||_|
+%            ||     ||   | |________|_|
+%            ||     ||   | | ||    || |
+%          __||_____||___|_|_||____||_|________
+%
+Du befindest Dich im siebten Raum.<br>
+Auch in diesem Raum ist kein Fenster.<br>
+In dem Raum befindet sich ein Schreibtisch.<br>
+Darauf liegt ein zusammengerolltes Papier.<br>
+Rechter Hand steht ein Bücherregal.<br>
+Möchtest Du:<br><br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Durch die Tür links gehen?]]<br>
+[[raum8|Durch die rechte Tür gehen?]]<br>
+[[raum5|In den fünften Raum zurückgehen?]]
+
+:raum7c
 =Raum 07
 %                          ____________
 %                         /|____/|*|/ |
@@ -426,8 +446,6 @@ In dem Raum befindet sich ein Schreibtisch.<br>
 Darauf liegt ein zusammengerolltes Papier.<br>
 Rechter Hand steht ein Bücherregal.<br>
 Möchtest Du:<br><br>
-[[schreibtisch1|Zum Schreibtisch gehen?]]<br>
-[[regal1|Zum Bücherregal gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum9|Durch die Tür links gehen?]]<br>
 [[raum8|Durch die rechte Tür gehen?]]<br>
@@ -440,6 +458,37 @@ Du hebst das zusammengerollte Papier auf und entrollst es.<br>
 Das sieht aus, wie eine Karte...<br>
 Es ist eine Abkürzung vom zweiten in den achten Raum eingezeichnet.<br><br>
 [[raum7|zurück]]
+
+:regal1
+=Raum 07 das LagerRegal
+Du gehst zum Bücherregal...<br>
+Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
+Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br><br>
+[[raum7|weiter]]
+
+:regal2
+=Raum 07 das LagerRegal
+Du gehst zum Bücherregal...<br>
+Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
+Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br>
+Willst Du den Walkman benutzen und Musik hören?<br>
+[[walkman|Ja, klar.]]<br>
+[[raum7|weiter]]
+
+:map1
+=Die KellerKarte
+%               ------------------------------------------------------
+%               |                   --KellerKarte--                  |
+%               |                                      (EG)          |
+%               |    (1)-(2)-(3)-(4)-(5)-(6)         _|              |
+%               |         |           |            _|                |
+%               |         -------(8)-(7)-(9)-(10)_|                  |
+%               | 5:Waschküche                                       |
+%               | 10:Treppenhaus                                     |
+%               ------------------------------------------------------
+%
+%
+[[bagpack|Die Karte wieder einpacken]]
 
 :raum8
 =Raum 08

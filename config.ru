@@ -82,7 +82,7 @@ get '/kisten1a' do
 end
 
 get '/hamburger' do
-  if session['wasser']=='0'
+  if session['wasser']!='1'
     show(:hamburger)
   else show(:hamburger2)
   end
@@ -103,16 +103,15 @@ get '/hamburger1' do
   end
 end
 
-get '/eimer1' do
-  if session['eimer'] == '1'
-    show(:eimer1b)
+get '/eimer1' do  
+  if session['eimer'] != '1'
+    show(:eimer1)
+  elsif session['zig1'] !='1' && session['eimer'] == '1'
+      show(:eimer1b)
+  elsif session['zig1'] =='1' && session['eimer'] == '1'
+      '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr.<br>Den Eimer hast Du auch schon...<br><br><a class="link" href="/raum5">zurück</a></p>'
   else
     show(:eimer1)
-  end
-  if session['zig1'] !='1'
-      show(:eimer1b)
-    else
-      '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr.<br>Den Eimer hast Du auch schon...<br><br><a class="link" href="/raum5">zurück</a></p>'
   end
 end
 
@@ -134,7 +133,7 @@ end
 
 get '/zig1a' do
   if session['feuer'] != '1'
-    '<p align="center"><br><br>Dhast kein Feuer...<br><br><a class="link" href="/raum5">zurück</a></p>'
+    '<p align="center"><br><br>Du hast kein Feuer...<br><br><a class="link" href="/raum5">zurück</a></p>'
   else
     session['zig1'] = '2'
     '<p align="center"><br><br>Du rauchst die Zigarette...<br>Sie schmeckt sehr gut.<br>Leicht beflügelt gehst Du weiter.<br>Ein wohliges Gefühl breites sich in Dir aus.<br>"Zweitgolf, ...so ein witziger Name...", denkst Du.<br><br><a class="link" href="/raum5">zurück</a></p>'
@@ -165,17 +164,17 @@ get '/radio1' do
 end
 
 get '/raum7' do
-  if session['map1'] == '1' && session['phones'] != '1'
-    show(:raum7a)
-  else
-  if session ['phones'] == '1' && session['map1'] != '1'
-    show(:raum7b)
-  else
-  if session ['phones'] != '1' && session['map1'] != '1'
+  if session['phones'] != '1' && session['map1'] != '1'
     show(:raum7)
-  else show(:raum7c)
   end
+  if session['phones'] != '1' && session['map1'] == '1' 
+    show(:raum7a)
   end
+  if session['phones'] == '1' && session['map1'] != '1'
+    show(:raum7b)
+  end
+  if session['phones'] == '1' && session['map1'] == '1'
+    show(:raum7c) 
   end
 end
 
@@ -186,6 +185,16 @@ get '/schreibtisch1' do
     show(:schreibtisch1)
   else
     '<p align="center"><br><br>Der Schreibtisch ist leer...<br>Er hat keine Schubladen oder weiteren Fächer.<br><br><a class="link" href="raum7">weiter</a> '
+  end
+end
+
+get '/regal1' do
+  session['phones'] = '1'
+  session['bag'] += 'ein Paar Kopfhörer<br>'
+  if session['walkman'] != '1'
+    show(:regal1)
+  else
+    show(:regal2)
   end
 end
 
@@ -206,7 +215,7 @@ get '/bagpack' do
   if session['key'] == 1
 
     @bag = session['bag']
-  else @bag = 'nichts'
+  else @bag = 'noch nichts...'
   end
   @dings = show(:bagpack)
   erb :bagpack
