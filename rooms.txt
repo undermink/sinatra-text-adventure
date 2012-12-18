@@ -295,6 +295,22 @@ Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
 [[raum5|weiter]]<br>
 [[bagpack|Deinen Rucksack durchsuchen]]
 
+:eimer1b
+=Raum 05 Eimer
+Dort wo der Eimer stand ist etwas am Boden.<br>
+Du siehst es Dir genauer an...<br>
+Es sieht aus wie eine selbstgedrehte Zigarette.<br>
+Nur etwas größer...<br>
+Willst Du:<br><br>
+[[zig1|Die Zigarette mitnehmen?]]<br>
+[[raum5|Sie liegen lassen?]]<br>
+[[zig1a|Sie rauchen?]]
+
+:zig1
+=Die selbstgedrehte Zigarette
+Du steckst die seltsame, selbstgedrehte Zigarette ein...<br><br>
+[[raum5|weiter]]
+
 :raum6
 =Raum 06
 %
@@ -334,6 +350,12 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum5|Den Raum wieder verlassen?]]
 
+:tisch1
+=Raum 06 der Tisch
+Auf dem Tisch liegt ein großer, alter Schlüssel.<br>
+Du steckst ihn ein...<br><br>
+[[raum6a|weiter]]
+
 :radio1
 =Kandahar
 <object data="/kandahar.ogg" width="0" height="0">oggFile</object>
@@ -344,7 +366,101 @@ Text:<br>
 
 :raum7
 =Raum 07
-Du öffnest die Holztür...
+%                          ____________
+%                         /|____/|*|/ |
+%                        | | |||||*|| |
+%           _____0_____  | |_|||||_||_|
+%            ||     ||   | | __    _| |
+%            ||     ||   | | ||   ( ) |
+%          __||_____||___|_|_||___O_O_|________
+%
+Du befindest Dich im siebten Raum.<br>
+Auch in diesem Raum ist kein Fenster.<br>
+In dem Raum befindet sich ein Schreibtisch.<br>
+Darauf liegt ein zusammengerolltes Papier.<br>
+Rechter Hand steht ein Bücherregal.<br>
+Möchtest Du:<br><br>
+[[schreibtisch1|Zum Schreibtisch gehen?]]<br>
+[[regal1|Zum Bücherregal gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Durch die Tür links gehen?]]<br>
+[[raum8|Durch die rechte Tür gehen?]]<br>
+[[raum5|In den fünften Raum zurückgehen?]]
+
+:raum7a
+=Raum 07
+%                          ____________
+%                         /|____/|*|/ |
+%                        | | |||||*|| |
+%           ___________  | |_|||||_||_|
+%            ||     ||   | | __    _| |
+%            ||     ||   | | ||   ( ) |
+%          __||_____||___|_|_||___O_O_|________
+%
+Du befindest Dich im siebten Raum.<br>
+Auch in diesem Raum ist kein Fenster.<br>
+In dem Raum befindet sich ein Schreibtisch.<br>
+Darauf liegt ein zusammengerolltes Papier.<br>
+Rechter Hand steht ein Bücherregal.<br>
+Möchtest Du:<br><br>
+[[schreibtisch1|Zum Schreibtisch gehen?]]<br>
+[[regal1|Zum Bücherregal gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Durch die Tür links gehen?]]<br>
+[[raum8|Durch die rechte Tür gehen?]]<br>
+[[raum5|In den fünften Raum zurückgehen?]]
+
+:raum7b
+=Raum 07
+%                          ____________
+%                         /|____/|*|/ |
+%                        | | |||||*|| |
+%           ___________  | |_|||||_||_|
+%            ||     ||   | |________|_|
+%            ||     ||   | | ||    || |
+%          __||_____||___|_|_||____||_|________
+%
+Du befindest Dich im siebten Raum.<br>
+Auch in diesem Raum ist kein Fenster.<br>
+In dem Raum befindet sich ein Schreibtisch.<br>
+Darauf liegt ein zusammengerolltes Papier.<br>
+Rechter Hand steht ein Bücherregal.<br>
+Möchtest Du:<br><br>
+[[schreibtisch1|Zum Schreibtisch gehen?]]<br>
+[[regal1|Zum Bücherregal gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Durch die Tür links gehen?]]<br>
+[[raum8|Durch die rechte Tür gehen?]]<br>
+[[raum5|In den fünften Raum zurückgehen?]]
+
+:raum8
+=Raum 08
+Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
+Möchtest Du:<br><br>
+[[raum8a|Den Raum durchsuchen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum7|zurück in den 7. Raum?]]
+
+:raum8a
+=Raum 08
+Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
+Wie auf der Karte eingezeichnet befindet sich hier eine geheime Tür.<br>
+Durch diese kannst Du wieder in den zweiten Raum.<br>
+Möchtest Du:<br><br>
+[[raum8a|Den Raum durchsuchen?]]<br>
+[[raum2|Durch die geheime Tür in den 2. Raum?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum7|zurück in den 7. Raum?]]
+
+:raum9
+=Raum 09
+Du befindest Dich im neunten Raum.<br>
+In dem Raum befindet sich ein Schrank und eine Tür.<br>
+Möchtest Du:<br><br>
+Den Schrank durchsuchen?<br>
+Durch die Tür gehen?<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br><br>
+[[raum7|Zurück in den siebten Raum gehen?]]
 
 :bagpack
 = Dein Rucksack

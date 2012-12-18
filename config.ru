@@ -105,9 +105,14 @@ end
 
 get '/eimer1' do
   if session['eimer'] == '1'
-    '<p align="center">Der Eimer ist weg...<br><br><a class="link" href="/raum5">zurück</a></p>'
+    show(:eimer1b)
   else
-    show(:eimer1);
+    show(:eimer1)
+  end
+  if session['zig1'] !='1'
+      show(:eimer1b)
+    else
+      '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr.<br>Den Eimer hast Du auch schon...<br><br><a class="link" href="/raum5">zurück</a></p>'
   end
 end
 
@@ -115,6 +120,25 @@ get '/eimer1a' do
   session['eimer'] = '1'
   session['bag']+= 'ein Eimer<br>'
   show(:eimer1a)
+end
+
+get '/zig1' do
+  if session['zig1'] != '1'
+    session['zig1'] = '1'
+    session['bag'] +='eine selbstgedrehte Zigarette'
+    show(:zig1)
+  else
+    '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr<br><br><a class="link" href="/raum5">zurück</a></p>'   
+  end
+end
+
+get '/zig1a' do
+  if session['feuer'] != '1'
+    '<p align="center"><br><br>Dhast kein Feuer...<br><br><a class="link" href="/raum5">zurück</a></p>'
+  else
+    session['zig1'] = '2'
+    '<p align="center"><br><br>Du rauchst die Zigarette...<br>Sie schmeckt sehr gut.<br>Leicht beflügelt gehst Du weiter.<br>Ein wohliges Gefühl breites sich in Dir aus.<br>"Zweitgolf, ...so ein witziger Name...", denkst Du.<br><br><a class="link" href="/raum5">zurück</a></p>'
+  end
 end
 
 get '/raum6' do
@@ -138,6 +162,14 @@ end
 get '/radio1' do
   session['kandahar'] = '1'
   show(:radio1)
+end
+
+get '/raum8a' do
+  if session['map1'] != '1'
+    show(:raum8)
+  else
+    show(:raum8a)
+  end
 end
 
 get '/bagpack' do
