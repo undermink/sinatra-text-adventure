@@ -206,6 +206,34 @@ get '/raum8a' do
   end
 end
 
+get '/schrank2' do
+  if session['mottek'] != '1'
+    session['mottek'] = '1'
+    session['bag'] += 'ein Mottek<br>'
+    show(:schrank2)
+  else
+    show(:schrank2a)
+  end
+end
+
+get '/raum10' do
+  if session['intro'] != '1'
+    show(:raum10)
+  else
+    show(:raum10a)
+  end
+end
+
+get '/raum10b' do
+  if session['intro'] != '1'
+    session['intro'] = '1'
+    session['bag'] += 'eine Kassette<br>'
+    show(:raum10b)
+  else
+  '<p align="center"><br><br>Der Raum ist absolut leer...<br>Das einzig interessante ist das Treppenhaus...<br><br><a class="link" href="raum10a">ok</a> '  
+  end
+end
+
 get '/bagpack' do
 #  @bag=session.keys.map{|k|translate(k)+" "+translate(session[k])}.join(", ")
 #  if @bag==""

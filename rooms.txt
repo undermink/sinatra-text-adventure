@@ -514,10 +514,97 @@ Möchtest Du:<br><br>
 Du befindest Dich im neunten Raum.<br>
 In dem Raum befindet sich ein Schrank und eine Tür.<br>
 Möchtest Du:<br><br>
-Den Schrank durchsuchen?<br>
-Durch die Tür gehen?<br>
-[[bagpack|Deinen Rucksack durchsuchen?]]<br><br>
+[[schrank2|Den Schrank durchsuchen?]]<br>
+[[raum10|Durch die Tür gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum7|Zurück in den siebten Raum gehen?]]
+
+:schrank2
+=Raum 09: Der Schrank
+%                    
+%                            ______
+%                            |_____\
+%                              | |
+%                              | |
+%                              | |
+%                              | |
+%                              | |
+%                              | |
+%                              |_|
+%
+Du gehst zum Schrank rüber und öffnest ihn...<br>
+Im Schrank steht ein großer schwerer Hammer.<br>
+Du steckst den Mottek ein und schliesst den Schrank wieder.<br><br>
+[[raum9|weiter]]
+
+:schrank2a
+=Raum 09: Der Schrank
+Du gehst zum Schrank rüber und öffnest ihn...<br>
+Der Schrank ist leer.<br>
+Irgendetwas hat in der dicken Staubschicht<br>
+einen hammerförmigen Abdruck hinterlassen...<br><br>
+[[raum9|weiter]]
+
+:raum10
+=Raum 10: Das Treppenhaus
+%                    ______________
+%                    ||          ||
+%                    ||          ||
+%                    ||         _||
+%                    ||      __|_||
+%                    ||    _|____||
+%                    ||  _|______||
+%                    ||_|________||
+%                    ||__________||
+%____________________||__________||______________####_______
+%
+Du bist jetzt im zehnten Raum.<br>
+Von hier aus führt eine Treppe eine Etage höher.<br>
+Möchtest Du:<br>
+[[raum10b|Den Raum durchsuchen?]]<br>
+[[raum20|Die Treppe hinauf gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Zurück in den neunten Raum gehen?]]
+
+:raum10a
+=Raum 10: Das Treppenhaus
+%                    ______________
+%                    ||          ||
+%                    ||          ||
+%                    ||         _||
+%                    ||      __|_||
+%                    ||    _|____||
+%                    ||  _|______||
+%                    ||_|________||
+%                    ||__________||
+%____________________||__________||_________________________
+%
+Du bist jetzt im zehnten Raum.<br>
+Von hier aus führt eine Treppe eine Etage höher.<br>
+Möchtest Du:<br>
+[[raum20|Die Treppe hinauf gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum9|Zurück in den neunten Raum gehen?]]
+
+:raum10b
+=Raum 10: Das Treppenhaus
+%
+%          _________________
+%         /|    _     _    |
+%         ||   (_)   (_)   |
+%         ||   __INTRO__   |
+%         ||__/_________\__|
+%
+In der Ecke, auf dem Boden liegt eine Kassette.<br>
+Du gehst rüber und hebst sie auf.<br>
+Auf der Kassette steht: "Intro"<br>
+Willst Du sie Dir anhören?<br>
+[[walkman|Klar, mal sehen was da drauf ist...]]<br>
+[[raum10a|Nö, grad kein Bock auf Musik...]]
+
+:raum20
+=Raum 02 (Erdgeschoss)
+Das Treppenhaus stürtzt ein und Du bist tot...
 
 :bagpack
 = Dein Rucksack
