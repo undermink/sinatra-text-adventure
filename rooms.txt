@@ -433,11 +433,19 @@ Möchtest Du:<br><br>
 [[raum8|Durch die rechte Tür gehen?]]<br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
+:schreibtisch1
+=Raum 07 der Schreibtisch
+Du gehst zum Schreibtisch rüber...<br>
+Du hebst das zusammengerollte Papier auf und entrollst es.<br>
+Das sieht aus, wie eine Karte...<br>
+Es ist eine Abkürzung vom zweiten in den achten Raum eingezeichnet.<br><br>
+[[raum7|zurück]]
+
 :raum8
 =Raum 08
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Möchtest Du:<br><br>
-[[raum8a|Den Raum durchsuchen?]]<br>
+[[raum8b|Den Raum durchsuchen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum7|zurück in den 7. Raum?]]
 
@@ -447,7 +455,7 @@ Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Wie auf der Karte eingezeichnet befindet sich hier eine geheime Tür.<br>
 Durch diese kannst Du wieder in den zweiten Raum.<br>
 Möchtest Du:<br><br>
-[[raum8a|Den Raum durchsuchen?]]<br>
+[[raum8b|Den Raum durchsuchen?]]<br>
 [[raum2|Durch die geheime Tür in den 2. Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum7|zurück in den 7. Raum?]]

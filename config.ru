@@ -125,7 +125,7 @@ end
 get '/zig1' do
   if session['zig1'] != '1'
     session['zig1'] = '1'
-    session['bag'] +='eine selbstgedrehte Zigarette'
+    session['bag'] +='eine selbstgedrehte Zigarette<br>'
     show(:zig1)
   else
     '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr<br><br><a class="link" href="/raum5">zurück</a></p>'   
@@ -162,6 +162,31 @@ end
 get '/radio1' do
   session['kandahar'] = '1'
   show(:radio1)
+end
+
+get '/raum7' do
+  if session['map1'] == '1' && session['phones'] != '1'
+    show(:raum7a)
+  else
+  if session ['phones'] == '1' && session['map1'] != '1'
+    show(:raum7b)
+  else
+  if session ['phones'] != '1' && session['map1'] != '1'
+    show(:raum7)
+  else show(:raum7c)
+  end
+  end
+  end
+end
+
+get '/schreibtisch1' do
+  if session['map1'] != '1'
+    session['map1'] = '1'
+    session['bag'] += '<a class="link" href="/map1">eine Karte</a><br>'
+    show(:schreibtisch1)
+  else
+    '<p align="center"><br><br>Der Schreibtisch ist leer...<br>Er hat keine Schubladen oder weiteren Fächer.<br><br><a class="link" href="raum7">weiter</a> '
+  end
 end
 
 get '/raum8a' do
