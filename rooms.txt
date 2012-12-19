@@ -80,7 +80,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3
-= Raum 03
+=Raum 03
 %    ___________      ____________
 %    |_________|      |          |
 %    |_________|      |          |
@@ -93,11 +93,39 @@ Möchtest Du:<br>
 % ____________________|__________|_________|#####|__|###|___
 %
 In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
-Das Fenster ist mit Brettern vernagelt.<br>
+Jetzt sieht es aus, als ob jemand die Bretter<br>
+mit einem Hammer zerstört hätte.<br>
+Das Fenster ist mit Brettern vernagelt...<br>
 Es scheint kein Licht hindurch.<br>
 Möchtest Du:<br>
 [[kisten1|die Kisten untersuchen?]]<br>
 [[fenster1|das Fenster begutachten?]]<br>
+[[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
+[[raum2|zurück in den letzten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+
+:raum3a
+=Raum 03
+%    ___________      ____________
+%    |>__|___|<|      |          |
+%    |>_|__|__<|      |          |
+%    |>__|___|<|      |          |
+%    |>_|__|__<|      |          |
+%    |___|___|_|      |==O       |
+%                     |          | 
+%                     |          |         _______    
+%                     |          |         |#####|  _____
+% ____________________|__________|_________|#####|__|###|___
+%     ." .;: % . ´ 
+In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+Jetzt sieht es aus, als ob jemand die Bretter<br>
+mit einem Hammer zerstört hätte.<br>
+Das Fenster ist solide zugemauert...<br>
+Es scheint kein Licht hindurch.<br>
+Möchtest Du:<br>
+[[kisten1|die Kisten untersuchen?]]<br>
+[[fenster1c|das Fenster begutachten?]]<br>
 [[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
 [[raum2|zurück in den letzten Raum gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
@@ -148,16 +176,16 @@ Du steckst es ein...<br>
 
 :fenster1
 =Raum 03 Fenster
-%                      _________________
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                     |_________________|
-%                    /___________________\
+%                           _________________
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                    
 %
 Das Fenster scheint sehr gut vernagelt...<br>
 Willst Du versuchen die Bretter mit der Hand zu lösen?<br>
@@ -175,6 +203,70 @@ Willst Du versuchen die Bretter mit der Hand zu lösen?<br>
 %                                \_______/
 %          
 Die Bretter sitzen zu fest...<br><br>
+[[raum3|zurück]]
+
+:fenster1b
+=Raum 03: Das Fenster
+%                           _________________
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                          |_________________|
+%                    
+%
+Das Fenster scheint sehr gut vernagelt...<br>
+Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br>
+[[mottek|Klar, gute Idee]]<br>
+[[raum3|Nö, lieber nicht]]<br>
+
+:fenster1c
+=Raum 03: Das Fenster
+%                           _________________
+%                          |>____|_____|_____|
+%                          |<__|____|_____|_<|
+%                          |>____|_____|____<|
+%                          |___|____|____|___|
+%                          |<____|_____|____<|
+%                          |>__|____|____|__>|
+%                          |_____|_____|____<|
+%                          |>__|____|____|___|
+%                    
+%
+Das Fenster ist zugemauert...<br>
+Willst Du versuchen auch die Steine mit dem Mottek kaputt zu machen?<br>
+[[fenster1d|Logo. Mach kaputt, was Dich kaputt macht!]]<br>
+[[raum3|Nö, lieber nicht]]<br>
+
+:fenster1d
+=Raum 03: Das Fenster
+Du schlägst ein paar Mal fest zu...<br>
+Jedoch sind die Steine scheinbar fachmännisch gemauert,<br>
+oder mit etwas dahinter verstärkt,<br>
+so daß Du keine Chance hast sie zu durchbrechen.<br><br>
+[[fenster1d|Nochmal versuchen!]]
+[[raum3|Schade...dann eben nicht.]] 
+
+:mottek
+=Durchbruch
+Du nimmst den Mottek und machst es kaputt...<br>
+Zweitgolf - Durchbruch<br><br>
+Text:<br>
+"Worte - Menschen - leere Räume<br>
+Lügen - Sklaven - schwere Träume<br>
+Hast Du denn noch nicht erkannt?<br>
+Sie stell'n uns an die Wand<br>
+Laufen - Hasten - Fallen - Stolpern<br>
+Saufen - Fasten - Knallen - Poltern<br>
+Mach doch nur die Augen auf<br>
+Das hier nimmt Dich in kauf<br>
+Du stehst alleine da<br>
+Es tötet Dich sogar<br>
+Nimm dem Mottek und mach es kaputt<br>
+Los nimm den Mottek und mach es kaputt"<br><br>
 [[raum3|zurück]]
 
 :raum4
@@ -488,7 +580,7 @@ Willst Du den Walkman benutzen und Musik hören?<br>
 %               ------------------------------------------------------
 %
 %
-[[bagpack|Die Karte wieder einpacken]]
+<a href="#" onclick="history.go(-1)">Die Karte wieder einpacken</a>
 
 :raum8
 =Raum 08

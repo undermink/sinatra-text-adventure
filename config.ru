@@ -61,6 +61,14 @@ get '/schrank1' do
   end
 end
 
+get '/raum3' do
+  if session['durchbruch'] != '1'
+    show(:raum3)
+  else
+    show(:raum3a)
+  end
+end
+
 get '/kisten1' do
   if session['goldbarren'] == 1
     show(:kisten1b)
@@ -79,6 +87,22 @@ get '/kisten1a' do
   else
     show(:kisten1c)
   end
+end
+
+get '/fenster1' do
+  if session['mottek'] != '1'
+    show(:fenster1)
+  else
+    if session['durchbruch'] != '1'
+      show(:fenster1b)
+    else show(:fenster1c)
+    end
+  end
+end
+
+get '/mottek' do
+  session['durchbruch'] = '1'
+  show(:mottek)
 end
 
 get '/hamburger' do
