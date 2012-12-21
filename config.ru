@@ -22,7 +22,7 @@ helpers do
 end
 
 get '/' do
-  session['key'] ||= 0
+  session['key'] ||= '0'
   session.clear
   erb :login
 end
@@ -38,13 +38,13 @@ end
 
 
 get '/key01' do
-  session['key'] = 1
-  session['bag'] = 'ein Schlüssel<br>'
+  session['key'] = '1'
+#  session['bag'] = 'ein Schlüssel<br>'
   show(:key01)
 end
 
 get '/door1' do
-  if session['key'] == 1
+  if session['key'] == '1'
     show(:raum2)
   else
    show(:doorclosed) 
@@ -52,11 +52,11 @@ get '/door1' do
 end
 
 get '/schrank1' do
-  if session['messer'] == 1
+  if session['messer'] == '1'
     show(:messerweg)
    else
-     session['messer'] = 1
-     session['bag'] += 'ein altes, rostiges Messer<br>'
+     session['messer'] = '1'
+#     session['bag'] += 'ein altes, rostiges Messer<br>'
      show(:messer1)
   end
 end
@@ -70,7 +70,7 @@ get '/raum3' do
 end
 
 get '/kisten1' do
-  if session['goldbarren'] == 1
+  if session['goldbarren'] == '1'
     show(:kisten1b)
   else
     show(:kisten1)    
@@ -78,11 +78,11 @@ get '/kisten1' do
 end 
 
 get '/kisten1a' do
-  if session['messer'] == 1 
-      session['geld'] = 10
-      session['goldbarren'] = 1
-      session['holzwolle'] = 1
-      session['bag'] += 'ein Goldbarren<br>Holzwolle<br>zehn Euro<br>'
+  if session['messer'] == '1' 
+      session['geld'] = '10'
+      session['goldbarren'] = '1'
+      session['holzwolle'] = '1'
+#      session['bag'] += 'ein Goldbarren<br>Holzwolle<br>zehn Euro<br>'
       show(:kisten1a)
   else
     show(:kisten1c)
@@ -141,14 +141,14 @@ end
 
 get '/eimer1a' do
   session['eimer'] = '1'
-  session['bag']+= 'ein Eimer<br>'
+#  session['bag']+= 'ein Eimer<br>'
   show(:eimer1a)
 end
 
 get '/zig1' do
   if session['zig1'] != '1'
     session['zig1'] = '1'
-    session['bag'] +='eine selbstgedrehte Zigarette<br>'
+#    session['bag'] +='eine selbstgedrehte Zigarette<br>'
     show(:zig1)
   else
     '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr<br><br><a class="link" href="/raum5">zurück</a></p>'   
@@ -175,7 +175,7 @@ end
 get '/tisch1' do
   if session['key2'] != '1'
     session['key2'] = '1'
-    session['bag'] += 'ein großer, alter Schlüssel<br>'
+#    session['bag'] += 'ein großer, alter Schlüssel<br>'
     show(:tisch1)
   else 
     '<p align="center"><br><br>Der Tisch ist leer <br><br><a class="link" href="raum6">weiter</a> '
@@ -188,24 +188,23 @@ get '/radio1' do
 end
 
 get '/raum7' do
+#  session['phones'] ='0'
+#  session['map1'] ='0'
   if session['phones'] != '1' && session['map1'] != '1'
     show(:raum7)
-  end
-  if session['phones'] != '1' && session['map1'] == '1' 
+  elsif session['phones'] != '1' && session['map1'] == '1' 
     show(:raum7a)
-  end
-  if session['phones'] == '1' && session['map1'] != '1'
+  elsif session['phones'] == '1' && session['map1'] != '1'
     show(:raum7b)
-  end
-  if session['phones'] == '1' && session['map1'] == '1'
-    show(:raum7c) 
+#  elsif session['phones'] == '1' && session['map1'] == '1'
+  else show(:raum7c) 
   end
 end
 
 get '/schreibtisch1' do
   if session['map1'] != '1'
     session['map1'] = '1'
-    session['bag'] += '<a class="link" href="/map1">eine Karte</a><br>'
+#    session['bag'] += '<a class="link" href="/map1">eine Karte</a><br>'
     show(:schreibtisch1)
   else
     '<p align="center"><br><br>Der Schreibtisch ist leer...<br>Er hat keine Schubladen oder weiteren Fächer.<br><br><a class="link" href="raum7">weiter</a> '
@@ -214,7 +213,7 @@ end
 
 get '/regal1' do
   session['phones'] = '1'
-  session['bag'] += 'ein Paar Kopfhörer<br>'
+#  session['bag'] += 'ein Paar Kopfhörer<br>'
   if session['walkman'] != '1'
     show(:regal1)
   else
@@ -264,7 +263,7 @@ get '/bagpack' do
 #    @bag='nichts'
 #  end
 
-  if session['key'] == 1
+  if session['key'] == '1'
 
     @bag = session['bag']
   else @bag = 'noch nichts...'
