@@ -270,12 +270,29 @@ get '/raum10' do
 end
 
 get '/raum10b' do
+  session['telefon'] = 1
   if session['intro'] != '1'
     session['intro'] = '1'
 #    session['bag'] += 'eine Kassette<br>'
     show(:raum10b)
   else
   '<p align="center"><br><br>Der Raum ist absolut leer...<br>Das einzig interessante ist das Treppenhaus...<br><br><a class="link" href="raum10a">ok</a> '  
+  end
+end
+
+get '/telefon' do
+  if session['arrogant'] != '1' && session['telefon'] != 3
+      session['telefon']+=1
+      pp session['telefon'] 
+      pp 'du gehst dran...'
+  elsif session['arrogant'] != '1' && session['telefon'] == 3
+      session['arrogant'] = '1'
+      show(:arrogant) 
+  elsif session['arrogant'] == '1'
+    pp session['telefon']
+    pp 'arrogant ist da'
+    session['arrogant'] = '0'
+    show(:telefon)
   end
 end
 

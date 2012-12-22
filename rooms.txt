@@ -469,7 +469,7 @@ Text:<br>
 <a href="#" onclick="history.go(-1)">Radio ausschalten...</a>
 
 :raum7
-=Raum 07
+=Raum 7
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -493,7 +493,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7a
-=Raum 07
+=Raum 7
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -516,7 +516,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7b
-=Raum 07
+=Raum 7
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -539,7 +539,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7c
-=Raum 07
+=Raum 7
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -561,7 +561,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :schreibtisch1
-=Raum 07: Am Schreibtisch
+=Raum 7: Am Schreibtisch
 Du gehst zum Schreibtisch rüber...<br>
 Du hebst das zusammengerollte Papier auf und entrollst es.<br>
 Das sieht aus, wie eine Karte...<br>
@@ -569,14 +569,14 @@ Es ist eine Abkürzung vom zweiten in den achten Raum eingezeichnet.<br><br>
 [[raum7|zurück]]
 
 :regal1
-=Raum 07: Das LagerRegal
+=Raum 7: Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br><br>
 [[raum7|weiter]]
 
 :regal2
-=Raum 07: Das LagerRegal
+=Raum 7: Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br>
@@ -600,7 +600,7 @@ Willst Du den Walkman benutzen und Musik hören?<br>
 <a href="#" onclick="history.go(-1)">Die Karte wieder einpacken</a>
 
 :raum8
-=Raum 08
+=Raum 8
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Möchtest Du:<br><br>
 [[raum8b|Den Raum durchsuchen?]]<br>
@@ -608,7 +608,7 @@ Möchtest Du:<br><br>
 [[raum7|zurück in den 7. Raum?]]
 
 :raum8a
-=Raum 08
+=Raum 8
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Wie auf der Karte eingezeichnet befindet sich hier eine geheime Tür.<br>
 Durch diese kannst Du wieder in den zweiten Raum.<br>
@@ -619,20 +619,20 @@ Möchtest Du:<br><br>
 [[raum7|zurück in den 7. Raum?]]
 
 :raum8b
-=Raum 08
+=Raum 8
 Auf dem Boden liegt ein Walkman - er funktioniert.<br>
 Leider hast Du keine Kopfhörer...<br><br>
 [[raum8|Den Walkman mitnehmen]]
 
 :raum8c
-=Raum 08
+=Raum 8
 Auf dem Boden liegt ein Walkman - er funktioniert.<br>
 Willst Du die Kopfhörer benutzen und Musik hören?<br><br>
 [[walkman|Na klar doch!]]<br>
 [[raum8|Nö... kein Bock auf Musik]]
 
 :raum9
-=Raum 09
+=Raum 9
 Du befindest Dich im neunten Raum.<br>
 In dem Raum befindet sich ein Schrank und eine Tür.<br>
 Möchtest Du:<br><br>
@@ -642,7 +642,7 @@ Möchtest Du:<br><br>
 [[raum7|Zurück in den siebten Raum gehen?]]
 
 :schrank2
-=Raum 09: Der Schrank
+=Raum 9: Der Schrank
 %                    
 %                            ______
 %                            |_____\
@@ -660,7 +660,7 @@ Du steckst den Mottek ein und schliesst den Schrank wieder.<br><br>
 [[raum9|weiter]]
 
 :schrank2a
-=Raum 09: Der Schrank
+=Raum 9: Der Schrank
 Du gehst zum Schrank rüber und öffnest ihn...<br>
 Der Schrank ist leer.<br>
 Irgendetwas hat in der dicken Staubschicht<br>
@@ -732,8 +732,83 @@ Das ist das intrumental 'Intro' von Zweitgolf...<br><br>
 
 
 :raum20
-=Raum 02 (Erdgeschoss)
-Das Treppenhaus stürtzt ein und Du bist tot...
+=Raum 1 Erdgeschoss
+Du gehst die Treppe hinauf...<br>
+Oben angekommen öffnest Du eine Tür und betrittst den dahinterliegenden Raum.<br>
+Du bist jetzt eine Etage höher.<br>
+Du befindest Dich im ersten Raum dieser Etage.<br>
+Von hier führt die Treppe eine Etage tiefer und es gibt eine weitere Tür.<br>
+Möchtest Du:<br><br>
+[[raum21|Den Raum durchsuchen?]]<br>
+[[raum10|Die Treppe hinunter gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum22|Durch die Tür zweiten Raum gehen?]]
+
+:raum21
+=Raum 1 Erdgeschoss
+%            |        ______________                    UG            |
+%            |        ||==========||               ____________       |
+%            |        ||          ||               |          |       |
+%            |        ||          ||               |          |       |
+%            |        ||          ||               |          |       |
+%            |        ||--o       ||               |===       |       |
+%            |        ||          ||               |          |       |
+%            |        ||          ||               |          |       |
+%            |        ||          ||               |          |       |
+%            |________||__________||_______________|__________|_______|
+%           /                                                          \
+%
+Ausser den beiden Türen findest Du nichts besonderes hier.<br><br>
+[[raum10|Die Treppe hinunter gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum22|Durch die linke Tür in den zweiten Raum gehen?]]
+
+:raum22
+=Raum 2 Erdgeschoss
+%                                       ______________                     |
+%                                       |=___====___=|                     |
+%                                       |+          +|                     |
+%                                       |+          +|                     |
+%                                       |+          +|          _|_        |
+%                                       |+          +|          |O|        |
+%                                       |+--o       +|          |I|        |
+%                                       |+          +|          |O|        |
+%                                       |+          +|          ===        |
+%                                       |+   ====   +|                     |
+%                   ____________________|+__________+|_____________________|
+%                                                                           \
+%                                                                            \
+Du befindest Dich im zweiten Raum.<br>
+Vor Dir hängt ein Telefon an der Wand.<br>
+Es klingelt...<br>
+Willst Du:<br><br>
+[[telefon|Ans Telefon dran gehen?]]<br>
+[[raum22|Das Telefon nicht weiter beachten?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum21|Zurück in den ersten Raum?]]<br>
+[[raum23|Durch die Tür in den nächsten Raum?]]
+
+:telefon
+=Raum 2 EG: Das Telefon
+Vor Dir hängt das Telefon.<br>
+Willst Du jemanden anrufen?<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:arrogant
+=Arrogant
+Zweitgolf - Viel zu arrogant<br>Text:<br>
+"Ich hoffe Ihr seht mich.<br>
+Ich hoff Ihr versteht mich.<br>
+Ich hoffe Ihr geht nicht, denn das ist viel zu arrogant.<br>
+Ich will nur leben. Laß mich doch leben.<br>
+Ich will nix böses, ich will nur zufrieden sein.<br>
+Ich will nur leben. Laß mich doch leben.<br>
+Ihr stellt mir Beinchen, wenn ich kurz davor bin glücklich zu sein.<br>
+Was wollt Ihr eigentlich? Ihr macht mir Angst!<br>
+Wollt Ihr verhindern, daß ich hier zufrieden leben kann?<br>
+Euer Geschwafel, das geht Hand in Hand mit Arroganz.<br>
+Ich bin arrogant. Du bist arrogant. Wir sind arrogant.<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
 
 :bagpack
 = Dein Rucksack
