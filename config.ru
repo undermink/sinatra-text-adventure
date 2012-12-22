@@ -23,6 +23,7 @@ end
 
 get '/' do
   session['key'] ||= '0'
+  session['geld'] = '0'
   session.clear
   erb :login
 end
