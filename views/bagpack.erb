@@ -12,6 +12,9 @@
       		if session['key2'] =='1' then @inventar+='ein großer, alter Schlüssel<br>' end
       		if session['map1'] == '1' then @inventar+='<a class="link" href="/map1">eine Karte</a><br>' end
       		if session['phones'] == '1' then @inventar+='ein Paar Kopfhörer<br>' end
+      		if session['mottek'] == '1' then @inventar+='ein Mottek<br>' end
+      		if session['intro'] == '1' then @inventar+='eine Kassette<br>' end
+      		if session['intro'] == '1' then @inventar+='<a class="link" href="/walkman">ein Walkman<br>' end
       	%>
       	<%=@inventar%><br>
       <a href="#" onclick="history.go(-1)">Zurück</a></p>

@@ -221,7 +221,7 @@ get '/regal1' do
   end
 end
 
-get '/raum8a' do
+get '/raum8' do
   if session['map1'] != '1'
     show(:raum8)
   else
@@ -229,10 +229,32 @@ get '/raum8a' do
   end
 end
 
+get '/raum8b' do
+  if session['walkman'] != '1' && session['phones'] != '1'
+    session['walkman'] = '1'
+    show(:raum8b)
+  elsif session['walkman'] != '1' && session['phones'] == '1'
+    session['walkman'] = '1'
+    show(:raum8c)
+  elsif session['walkman'] == '1' 
+    '<p align="center"><br><br>Auf dem Boden liegt nichts mehr...<br><br><a href="#" onclick="history.go(-1)">Ok</a> :/</p></a>'
+  end
+end
+
+get '/walkman' do
+  if session['walkman'] != '1'
+    '<p align="center"><br><br>Leider hast Du keinen Walkman...<br><br><a href="#" onclick="history.go(-1)">Zurück</a></p></a>'
+  elsif session['phones'] != '1'
+    '<p align="center"><br><br>Leider hast Du keine Köpfhörer...<br><br><a href="#" onclick="history.go(-1)">Zurück</a></p></a>'
+  else
+    erb :walkman
+  end
+end
+
 get '/schrank2' do
   if session['mottek'] != '1'
     session['mottek'] = '1'
-    session['bag'] += 'ein Mottek<br>'
+#    session['bag'] += 'ein Mottek<br>'
     show(:schrank2)
   else
     show(:schrank2a)
@@ -250,7 +272,7 @@ end
 get '/raum10b' do
   if session['intro'] != '1'
     session['intro'] = '1'
-    session['bag'] += 'eine Kassette<br>'
+#    session['bag'] += 'eine Kassette<br>'
     show(:raum10b)
   else
   '<p align="center"><br><br>Der Raum ist absolut leer...<br>Das einzig interessante ist das Treppenhaus...<br><br><a class="link" href="raum10a">ok</a> '  
@@ -263,12 +285,12 @@ get '/bagpack' do
 #    @bag='nichts'
 #  end
 
-  if session['key'] == '1'
-
-    @bag = session['bag']
-  else @bag = 'noch nichts...'
-  end
-  @dings = show(:bagpack)
+#  if session['key'] == '1'
+#
+#    @bag = session['bag']
+#  else @bag = 'noch nichts...'
+#  end
+#  @dings = show(:bagpack)
   erb :bagpack
 end
 

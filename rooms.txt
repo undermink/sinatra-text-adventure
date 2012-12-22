@@ -252,6 +252,7 @@ so daß Du keine Chance hast sie zu durchbrechen.<br><br>
 
 :mottek
 =Durchbruch
+<object data="/durchbruch.ogg" width="0" height="0">oggFile</object>
 Du nimmst den Mottek und machst es kaputt...<br>
 Zweitgolf - Durchbruch<br><br>
 Text:<br>
@@ -267,7 +268,7 @@ Du stehst alleine da<br>
 Es tötet Dich sogar<br>
 Nimm dem Mottek und mach es kaputt<br>
 Los nimm den Mottek und mach es kaputt"<br><br>
-[[raum3|zurück]]
+<a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum4
 =Raum 04
@@ -300,7 +301,7 @@ Willst Du ihn Dir ansehen?<br>
 [[raum4|Nö...]]
 
 :raum4b
-=Raum 04 der Zettel
+=Raum 04: Der Zettel
 Du hebst den Zettel vom Boden auf und liest:<br><br>
 <a class="link" href="http://www.sunnata.de/zweitgolf">www.sunnata.de</a><br><br>
 [[raum4|den Zettel wieder auf den Boden werfen...]]
@@ -322,7 +323,7 @@ Möchstest Du:<br>
 [[raum4|zurück in den vierten Raum?]]<br>
 
 :waschbecken1
-=Raum 05 Waschbecken
+=Raum 05: Am Waschbecken
 %       |                    ||
 %       |               ____o||o____
 %       |              |\___(==)___/|
@@ -367,7 +368,7 @@ Der Hamburger ist aufgequollen und ekelig.<br><br>
 [[raum5|weg vom Waschbecken]]
 
 :eimer1
-=Raum 05 der Eimer
+=Raum 05: Der Eimer
 %                                                 |
 %                               _____             |
 %                              |\___/|            |
@@ -388,7 +389,18 @@ Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
 [[bagpack|Deinen Rucksack durchsuchen]]
 
 :eimer1b
-=Raum 05 Eimer
+=Raum 05: Die selbstgedrehte Zigarette
+%                             ____
+%                             \__/
+%                             |  |
+%                             | /|
+%                             |/ |
+%                             |  |
+%                             | /|
+%                             |/ |
+%                             \  /
+%                              \/ 
+%
 Dort wo der Eimer stand ist etwas am Boden.<br>
 Du siehst es Dir genauer an...<br>
 Es sieht aus wie eine selbstgedrehte Zigarette.<br>
@@ -443,7 +455,7 @@ Möchtest Du:<br>
 [[raum5|Den Raum wieder verlassen?]]
 
 :tisch1
-=Raum 06 der Tisch
+=Raum 06: Am Tisch
 Auf dem Tisch liegt ein großer, alter Schlüssel.<br>
 Du steckst ihn ein...<br><br>
 [[raum6a|weiter]]
@@ -454,7 +466,7 @@ Du steckst ihn ein...<br><br>
 Zweitgolf - Kandahar<br><br>
 Text:<br>
 "Der neue Bürgermeister von Kandahar kommt in Wirklichkeit aus den USA"<br><br>
-[[raum6|Radio ausschalten...]]
+<a href="#" onclick="history.go(-1)">Radio ausschalten...</a>
 
 :raum7
 =Raum 07
@@ -549,7 +561,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :schreibtisch1
-=Raum 07 der Schreibtisch
+=Raum 07: Am Schreibtisch
 Du gehst zum Schreibtisch rüber...<br>
 Du hebst das zusammengerollte Papier auf und entrollst es.<br>
 Das sieht aus, wie eine Karte...<br>
@@ -557,14 +569,14 @@ Es ist eine Abkürzung vom zweiten in den achten Raum eingezeichnet.<br><br>
 [[raum7|zurück]]
 
 :regal1
-=Raum 07 das LagerRegal
+=Raum 07: Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br><br>
 [[raum7|weiter]]
 
 :regal2
-=Raum 07 das LagerRegal
+=Raum 07: Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br>
@@ -605,6 +617,19 @@ Möchtest Du:<br><br>
 [[raum2|Durch die geheime Tür in den 2. Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum7|zurück in den 7. Raum?]]
+
+:raum8b
+=Raum 08
+Auf dem Boden liegt ein Walkman - er funktioniert.<br>
+Leider hast Du keine Kopfhörer...<br><br>
+[[raum8|Den Walkman mitnehmen]]
+
+:raum8c
+=Raum 08
+Auf dem Boden liegt ein Walkman - er funktioniert.<br>
+Willst Du die Kopfhörer benutzen und Musik hören?<br><br>
+[[walkman|Na klar doch!]]<br>
+[[raum8|Nö... kein Bock auf Musik]]
 
 :raum9
 =Raum 09
@@ -695,9 +720,16 @@ Möchtest Du:<br>
 In der Ecke, auf dem Boden liegt eine Kassette.<br>
 Du gehst rüber und hebst sie auf.<br>
 Auf der Kassette steht: "Intro"<br>
-Willst Du sie Dir anhören?<br>
+Willst Du sie Dir anhören?<br><br>
 [[walkman|Klar, mal sehen was da drauf ist...]]<br>
 [[raum10a|Nö, grad kein Bock auf Musik...]]
+
+:intro
+=Intro
+<object data="/12-intro.ogg" width="0" height="0">oggFile</object>
+Das ist das intrumental 'Intro' von Zweitgolf...<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
 
 :raum20
 =Raum 02 (Erdgeschoss)
