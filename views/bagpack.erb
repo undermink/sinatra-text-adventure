@@ -4,7 +4,7 @@
       	<%
       		if session['key'] == '1' then @inventar='ein Schlüssel<br>' else @inventar='noch nichts...'end
       		if session['messer'] =='1' then @inventar+='ein altes, rostiges Messer<br>' end
-      		if session['geld'] >='1' then @inventar+=session['geld'].to_s+' Euro<br>' end
+      		if session['geld'] >= 1 then @inventar+=session['geld'].to_s+' Euro<br>' end
       		if session['goldbarren'] =='1' then @inventar+='ein Goldbarren<br>' end
       		if session['holzwolle'] =='1' then @inventar+='ein bißchen Holzwolle<br>' end
       		if session['eimer'] =='1' then @inventar+='ein Eimer<br>' end

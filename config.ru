@@ -23,7 +23,7 @@ end
 
 get '/' do
   session['key'] ||= '0'
-  session['geld'] = '0'
+  session['geld'] = 0
   session.clear
   erb :login
 end
@@ -80,7 +80,7 @@ end
 
 get '/kisten1a' do
   if session['messer'] == '1' 
-      session['geld'] = '10'
+      session['geld'] = 10
       session['goldbarren'] = '1'
       session['holzwolle'] = '1'
 #      session['bag'] += 'ein Goldbarren<br>Holzwolle<br>zehn Euro<br>'
