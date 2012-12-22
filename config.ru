@@ -309,6 +309,7 @@ get '/bagpack' do
 #  else @bag = 'noch nichts...'
 #  end
 #  @dings = show(:bagpack)
+
   erb :bagpack
 end
 
