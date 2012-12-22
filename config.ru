@@ -23,17 +23,18 @@ end
 
 get '/' do
   session['key'] ||= '0'
-  session['geld'] = 0
+  session['geld'] ||= 0
   session.clear
   erb :login
 end
 
 post '/welcome' do
-  if params["username"] != "" #and params["username"]=~/[a-zA-Z0-9_]*/
-  @username = params["username"]
-  else @username="Mr. X" end
-    @dings = show(:welcome)
-  erb :welcome
+  	session['geld']= 0
+	if params["username"] != "" #and params["username"]=~/[a-zA-Z0-9_]*/
+		@username = params["username"]
+  	else @username="Mr. X" end
+    	@dings = show(:welcome)
+  	erb :welcome
 end
 
 
@@ -303,11 +304,9 @@ get '/bagpack' do
 #    @bag='nichts'
 #  end
 
-#  if session['key'] == '1'
-#
-#    @bag = session['bag']
-#  else @bag = 'noch nichts...'
-#  end
+  if session['key'] != '1'
+  	inventar = 'noch nichts...'
+  end
 #  @dings = show(:bagpack)
 
   erb :bagpack
