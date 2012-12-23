@@ -4,7 +4,7 @@
     @lieder='Was möchtet Du gerne hören:<br><br>'
     if session['intro'] == '1' then @lieder+='<a class="link" href="/intro">Intro</a><br>' end
     if session['kandahar'] == '1' then @lieder+='<a class="link" href="/radio1">Kandahar</a><br>' end
-    if session['intro'] == '1' then @lieder+='<a class="link" href="/mottek">Durchbruch</a><br>' end
+    if session['durchbruch'] == '1' then @lieder+='<a class="link" href="/mottek">Durchbruch</a><br>' end
   %>
   <%=@lieder%>
   <a href="#" onclick="history.go(-1)">Zurück</a>
