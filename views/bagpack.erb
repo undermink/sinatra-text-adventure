@@ -15,6 +15,8 @@
       		if session['mottek'] == '1' then @inventar+='ein Mottek<br>' end
       		if session['intro'] == '1' then @inventar+='eine Kassette<br>' end
       		if session['walkman'] == '1' then @inventar+='<a class="link" href="/walkman">ein Walkman<br>' end
+      		if session['map1'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für die erste Etage</a><br>' end
+      		if session['dieter'] == '1' then @inventar+='der Zettel auf dem "Dieter: 505151" steht<br>' end
       	%>
       	<%=@inventar%><br>
       <a href="#" onclick="history.go(-1)">Zurück</a></p>

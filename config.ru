@@ -317,6 +317,43 @@ get '/raum22' do
   end
 end
 
+get '/raum23' do
+  if session['entfinden'] != '1'
+    show(:raum23)
+  else
+    show(:raum23a)
+  end
+end
+
+get '/kaefig' do
+  if session['entfinden'] != '1'
+    session['entfinden'] = '1'
+    show(:kaefig1)
+  elsif session['map2'] != '1'
+    session['map2'] = '1'
+    show(:kaefig1a)
+  else
+     '<p align="center"><br><br>Du hast den Vogel bereits frei gelassen...<br>Der Käfig ist leer.<br><br><a class="link" href="raum23a">ok</a>'
+  end
+end
+
+get '/raum24a' do
+  if session['dieter'] != '1'
+    session['dieter'] = '1'
+    '<h1 align=center>Raum 4 EG</h1><p align="center"><br><br>In einer unbeleuchteten Ecke des Raumes<br>findest Du einen Notizzettel, auf dem steht:<br><br>   "Dieter: 505151"<br><br>Du steckst ihn ein.<br><br><a class="link" href="raum24">ok</a>'
+  else 
+    '<p align="center"><br><br>Der Raum ist leer...<br><br><a class="link" href="raum24">ok</a>'
+  end
+end
+
+get '/raum25' do
+  if session['key3'] != '1'
+    '<h1 align=center>Raum 5 EG</h1><p align="center"><br><br>Die Tür zum 5. Raum ist verschlossen...<br><br><a class="link" href="raum24">Mist!</a>'
+  else
+    show(:raum25)
+  end
+end
+
 get '/bagpack' do
 #  @bag=session.keys.map{|k|translate(k)+" "+translate(session[k])}.join(", ")
 #  if @bag==""
