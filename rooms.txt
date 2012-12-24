@@ -788,14 +788,70 @@ Willst Du:<br><br>
 [[raum21|Zurück in den ersten Raum?]]<br>
 [[raum23|Durch die Tür in den nächsten Raum?]]
 
+:raum22a
+=Raum 2 Erdgeschoss
+%                                       ______________                     |
+%                                       |=___====___=|                     |
+%                                       |+          +|                     |
+%                                       |+          +|                     |
+%                                       |+          +|          _|_        |
+%                                       |+          +|          |O|        |
+%                                       |+--o       +|          |I|        |
+%                                       |+          +|          |O|        |
+%                                       |+          +|          ===        |
+%                                       |+   ====   +|                     |
+%                   ____________________|+__________+|_____________________|
+%                                                                           \
+%                                                                            \
+Du befindest Dich im zweiten Raum.<br>
+Vor Dir hängt ein Telefon an der Wand.<br>
+<br>
+Willst Du:<br><br>
+[[telefon|Das Telefon benutzen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum21|Zurück in den ersten Raum?]]<br>
+[[raum23|Durch die Tür in den nächsten Raum?]]
+
+
 :telefon
 =Raum 2 EG: Das Telefon
 Vor Dir hängt das Telefon.<br>
-Willst Du jemanden anrufen?<br><br>
+Welche Nummer willst Du wählen?<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:telefon1
+=Raum 2 EG: Das Telefon
+Am anderen Ende ist eine Stimme zu hören...<br><br>
+Leider jedoch zu undeutlich, als daß Du etwas verstehen könntest.<br>
+Nach kurzen unverständlichen Worten bricht die Leitung ab...<br>
+Du legst auf.<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:polizei
+=Polizei
+<object data="/polizei.ogg" width="0" height="0">oggFile</object>
+Es tutet...<br>
+Jemand hebt ab:<br><br>
+Polizei **-**<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:notruf
+=Notruf
+<object data="/voc1.ogg" width="0" height="0">oggFile</object>
+Es tutet...<br>
+Jemand hebt ab:<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:satan
+=Telefon 666
+<object data="/voc2.ogg" width="0" height="0">oggFile</object>
+Es tutet...<br>
+Jemand hebt ab:<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :arrogant
 =Arrogant
+<object data="/vielzuarrogant.ogg" width="0" height="0">oggFile</object>
 Zweitgolf - Viel zu arrogant<br>Text:<br>
 "Ich hoffe Ihr seht mich.<br>
 Ich hoff Ihr versteht mich.<br>
@@ -809,6 +865,45 @@ Wollt Ihr verhindern, daß ich hier zufrieden leben kann?<br>
 Euer Geschwafel, das geht Hand in Hand mit Arroganz.<br>
 Ich bin arrogant. Du bist arrogant. Wir sind arrogant.<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
+
+:raum23
+=Raum 3 EG
+%                    _______________
+%                    ||           ||
+%                    ||  +++++++  ||       ___________
+%        ___         ||  +_____+  ||      ||    |    ||
+%       /|_|\        ||  +|_|_|+  ||      ||____|____||
+%      |_|_|_|       ||  +|_|_|+  ||      ||    |    ||
+%      |_|_|_|       ||  +    O==-||      ||____|____||
+%      |_|_|_|       ||  +     + o||      /___________\
+%         |          ||  +     +  ||              
+%        |||         ||  +++++++  ||              
+%_______|_|_|________||__________ ||_________________________
+%
+Du befindest Dich im dritten Raum (Erdgeschoß).<br>
+Hier im Raum ist ein Fenster, ein Vogelkäfig und eine Tür führt weiter.<br><br>
+Möchtest Du:<br><br>
+[[fenster2|Zum Fenster rüber?]]<br>
+[[kaefig|Zum Vogelkäfig gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum24|Durch die Tür in den nächsten Raum?]]<br>
+[[raum22|Zurück in den zweiten Raum?]]
+
+:fenster2
+=Raum 3 EG: Am Fenster
+nichts zu sehen...
+
+:kaefig
+=Raum 3 EG: Der Vogelkäfig
+Du gehst zum Voglekäfig rüber...<br>
+Im Käfig ist ein Vogel gefangen.<br><br>
+Willst Du ihn freilassen?<br><br>
+Ja, klar!<br>
+[[raum23|Nö...wer weiß, wem der gehört?]]
+
+:raum24
+=Raum 4 EG
+Du gehst in den vierten Raum...<br>
 
 :bagpack
 = Dein Rucksack

@@ -286,15 +286,34 @@ get '/telefon' do
   if session['arrogant'] != '1' && session['telefon'] != 3
       session['telefon']+=1
       pp session['telefon'] 
-      pp 'du gehst dran...'
+      show(:telefon1)
   elsif session['arrogant'] != '1' && session['telefon'] == 3
       session['arrogant'] = '1'
       show(:arrogant) 
   elsif session['arrogant'] == '1'
-    pp session['telefon']
-    pp 'arrogant ist da'
-    session['arrogant'] = '0'
-    show(:telefon)
+    erb :telefon
+  end
+end
+
+post '/telefonieren' do
+  if params['nummer'] == '110'
+    session['polizei'] = '1'
+    show(:polizei)
+  elsif params['nummer'] == '112' || params['nummer'] == '911'
+    show(:notruf)
+  elsif params['nummer'] == '666'
+    show(:satan)
+  elsif params['nummer'] == ''
+    pp'<p align="center"><br><br>Du h&ouml;rst das Freizeichen...<br><br>Scheinbar ein A.<br>Du lauscht noch ein Wenig und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
+  else pp'<p align="center"><br><br>Es tutet...<br><br>Niemand antwortet.<br>Du wartest noch eine Weile und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
+  end
+end
+
+get '/raum22' do
+  if session['arrogant'] != '1'
+    show(:raum22)
+  else
+    show(:raum22a)
   end
 end
 
