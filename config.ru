@@ -354,6 +354,29 @@ get '/raum25' do
   end
 end
 
+get '/raum26' do
+  @linesp='Du bist jetzt im sechsten Raum im Erdgeschoss.<br>Hier im Raum ist ein Fenster und eine weitere Tür.<br>Möchtest Du:<br><br>
+  <a class="link" href="fenster3">Zum Fenster gehen?</a><br><a class="link" href="raum26a">Den Raum durchsuchen?</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum28">Durch die Tür gehen?</a><br><a class="link" href="raum24">Zurück in den vierten Raum?</a>'
+  erb :raum26
+end
+
+get '/fenster3' do
+  if session['fenster3'] != '1'
+    show(:fenster3)
+  else
+    show(:fenster3c)
+  end
+end
+
+get '/fenster3a' do
+  if session['fenster3'] != '1'
+    session['fenster3'] = '1'
+    '<h1 align=center>Raum 6 EG: Am Fenster</h1><p align="center"><br><br>Du ziehst kräftig an dem Band und das Rollo bewegt sich einige Zentimeter nach oben.<br>Dann reißt der Zug und die Rolladen krachen runter.<br><br><a class="link" href="fenster3">Verdammt!</a>'
+  else
+    '<h1 align=center>Raum 6 EG: Am Fenster</h1><p align="center"><br><br>Du kommst beim besten Willen nicht mehr an das Ende vom Band und<br>kannst das Rollo darum nicht mehr bewegen.<br><br><a class="link" href="raum26">Och nö!</a> :('
+  end
+end
+
 get '/bagpack' do
 #  @bag=session.keys.map{|k|translate(k)+" "+translate(session[k])}.join(", ")
 #  if @bag==""

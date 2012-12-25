@@ -1037,13 +1037,27 @@ Versuchen, am Rad zu drehen?<br>
 [[raum24|Zurück in den vierten Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
-:raum26
-=Raum 6 EG
-Du bist jetzt im sechsten Raum im Erdgeschoss.<br>
-Hier im Raum ist ein Fenster und eine weitere Tür.<br>
-Möchtest Du:<br><br>
-Zum Fenster gehen?<br>
-Den Raum durchsuchen?<br>
-[[bagpack|Deinen Rucksack durchsuchen?]]<br>
-Durch die Tür gehen?<br>
-[[raum24|Zurück in den vierten Raum?]]
+:fenster3
+=Raum 6 EG: Am Fenster
+Du stellst fest, daß die Rolladen fast ganz unten sind.<br>
+Willst Du:<br><br>
+[[fenster3a|Versuchen, sie hochzuziehen?]]<br>
+[[fenster3b|Versuchen durch die dünnen Spalte etwas zu erkennen?]]<br>
+[[raum26|Nichts tun?]]
+
+:fenster3b
+=Raum 6 EG: Am Fenster
+Du kannst nicht viel erkennen, aber Du siehst, daß es noch hell draußen ist.<br>
+Du glaubst eine Art Hinterhof zu erkennen.<br>
+Vielleicht solltest Du doch versuchen, das Rollo hochzuziehen?<br>
+Willst Du:<br><br>
+[[fenster3a|Versuchen, es hochzuziehen?]]<br>
+[[raum26|Nichts tun?]]
+
+:fenster3c
+=Raum 6 EG: Am Fenster
+Jetzt sind die Rolladen ganz unten.<br>
+Der Zug ist abgerissen.<br><br>
+Willst Du:<br>
+[[fenster3a|Trotzdem versuchen, sie hochzuziehen?]]<br>
+[[raum26|Nichts tun?]]<br>
