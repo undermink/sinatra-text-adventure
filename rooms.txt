@@ -1038,7 +1038,7 @@ Versuchen, am Rad zu drehen?<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :fenster3
-=Raum 6 EG: Am Fenster
+=Raum 7 EG: Am Fenster
 Du stellst fest, daß die Rolladen fast ganz unten sind.<br>
 Willst Du:<br><br>
 [[fenster3a|Versuchen, sie hochzuziehen?]]<br>
@@ -1046,7 +1046,7 @@ Willst Du:<br><br>
 [[raum26|Nichts tun?]]
 
 :fenster3b
-=Raum 6 EG: Am Fenster
+=Raum 7 EG: Am Fenster
 Du kannst nicht viel erkennen, aber Du siehst, daß es noch hell draußen ist.<br>
 Du glaubst eine Art Hinterhof zu erkennen.<br>
 Vielleicht solltest Du doch versuchen, das Rollo hochzuziehen?<br>
@@ -1055,9 +1055,71 @@ Willst Du:<br><br>
 [[raum26|Nichts tun?]]
 
 :fenster3c
-=Raum 6 EG: Am Fenster
+=Raum 7 EG: Am Fenster
 Jetzt sind die Rolladen ganz unten.<br>
 Der Zug ist abgerissen.<br><br>
 Willst Du:<br>
 [[fenster3a|Trotzdem versuchen, sie hochzuziehen?]]<br>
 [[raum26|Nichts tun?]]<br>
+
+:raum28
+=Raum 8 EG
+%            |        ______________                                    |
+%            |        ||  ======  ||                                    |
+%            |        ||          ||                                    |
+%            |        ||          ||                                    |
+%            |        ||          ||                                    |
+%            |        ||p==       ||                                    |
+%            |        ||          ||                _____________       |
+%            |        ||          ||                ||    :    ||       |
+%            |        ||          ||      _______   ||   oOo   ||       |
+%            |________||__________||______|     |___||    :    ||_______|
+%           /                             |_____|   ||____:____||        \
+%          /                                                              \
+Du befindest Dich im achten Raum im Erdgeschoss.<br><br>
+Möchtest Du:<br><br>
+[[raum28a|Den Raum durchsuchen?]]<br>
+[[raum26|Zurück in den siebten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum29|Durch die Tür gehen?]]
+
+:raum28a
+=Raum 8 EG
+%            |        ______________                                    |
+%            |        ||  ======  ||                                    |
+%            |        ||          ||                                    |
+%            |        ||          ||                                    |
+%            |        ||          ||                                    |
+%            |        ||p==       ||                                    |
+%            |        ||          ||                _____________       |
+%            |        ||          ||                ||    :    ||       |
+%            |        ||          ||      _______   ||   oOo   ||       |
+%            |________||__________||______|     |___||    :    ||_______|
+%           /                             |_____|   ||____:____||        \
+%          /                                                              \
+Du durchsuchst den Raum...<br>
+Es steht ein kleiner Schrank im Raum<br>
+und eine Kiste liegt daneben auf dem Boden.<br><br>
+Möchtest Du:<br><br>
+[[kiste2|Die Kiste untersuchen?]]<br>
+[[schrank3|Den Schrank untersuchen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum26|Zurück in den siebten Raum gehen?]]<br>
+[[raum29|Durch die Tür in den nächsten Raum gehen?]]<br>
+
+:kiste2
+=Raum 8 EG: Die Kiste
+Die Kiste ist vernagelt.<br>
+Willst Du versuchen sie zu öffnen?<br><br>
+[[kiste2a|Klar doch!]]<br>
+[[raum28a|Nein, ich trau mich nicht.]]
+
+:kiste2a
+=Raum 8 EG: Die Kiste
+Du öffnest die Kiste mit Hilfe des rostigen Messers.<br>
+In der Kiste liegt ein Seil. Du steckst es ein.<br><br>
+[[raum28a|ok]]
+
+:raum29
+=Raum 9 EG
+Du bist jetzt im 9. Raum des Erdgeschosses...<br>

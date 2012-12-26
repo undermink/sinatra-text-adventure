@@ -31,8 +31,8 @@ end
 post '/welcome' do
   	session['geld']= 0
 	if params["username"] != "" #and params["username"]=~/[a-zA-Z0-9_]*/
-		@username = params["username"]
-  	else @username="Mr. X" end
+		session['name'] = params["username"]
+  	else session['name']="Mr. X" end
     	@dings = show(:welcome)
   	erb :welcome
 end
@@ -355,8 +355,14 @@ get '/raum25' do
 end
 
 get '/raum26' do
-  @linesp='Du bist jetzt im sechsten Raum im Erdgeschoss.<br>Hier im Raum ist ein Fenster und eine weitere Tür.<br>Möchtest Du:<br><br>
+  @linesp='Du bist jetzt im sechsten Raum im Erdgeschoss.<br><br>Möchtest Du:<br><br>
   <a class="link" href="fenster3">Zum Fenster gehen?</a><br><a class="link" href="raum26a">Den Raum durchsuchen?</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum28">Durch die Tür gehen?</a><br><a class="link" href="raum24">Zurück in den vierten Raum?</a>'
+  erb :raum26
+end
+
+get '/raum26a' do
+  @linesp='<br>Du durchsuchst den Raum...<br>Hier im Raum ist ein Fenster und eine weitere Tür.<br>Möchtest Du:<br><br>
+  <a class="link" href="fenster3">Zum Fenster gehen?</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum28">Durch die Tür gehen?</a><br><a class="link" href="raum24">Zurück in den vierten Raum?</a>'
   erb :raum26
 end
 
@@ -374,6 +380,40 @@ get '/fenster3a' do
     '<h1 align=center>Raum 6 EG: Am Fenster</h1><p align="center"><br><br>Du ziehst kräftig an dem Band und das Rollo bewegt sich einige Zentimeter nach oben.<br>Dann reißt der Zug und die Rolladen krachen runter.<br><br><a class="link" href="fenster3">Verdammt!</a>'
   else
     '<h1 align=center>Raum 6 EG: Am Fenster</h1><p align="center"><br><br>Du kommst beim besten Willen nicht mehr an das Ende vom Band und<br>kannst das Rollo darum nicht mehr bewegen.<br><br><a class="link" href="raum26">Och nö!</a> :('
+  end
+end
+
+get '/kiste2' do
+  if session['seil'] != '1'
+    show(:kiste2)
+  else
+    '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Die Kiste ist leer.<br><br><a class="link" href="raum28">Hmpf...</a>'
+  end
+end
+
+get '/kiste2a' do
+  if session['messer'] == '1'
+    session['seil'] = '1'
+    show(:kiste2a)
+  else
+    '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Leider hast Du kein geeignetes Werkzeug dabei...<br><br><a class="link" href="raum28">Kacke!</a>'
+  end
+end
+
+get '/schrank3' do
+  if session['feuer'] != '1'
+    session['feuer'] = '1'
+    '<h1 align=center>Raum 8 EG: Der Schrank</h1><p align="center"><br><br>Im Schrank liegt ein Feuerzeug.<br>Du steckst es ein...<br><br><a class="link" href="raum28">ok</a>'
+  else
+    '<h1 align=center>Raum 8 EG: Der Schrank</h1><p align="center"><br><br>Der Schrank ist leer...<br><br><a class="link" href="raum28">ok</a>'
+  end
+end
+
+get '/rauchen' do
+  if session['zig1'] == '1'
+  session['zig1'] = '2'
+  erb :rauchen
+  else '<h1 align=center>Die selbstgedrehte Zigarette</h1><p align="center"><br><br>Du bist Dir nicht mehr sicher,<br>ob Du die selbstgedrehte Zigarette schon geraucht hast,<br>kannst sie aber nirgends finden...<br><br><a class="link" href="bagpack">im Rucksack nachsehen</a>'
   end
 end
 
