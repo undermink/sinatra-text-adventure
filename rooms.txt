@@ -18,16 +18,37 @@
  </table>
 
 :raum1
-= Raum 01
-%                      ____________
-%                      |          |
-%                      |          |
-%                      |          |
-%                      |---       |
-%                      |          |
-%                      |          |
-%                      |          |
-%  ____________________|__________|______________0-"_______
+= Raum 1
+%                                   ____________
+%                                   |          |
+%                                   |          |
+%                                   |          |
+%                                   |---       |
+%                                   |          |
+%                                   |          |
+%                                   |          |
+%               ____________________|__________|______________0-"_______
+<br><br>
+Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
+Du weisst nicht mehr wie Du hier gelandet bist.<br>
+Nur dunkel kannst Du dich daran erinnern gestern Abend auf einem Konzert gewesen zu sein.<br>
+Dein Schädel brummt...<br>
+Möchtest Du:<br><br>
+[[key01|den Raum durchsuchen?]]<br>
+[[door1|versuchen, die Tür zu öffnen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum1a
+= Raum 1
+%                                   ____________
+%                                   |          |
+%                                   |          |
+%                                   |          |
+%                                   |---       |
+%                                   |          |
+%                                   |          |
+%                                   |          |
+%               ____________________|__________|________________________
 <br><br>
 Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
 Du weisst nicht mehr wie Du hier gelandet bist.<br>
@@ -39,18 +60,18 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :key01
-= Raum 01
+= Raum 1
 Auf dem Boden, neben der Tür liegt ein Schlüssel.<br>
-Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br>
+Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br><br>
 [[raum1|zurück]]
 
 :doorclosed
 = Tür
-Die Tür ist verschlossen<br>
-[[raum1|zurück]]
+Die Tür ist verschlossen...<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum2
-= Raum 02
+= Raum 2
 %                                               |
 %                     ______________           /o\
 %                     I|          |I
@@ -73,6 +94,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3dunkel
+=Raum 3
 Du bist jetzt im dritten Raum. Es ist stockdunkel...<br>
 Möchtest Du:<br>
 [[raum3|versuchen, das Licht einzuschlaten?]]<br>
@@ -80,7 +102,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3
-=Raum 03
+=Raum 3
 %    ___________      ____________
 %    |_________|      |          |
 %    |_________|      |          |
@@ -93,20 +115,40 @@ Möchtest Du:<br>
 % ____________________|__________|_________|#####|__|###|___
 %
 In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
-Jetzt sieht es aus, als ob jemand die Bretter<br>
-mit einem Hammer zerstört hätte.<br>
 Das Fenster ist mit Brettern vernagelt...<br>
 Es scheint kein Licht hindurch.<br>
 Möchtest Du:<br>
 [[kisten1|die Kisten untersuchen?]]<br>
 [[fenster1|das Fenster begutachten?]]<br>
 [[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
-[[raum2|zurück in den letzten Raum gehen?]]<br>
+[[raum2|zurück in den zweiten Raum gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
+:raum3b
+=Raum 3
+%    ___________      ____________
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |          |
+%    |_________|      |==O       |
+%                     |          | 
+%                     |          |         /             /
+%                     |          |        /|#####|      /
+% ____________________|__________|_______/_|#####|__|###|___
+%
+In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+Das Fenster ist mit Brettern vernagelt...<br>
+Es scheint kein Licht hindurch.<br>
+Möchtest Du:<br>
+[[kisten1|die Kisten untersuchen?]]<br>
+[[fenster1|das Fenster begutachten?]]<br>
+[[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
+[[raum2|zurück in den zweiten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3a
-=Raum 03
+=Raum 3
 %    ___________      ____________
 %    |>__|___|<|      |          |
 %    |>_|__|__<|      |          |
@@ -127,8 +169,34 @@ Möchtest Du:<br>
 [[kisten1|die Kisten untersuchen?]]<br>
 [[fenster1c|das Fenster begutachten?]]<br>
 [[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
-[[raum2|zurück in den letzten Raum gehen?]]<br>
+[[raum2|zurück in den zweiten Raum gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum3c
+=Raum 3
+%    ___________      ____________
+%    |>__|___|<|      |          |
+%    |>_|__|__<|      |          |
+%    |>__|___|<|      |          |
+%    |>_|__|__<|      |          |
+%    |___|___|_|      |==O       |
+%                     |          | 
+%                     |          |         /             /
+%                     |          |        /|#####|      /
+% ____________________|__________|_______/_|#####|__|###|___
+%     ." .;: % . ´ 
+In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+Jetzt sieht es aus, als ob jemand die Bretter<br>
+mit einem Hammer zerstört hätte.<br>
+Das Fenster ist solide zugemauert...<br>
+Es scheint kein Licht hindurch.<br>
+Möchtest Du:<br>
+[[kisten1|die Kisten untersuchen?]]<br>
+[[fenster1c|das Fenster begutachten?]]<br>
+[[raum4|durch die Tür in den nächsten Raum gehen?]]<br>
+[[raum2|zurück in den zweiten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
 
 :kisten1
 = Raum 03 die Kisten
@@ -219,12 +287,12 @@ Die Bretter sitzen zu fest...<br><br>
 %                    
 %
 Das Fenster scheint sehr gut vernagelt...<br>
-Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br>
+Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br><br>
 [[mottek|Klar, gute Idee]]<br>
 [[raum3|Nö, lieber nicht]]<br>
 
 :fenster1c
-=Raum 03: Das Fenster
+=Raum 3: Das Fenster
 %                           _________________
 %                          |>____|_____|_____|
 %                          |<__|____|_____|_<|
@@ -237,7 +305,7 @@ Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br>
 %                    
 %
 Das Fenster ist zugemauert...<br>
-Willst Du versuchen auch die Steine mit dem Mottek kaputt zu machen?<br>
+Willst Du versuchen auch die Steine mit dem Mottek kaputt zu machen?<br><br>
 [[fenster1d|Logo. Mach kaputt, was Dich kaputt macht!]]<br>
 [[raum3|Nö, lieber nicht]]<br>
 
@@ -247,8 +315,30 @@ Du schlägst ein paar Mal fest zu...<br>
 Jedoch sind die Steine scheinbar fachmännisch gemauert,<br>
 oder mit etwas dahinter verstärkt,<br>
 so daß Du keine Chance hast sie zu durchbrechen.<br><br>
-[[fenster1d|Nochmal versuchen!]]
+[[fenster1d|Nochmal versuchen!]]<br>
 [[raum3|Schade...dann eben nicht.]] 
+
+:mottek1
+=Durchbruch
+<object data="/durchbruch.ogg" width="0" height="0">oggFile</object>
+Du nimmst den Mottek und machst es kaputt...<br>
+Zweitgolf - Durchbruch<br><br>
+Text:<br>
+"Worte - Menschen - leere Räume<br>
+Lügen - Sklaven - schwere Träume<br>
+Hast Du denn noch nicht erkannt?<br>
+Sie stell'n uns an die Wand<br>
+Laufen - Hasten - Fallen - Stolpern<br>
+Saufen - Fasten - Knallen - Poltern<br>
+Mach doch nur die Augen auf<br>
+Das hier nimmt Dich in kauf<br>
+Du stehst alleine da<br>
+Es tötet Dich sogar<br>
+Kannst nichts dagegen tun<br>
+Nur sitzen, warten, ruh'n<br>
+Nimm dem Mottek und mach es kaputt<br>
+Los nimm den Mottek und mach es kaputt"<br><br>
+<a href="#" onclick="history.go(-2)">Zurück</a>
 
 :mottek
 =Durchbruch
@@ -266,6 +356,8 @@ Mach doch nur die Augen auf<br>
 Das hier nimmt Dich in kauf<br>
 Du stehst alleine da<br>
 Es tötet Dich sogar<br>
+Kannst nichts dagegen tun<br>
+Nur sitzen, warten, ruh'n<br>
 Nimm dem Mottek und mach es kaputt<br>
 Los nimm den Mottek und mach es kaputt"<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
@@ -466,7 +558,7 @@ Du steckst ihn ein...<br><br>
 Zweitgolf - Kandahar<br><br>
 Text:<br>
 "Der neue Bürgermeister von Kandahar kommt in Wirklichkeit aus den USA"<br><br>
-<a href="#" onclick="history.go(-1)">Radio ausschalten...</a>
+<a href="#" onclick="history.go(-1)">ausschalten...</a>
 
 :raum7
 =Raum 7
@@ -580,9 +672,9 @@ Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br><br>
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br>
-Willst Du den Walkman benutzen und Musik hören?<br>
+Willst Du den Walkman benutzen und Musik hören?<br><br>
 [[walkman|Ja, klar.]]<br>
-[[raum7|weiter]]
+[[raum7|Nö... kein Bock auf Musik.]]
 
 :map1
 =Die KellerKarte
@@ -914,7 +1006,12 @@ Möchtest Du:<br><br>
 
 :fenster2
 =Raum 3 EG: Am Fenster
-nichts zu sehen...
+Du gehst zum Fenster rüber...<br>
+Vielleicht kannst Du durchs Fenster etwas erkennen,<br>
+das Dir sagt, wo Du bist?<br>
+Du versuchst es.<br>
+Leider sind es Milchglasfenster und Du kannst gar nichts erkennen.<br><br>
+[[raum23|Verdammt...]]
 
 :kaefig
 =Raum 3 EG: Der Vogelkäfig

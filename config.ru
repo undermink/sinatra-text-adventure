@@ -37,12 +37,21 @@ post '/welcome' do
   	erb :welcome
 end
 
-
+get '/raum1' do
+  if session['key'] != '1'
+    show(:raum1)
+  else
+    show(:raum1a)
+  end
+end
 
 get '/key01' do
+  if session['key'] != '1'
   session['key'] = '1'
-#  session['bag'] = 'ein Schlüssel<br>'
   show(:key01)
+  else
+    '<h1 align=center>Raum 1</h1><p align="center"><br><br>Du findest nichts...<br>Der Raum ist leer.<br><br><a class="link" href="raum1">Verflixt!</a>'
+  end
 end
 
 get '/door1' do
@@ -64,10 +73,13 @@ get '/schrank1' do
 end
 
 get '/raum3' do
-  if session['durchbruch'] != '1'
+  if session['durchbruch'] != '1' && session['goldbarren'] != '1'
     show(:raum3)
-  else
+  elsif session['durchbruch'] != '1' && session['goldbarren'] == '1'
+    show(:raum3b)
+  elsif session['durchbruch'] == '1' && session['goldbarren'] != '1'
     show(:raum3a)
+  else show(:raum3c)
   end
 end
 
@@ -103,8 +115,12 @@ get '/fenster1' do
 end
 
 get '/mottek' do
-  session['durchbruch'] = '1'
-  show(:mottek)
+  if session['durchbruch'] != '1'
+    session['durchbruch'] = '1'
+    show(:mottek1)
+  else
+    show(:mottek)
+  end
 end
 
 get '/hamburger' do
@@ -326,6 +342,14 @@ get '/raum23' do
 end
 
 get '/kaefig' do
+  if session['entfinden'] != '1'
+    show(:kaefig)
+  else
+    redirect 'kaefig1'
+  end
+end
+
+get '/kaefig1' do
   if session['entfinden'] != '1'
     session['entfinden'] = '1'
     show(:kaefig1)

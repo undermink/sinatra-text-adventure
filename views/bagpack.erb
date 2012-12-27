@@ -2,7 +2,7 @@
       <h1 align="center"><Das Zweitgolf Text-Adventure>In Deinem Rucksack ist:</h1>
       <p align="center">
       	<%
-      		if session['key'] == '1' then @inventar='ein Schlüssel<br>' else @inventar='noch nichts...'end
+      		if session['key'] == '1' then @inventar='ein Schlüssel<br>' else @inventar='noch nichts...<br>'end
       		if session['messer'] =='1' then @inventar+='ein altes, rostiges Messer<br>' end
       		if session['geld'] >= 1 then @inventar+=session['geld'].to_s+' Euro<br>' end
       		if session['goldbarren'] =='1' then @inventar+='ein Goldbarren<br>' end
@@ -16,10 +16,12 @@
       		if session['mottek'] == '1' then @inventar+='ein Mottek<br>' end
       		if session['intro'] == '1' then @inventar+='eine Kassette<br>' end
       		if session['walkman'] == '1' then @inventar+='<a class="link" href="/walkman">ein Walkman<br>' end
-      		if session['map1'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für die erste Etage</a><br>' end
+      		if session['map2'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für die erste Etage</a><br>' end
       		if session['dieter'] == '1' then @inventar+='der Zettel auf dem "Dieter: 505151" steht<br>' end
       		if session['seil'] == '1' then @inventar+='ein Seil<br>' end
       		if session['feuer'] == '1' then @inventar+='ein Feuerzeug<br>' end
+      			#session['entfinden'] = '0'
+      			#session['map2'] = '0'
    		%>
       	<%=@inventar%><br>
       <a href="#" onclick="history.go(-1)">Zurück</a></p>
