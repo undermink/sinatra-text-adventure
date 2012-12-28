@@ -1220,3 +1220,126 @@ In der Kiste liegt ein Seil. Du steckst es ein.<br><br>
 :raum29
 =Raum 9 EG
 Du bist jetzt im 9. Raum des Erdgeschosses...<br>
+Von hier aus führt eine Treppe in die erste Etage hinauf.<br>
+Möchtest Du:<br><br>
+[[raum29a|Den Raum durchsuchen?]]<br>
+[[raum31|Die Treppe hinauf in die erste Etage?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum28|Zurück in den achten Raum?]]
+
+:raum29a
+=Raum 9 EG: Das Treppenhaus
+%   |                ______________
+%   |                |_==========_|
+%   |                || oo       ||
+%   |                ||  oooooo  ||
+%   |                |||_     oo ||
+%   |                ||__|_    oo||
+%   |                ||____|_   o||
+%   |                ||______|_  ||
+%   |                ||________|_||
+%   |                ||__________||
+%   |________________||__________||______________~~~~_______
+%  /
+% /
+Auf dem Boden liegt ein Draht.<br>
+Du hebst ihn auf und steckst ihn ein.<br><br>
+Möchtest Du:<br><br>
+[[raum31|Die Treppe hinauf in die erste Etage?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum28|Zurück in den achten Raum?]]
+
+:raum29b
+=Raum 9 EG: Das Treppenhaus
+%   |                ______________
+%   |                |_==========_|
+%   |                || oo       ||
+%   |                ||  oooooo  ||
+%   |                |||_     oo ||
+%   |                ||__|_    oo||
+%   |                ||____|_   o||
+%   |                ||______|_  ||
+%   |                ||________|_||
+%   |                ||__________||
+%   |________________||__________||_________________________
+%  /
+% /
+Der Raum ist leer...<br><br>
+Möchtest Du:<br><br>
+[[raum31|Die Treppe hinauf in die erste Etage?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum28|Zurück in den achten Raum?]]
+
+:raum31
+=Raum 1 1.OG
+Du befindest Dich jetzt im ersten Raum auf der ersten Etage.<br>
+Hier sind zwei Türen.<br>
+Möchtest Du:<br><br>
+[[raum32|Durch die linke Tür gehen?]]<br>
+[[doorclosed|Durch die rechte Tür gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum29|Zurück ins Erdgeschoss?]]
+
+:raum32
+=Raum 2 1.OG
+%                         ______________
+%                         |=__________=|
+%                         |+          +|          _____________
+%                         ||          ||          |     |     |
+%                         ||          ||          |_____|_____|
+%          _________      ||          ||          |     |     |
+%           :     :       ||==o       ||          |_____|_____|
+%                         ||          ||          =============
+%                         ||          ||          (((((((((((o
+%                         ||   ====   ||          ((((((((((()
+%     ____________________|+__________+|___________|________|_____
+%
+Du bist im zweiten Raum auf der ersten Etage.<br>
+Hier im Raum ist ein Fenster und eine weitere Tür.<br>
+Möchtest Du:<br><br>
+[[fenster4|Zum Fenster rüber?]]<br>
+Den Raum durchsuchen?<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+Durch die Tür in den nächsten Raum?<br>
+[[raum31|Zurück in den ersten Raum?]]
+
+:raum32a
+=Raum 2 1.OG
+%                         ______________
+%                         |=__________=|
+%                         |+          +|         _______________
+%                         ||          ||        | |           | |
+%                         ||          ||        |_|           |_|
+%          _________      ||          ||        | |           | |
+%           :     :       ||==o       ||        |_|___________|_|
+%                         ||          ||          =============
+%                         ||          ||          (((((((((((o
+%                         ||   ====   ||          ((((((((((()
+%     ____________________|+__________+|___________|________|_____
+%
+Du bist im zweiten Raum auf der ersten Etage.<br>
+Hier im Raum ist ein Fenster und eine weitere Tür.<br>
+Möchtest Du:<br><br>
+[[fenster4|Zum Fenster rüber?]]<br>
+Den Raum durchsuchen?<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+Durch die Tür in den nächsten Raum?<br>
+[[raum31|Zurück in den ersten Raum?]]
+
+:fenster4
+=Raum 2 1.OG: Am Fenster
+Durch das Fenster schaust Du in einen Garten.<br>
+Da unten ist ein Swimmingpool.<br>
+Möchtest Du:<br><br>
+[[fenster4a|Das Fenster öffnen?]]<br>
+[[raum32|Zurück?]]
+
+:fenster4a
+=Raum 2 1.OG: Am Fenster
+Du kannst durch das offene Fenster erkennen,<br>
+daß im Swimmingpool kein Wasser ist.<br>
+Leider ist es zu tief um einfach hinunter zu springen.<br>
+Möchtest Du:<br><br>
+[[jump|trotzdem versuchen runter zu springen?]]<br>
+[[fenster4b|Das Fenster schliessen?]]<br>
+[[raum32|Zurück?]]

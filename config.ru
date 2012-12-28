@@ -433,6 +433,49 @@ get '/schrank3' do
   end
 end
 
+get '/raum29a' do
+  if session['draht'] != '1'
+    session['draht'] = '1'
+    show(:raum29a)
+  else 
+    show(:raum29b)
+  end
+end
+
+get '/raum32' do
+  if session['fenster4'] != '1'
+    show(:raum32)
+  else 
+    show(:raum32a)
+  end
+end
+
+get '/fenster4' do
+  if session['fenster4'] == '1'
+    show(:fenster4a)
+  else
+    show(:fenster4)
+  end
+end
+
+get '/fenster4a' do
+  if session['fenster4'] != '1'
+    session['fenster4'] = '1'
+    show(:fenster4a)
+  else
+    show(:fenster4a)
+  end
+end
+
+get '/fenster4b' do
+  if session['fenster4'] == '1'
+    session['fenster4'] = '0'
+    show(:raum32)
+  else
+    show(:fenster4)
+  end
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'
