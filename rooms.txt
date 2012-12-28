@@ -1374,7 +1374,7 @@ Du kannst durch das offene Fenster erkennen,<br>
 daß im Swimmingpool kein Wasser ist.<br>
 Leider ist es zu tief um einfach hinunter zu springen.<br>
 Möchtest Du:<br><br>
-[[jump|trotzdem versuchen runter zu springen?]]<br>
+[[jump|Trotzdem versuchen runter zu springen?]]<br>
 [[fenster4b|Das Fenster schliessen?]]<br>
 [[raum32|Zurück?]]
 
@@ -1396,3 +1396,10 @@ Das sieht einigermaßen sicher aus...<br>
 Möchtest Du das Seil runter in den Garten klettern?<br><br>
 Ja.<br>
 [[raum32|Nein, ist mir zu riskant...]]
+
+:jump
+=Raum 2 1.OG: Das Fenster des Todes
+Du hast es nicht anders gewollt...<br>
+Beim Sprung aus dem Fenster brichst Du Dir das Genick.<br><br>
+<b>Du bist tot</b> :(<br><br>
+[[raum1|Ramschasar!]]

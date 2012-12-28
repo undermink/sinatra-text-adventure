@@ -459,7 +459,7 @@ get '/fenster4' do
   elsif session['fenster4'] == '1' && session['seil'] == '1'
     show(:fenster4c)
   else
-    show(:fenster4d)
+    show(:fenster4)
   end
 end
 
@@ -501,6 +501,13 @@ get '/regal3' do
   else
     '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Das Regal ist leer...<br><br><a class="link" href="raum32">na gut</a> :/'
   end
+end
+
+get '/jump' do
+  session.clear
+  session['key'] ||= '0'
+  session['geld'] ||= 0
+  show(:jump)
 end
 
 get '/rauchen' do
