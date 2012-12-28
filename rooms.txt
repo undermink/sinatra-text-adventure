@@ -1295,10 +1295,11 @@ Möchtest Du:<br><br>
 %     ____________________|+__________+|___________|________|_____
 %
 Du bist im zweiten Raum auf der ersten Etage.<br>
-Hier im Raum ist ein Fenster und eine weitere Tür.<br>
+Hier im Raum ist ein Fenster, ein Regal,<br>
+eine Heizung und eine weitere Tür.<br>
 Möchtest Du:<br><br>
 [[fenster4|Zum Fenster rüber?]]<br>
-Den Raum durchsuchen?<br>
+[[raum32b|Den Raum durchsuchen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 Durch die Tür in den nächsten Raum?<br>
 [[raum31|Zurück in den ersten Raum?]]
@@ -1318,13 +1319,46 @@ Durch die Tür in den nächsten Raum?<br>
 %     ____________________|+__________+|___________|________|_____
 %
 Du bist im zweiten Raum auf der ersten Etage.<br>
-Hier im Raum ist ein Fenster und eine weitere Tür.<br>
+Hier im Raum ist ein Fenster, ein Regal,<br>
+eine Heizung und eine weitere Tür.<br>
 Möchtest Du:<br><br>
 [[fenster4|Zum Fenster rüber?]]<br>
-Den Raum durchsuchen?<br>
+[[raum32b|Den Raum durchsuchen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 Durch die Tür in den nächsten Raum?<br>
 [[raum31|Zurück in den ersten Raum?]]
+
+:raum32b
+=Raum 2 1.OG
+Im Raum hängt ein Regal an der Wand.<br>
+Willst Du es näher untersuchen?<br><br>
+[[regal3|Klar, mal sehen was da so rumliegt.]]<br>
+[[raum32|Nö, Lagerregal is mir egal...]]
+
+:raum32c
+=Raum 2 1.OG
+%                         ______________
+%                         |=__________=|
+%                         |+          +|         _______________
+%                         ||          ||        | |           | |
+%                         ||          ||        |_|           |_|
+%          _________      ||          ||        | |           | |
+%           :     :       ||==o       ||        |_|_pq________|_|
+%                         ||          ||          ==p==========
+%                         ||          ||          ((p((((((((o
+%                         ||   ====   ||          ((b(((((((()
+%     ____________________|+__________+|___________|________|_____
+%
+Du bist im zweiten Raum auf der ersten Etage.<br>
+Hier im Raum ist ein Fenster, ein Regal,<br>
+eine Heizung und eine weitere Tür.<br>
+Möchtest Du:<br><br>
+[[fenster4|Zum Fenster rüber?]]<br>
+[[raum32b|Den Raum durchsuchen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+Durch die Tür in den nächsten Raum?<br>
+[[raum31|Zurück in den ersten Raum?]]
+
 
 :fenster4
 =Raum 2 1.OG: Am Fenster
@@ -1343,3 +1377,22 @@ Möchtest Du:<br><br>
 [[jump|trotzdem versuchen runter zu springen?]]<br>
 [[fenster4b|Das Fenster schliessen?]]<br>
 [[raum32|Zurück?]]
+
+:fenster4c
+=Raum 2 1.OG: Am Fenster
+Du kannst durch das offene Fenster erkennen,<br>
+daß im Swimmingpool kein Wasser ist.<br>
+Leider ist es zu tief um einfach hinunter zu springen.<br>
+Möchtest Du:<br><br>
+[[fenster4d|Das Seil an der Heizung befestigen, um Dich abzuseilen?]]<br>
+[[jump|trotzdem versuchen runter zu springen?]]<br>
+[[fenster4b|Das Fenster schliessen?]]<br>
+[[raum32|Zurück?]]
+
+:fenster4d
+=Raum 2 1.OG: Am Fenster
+Du hast das Seil an der Heizung befestigt.<br>
+Das sieht einigermaßen sicher aus...<br>
+Möchtest Du das Seil runter in den Garten klettern?<br><br>
+Ja.<br>
+[[raum32|Nein, ist mir zu riskant...]]

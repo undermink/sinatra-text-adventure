@@ -409,6 +409,7 @@ end
 
 get '/kiste2' do
   if session['seil'] != '1'
+    session['seil'] = '1'
     show(:kiste2)
   else
     '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Die Kiste ist leer.<br><br><a class="link" href="raum28">Hmpf...</a>'
@@ -443,27 +444,34 @@ get '/raum29a' do
 end
 
 get '/raum32' do
-  if session['fenster4'] != '1'
+  if session['fenster4'] != '1' && session['seil'] != '2'
     show(:raum32)
-  else 
+  elsif session['fenster4'] == '1' && session['seil'] != '2'
     show(:raum32a)
+  elsif session['fenster4'] == '2' && session['seil'] == '2'
+    show(:raum32c)
   end
 end
 
 get '/fenster4' do
-  if session['fenster4'] == '1'
+  if session['fenster4'] == '1' && session['seil'] != '1'
     show(:fenster4a)
+  elsif session['fenster4'] == '1' && session['seil'] == '1'
+    show(:fenster4c)
   else
-    show(:fenster4)
+    show(:fenster4d)
   end
 end
 
 get '/fenster4a' do
-  if session['fenster4'] != '1'
+  if session['fenster4'] != '1' && session['seil'] != '1'
     session['fenster4'] = '1'
     show(:fenster4a)
-  else
-    show(:fenster4a)
+  elsif session['fenster4'] != '1' && session['seil'] == '1'
+    session['fenster4'] = '1'
+    show(:fenster4c)
+  else 
+    show(:fenster4)
   end
 end
 
@@ -473,6 +481,25 @@ get '/fenster4b' do
     show(:raum32)
   else
     show(:fenster4)
+  end
+end
+
+get '/fenster4d' do
+  if session['seil'] == '1' && session['fenster4'] == '1'
+    session['seil'] = '2'
+    session['fenster4'] = '2'
+    show(:fenster4d)
+  else
+    show(:fenster4d)
+  end
+end
+
+get '/regal3' do
+  if session['key4'] != '1'
+    session['key4'] = '1'
+    '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Auf dem Regal liegt ein Schlüssel.<br>Du steckst ihn ein<br><br><a class="link" href="raum32">ok</a> :)'
+  else
+    '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Das Regal ist leer...<br><br><a class="link" href="raum32">na gut</a> :/'
   end
 end
 
