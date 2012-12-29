@@ -510,6 +510,37 @@ get '/jump' do
   show(:jump)
 end
 
+get '/raum33a' do
+  if session['key3'] != '1'
+    show(:raum33a)
+  else
+    show(:raum33b)
+  end
+end
+
+get '/schrank4' do
+  if session['key3'] != '1'
+    session['key3'] = '1'
+    show(:schrank4)
+  else
+    '<h1 align=center>Raum 3 1.OG: Das Hängeschränkchen</h1><p align="center"><br><br>Das Schränkchen ist leer...<br><br><a class="link" href="raum33a">hmm...</a> :/'
+  end
+end
+
+get '/stfach' do
+  erb :stfach
+end
+
+get '/brief' do
+  if session['brief'] != '1'
+    session['brief'] = '1'
+    '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du liest den Brief und stckst ihn ein...<br><br><a class="link" href="stfach">weiter</a> =)'
+  else
+    session['brief'] = '0'
+    '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du legst den Brief zurück...<br><br><a class="link" href="stfach">weiter</a> =)'
+  end
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'

@@ -1406,8 +1406,7 @@ Beim Sprung aus dem Fenster brichst Du Dir das Genick.<br><br>
 
 :raum33
 =Raum 3 1.OG
-Du bist jetzt im 3. Raum des ersten Obergeschosses.<br>
-In diesem Raum gibt es auch ein Fenster zum Garten.<br>
+Du bist jetzt im 3. Raum des ersten Obergeschosses.<br><br>
 Möchtest Du:<br><br>
 [[raum33a|Den Raum durchsuchen?]]<br>
 [[raum32|Zürück in den zweiten Raum?]]<br>
@@ -1415,21 +1414,66 @@ Möchtest Du:<br><br>
 
 :raum33a
 =Raum 3 1.OG
-%
-%
-%
-%
-%
-%
-%
-%
-%
-%
+%          |    _______                 =============
+%          |    | .|. |                 ||    |    ||
+%          |    |__|__|                 ||____|____||
+%          |                            ||    |    ||
+%          |     __                     ||____|____||
+%          |    (__)   _______________  =============
+%          |     |___   |__:__| o|o |
+%          |_______|____|__:__|  |  |____________________
+%         /       oOo   |-----|__|__|
+%        /
 Du durchsuchst den Raum...<br>
 An der Wand hängt ein kleiner Schrank und daneben ist ein Schreibtisch.<br>
 Direkt am Schreibtisch steht ein Stuhl.<br>
+In diesem Raum gibt es auch ein Fenster zum Garten.<br>
 Möchtest Du:<br><br>
-Zum Hängeschränkchen?<br>
-Zum Schreibtisch?<br>
-Dich auf den Stuhl setzen?<br>
+[[schrank4|Zum Hängeschränkchen?]]<br>
+[[schreibtisch2|Zum Schreibtisch?]]<br>
+[[stuhl1|Dich auf den Stuhl setzen?]]<br>
+[[fenster5|Das Fenster untersuchen?]]<br>
 [[raum33|nichts davon]]
+
+:raum33b
+=Raum 3 1.OG
+%          | _____________              =============
+%          | |  |_____|  |              ||    |    ||
+%          | |__|_____|__|              ||____|____||
+%          |                            ||    |    ||
+%          |     __                     ||____|____||
+%          |    (__)   _______________  =============
+%          |     |___   |__:__| o|o |
+%          |_______|____|__:__|  |  |____________________
+%         /       oOo   |-----|__|__|
+%        /
+Du durchsuchst den Raum...<br>
+An der Wand hängt ein kleiner Schrank und daneben ist ein Schreibtisch.<br>
+Direkt am Schreibtisch steht ein Stuhl.<br>
+In diesem Raum gibt es auch ein Fenster zum Garten.<br>
+Möchtest Du:<br><br>
+[[schrank4|Zum Hängeschränkchen?]]<br>
+[[schreibtisch2|Zum Schreibtisch?]]<br>
+[[stuhl1|Dich auf den Stuhl setzen?]]<br>
+[[fenster5|Das Fenster untersuchen?]]<br>
+[[raum33|nichts davon]]
+
+:schrank4
+=Raum 3 1.OG: Das Hängeschränkchen
+Du gehst zum Hängeschränkchen rüber...<br>
+und öffnest ihn.<br>
+Im Schrank liegen zwei Schlüssel.<br>
+Du steckst sie ein.<br><br>
+[[raum33a|ok]]
+
+:schreibtisch2
+=Raum 3 1.OG: Der Schreibtisch
+Du gehst zum Schreibtisch...<br>
+Der Schreibtisch hat zwei Schubladen links<br>
+und ein größeres Fach rechts.<br>
+Auf dem Schreibtisch liegen einige Unterlagen.<br>
+Es ist jedoch nichts interessantes dabei.<br>
+Möchtest Du:<br><br>
+[[stfach|Die Fächer durchsuchen?]]<br>
+[[unterlagen|Die uninteressanten Unterlagen trotzdem mitnehmen?]]<br>
+[[raum33a|Zurück]]

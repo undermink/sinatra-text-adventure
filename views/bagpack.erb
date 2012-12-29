@@ -19,8 +19,11 @@
       		if session['map2'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für die erste Etage</a><br>' end
       		if session['dieter'] == '1' then @inventar+='der Zettel auf dem "Dieter: 505151" steht<br>' end
       		if session['seil'] == '1' then @inventar+='ein Seil<br>' end
+      		if session['key4'] == '1' then @inventar+='noch ein Schlüssel<br>' end
       		if session['feuer'] == '1' then @inventar+='ein Feuerzeug<br>' end
-      		if session['draht'] == '1' then @inventar+='ein Srück Draht<br>' end
+      		if session['draht'] == '1' then @inventar+='ein Stück Draht<br>' end
+      		if session['key3'] == '1' then @inventar+='ein Schlüsselbund (mit einem kleinen und einem großen Schlüssel)<br>' end
+      		if session['brief'] == '1' then @inventar+='ein Brief mit äusserst brisantem Inhalt<br>' end
       			#session['fenster4'] = '2'
       			#session['map2'] = '0'
    		%>
