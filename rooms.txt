@@ -1063,7 +1063,7 @@ Du faltest es auseinander...<br><br>
 [[raum23a|Hmm...ok]]<br>
 
 :map2
-=Die Karte für die erste Etage
+=Die Karte für das Erdgeschoss
 %
 %               ------------------------------------------------------
 %               |                   --Erdgeschoss--                  |
@@ -1399,6 +1399,25 @@ Ja.<br>
 
 :jump
 =Raum 2 1.OG: Das Fenster des Todes
+%                                     ___
+%                                   /| + |
+%                                  | | + |
+%                                  | | + |
+%                         _________| | + |____________
+%                       /|.............+..............|
+%                      | |___________  +  ____________|
+%                      |/__________ /| + |___________/
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | | + |
+%                                  | |___|
+%                                  |/___/
+%
 Du hast es nicht anders gewollt...<br>
 Beim Sprung aus dem Fenster brichst Du Dir das Genick.<br><br>
 <b>Du bist tot</b> :(<br><br>
@@ -1477,3 +1496,40 @@ Möchtest Du:<br><br>
 [[stfach|Die Fächer durchsuchen?]]<br>
 [[unterlagen|Die uninteressanten Unterlagen trotzdem mitnehmen?]]<br>
 [[raum33a|Zurück]]
+
+:schreibtisch2a
+=Raum 3 1.OG: Der Schreibtisch
+Du gehst zum Schreibtisch...<br>
+Der Schreibtisch hat zwei Schubladen links<br>
+und ein größeres Fach rechts.<br>
+Auf dem Schreibtisch lagen die sinnlosen Unterlagen.<br>
+Möchtest Du:<br><br>
+[[stfach|Die Fächer durchsuchen?]]<br>
+[[raum33a|Zurück]]
+
+:map3
+=Die Karte für die erste Etage
+%
+%               ______________________________________________________
+%               |              --erstes Obergeschoss--               |
+%               |                                                    <
+%               |    _(1)-(2)-(3)-(4)                                <
+%               |  _|  |                                             <
+%               | |   (5)-(6)-(8)-(9)-(10)                           <
+%               |(EG)                                                <
+%               |                        3:Arbeitszimmer             <
+%               |____________________________________________________|
+%
+<br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:fenster5
+=Raum 3 1.OG: Am Fenster
+Durch das Fenter kannst Du runter in den Garten gucken.<br>
+Man kann einen Swimmingpool und ein paar kaputte Gartenmöbel erkennen.<br>
+Der Garten ist von einem hohen undurchsichtigen Zaun umgeben.<br>
+Das Fenster scheint abgeschlossen zu sein.<br>
+Du kannst es nicht öffnen...<br><br>
+[[raum33a|ok]]
+
+

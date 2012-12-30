@@ -11,8 +11,8 @@
       if session['schublade'] != '1' then @room+='Die zweite Schublade ist verschlossen.<br>' else @room+='Die zweite Schublade ist leer.<br>' end
       @room+='Und in dem großen Fach rechts steht eine Schatulle.<br>Möchtest Du:<br><br>'
       if session['brief'] != '1' then @room+='<a class="link" href="/brief">Den Brief lesen?</a><br>' else @room+='<a class="link" href="/brief">Den Brief zurück legen?</a><br>' end
-      if session['brief'] != '1' then @room+='<a class="link" href="/schublade">Versuchen die zweite Schublade mit einem Werkzeug zu öffnen?</a><br>' end 
-      @room+='<a class="link" href="/schatulle">Die Schatulle öffnen?</a><br><a class="link" href="/raum33a">Weg vom Schreibtisch?</a><br>'
+      if session['schublade'] != '1' then @room+='<a class="link" href="/schublade">Versuchen die zweite Schublade mit einem Werkzeug zu öffnen?</a><br>' end 
+      @room+='<a class="link" href="/schatulle">Die Schatulle öffnen?</a><br><a class="link" href="/raum33a">Weg vom Schreibtisch?</a><br>'    
     %>
     <%=@room%>
   </p>

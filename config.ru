@@ -527,6 +527,28 @@ get '/schrank4' do
   end
 end
 
+get '/schreibtisch2' do
+  if session['unterlagen'] != '1'
+    show(:schreibtisch2)
+  else
+    show(:schreibtisch2a)
+  end
+end
+
+get '/stuhl1' do
+  if session['stuhl1'] != '1'
+   session['stuhl1'] = '1'
+   erb :stuhl1
+ else
+   erb :stuhl1
+ end
+end
+
+get '/unterlagen' do
+  session['unterlagen'] = '1'
+  '<h1 align=center>Raum 3 1.OG: Der Schreibtisch</h1><p align="center"><br><br>Du steckst die sinnlosen Unterlagen ein...<br><br><a class="link" href="schreibtisch2a">gut...</a>'
+end
+
 get '/stfach' do
   erb :stfach
 end
@@ -534,10 +556,29 @@ end
 get '/brief' do
   if session['brief'] != '1'
     session['brief'] = '1'
-    '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du liest den Brief und stckst ihn ein...<br><br><a class="link" href="stfach">weiter</a> =)'
+    '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du liest den Brief und steckst ihn ein...<br><br><a class="link" href="stfach">weiter</a> =)'
   else
     session['brief'] = '0'
     '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du legst den Brief zurück...<br><br><a class="link" href="stfach">weiter</a> =)'
+  end
+end
+
+get '/schatulle' do
+  if session['map3'] != '1'
+    session['map3'] = '1'
+    '<h1 align=center>Die Schatulle</h1><p align="center"><br><br>In der Schatulle ist eine Karte.<br>Du steckst sie ein...<br><br><a class="link" href="stfach">ok</a>'
+  else
+    '<h1 align=center>Die Schatulle</h1><p align="center"><br><br>Die Schatulle ist leer...<br><br><a class="link" href="stfach">ok</a>'
+  end
+end
+
+get '/schublade' do
+  if session['messer'] == '1'
+    session['geld'] += 100
+    session['schublade'] = '1'
+    '<h1 align=center>Die Schublade</h1><p align="center"><br><br>Du schaffst es, mit Hilfe des rostigen Messers<br>die Schublade aufzubrechen.<br>Darin liegt ein Hundert-Euro-Schein.<br>Du steckst ihn ein.<br><br><a class="link" href="stfach">Hmkay...</a>'
+  else
+    '<h1 align=center>Die Schublade</h1><p align="center"><br><br>Leider hast Du nicht das geeignete Werkzeug dafür.<br>Du bräuchtest etwas wie ein Messer.<br><br><a class="link" href="stfach">Grr</a>'
   end
 end
 

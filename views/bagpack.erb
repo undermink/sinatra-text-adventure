@@ -16,7 +16,7 @@
       		if session['mottek'] == '1' then @inventar+='ein Mottek<br>' end
       		if session['intro'] == '1' then @inventar+='eine Kassette<br>' end
       		if session['walkman'] == '1' then @inventar+='<a class="link" href="/walkman">ein Walkman<br>' end
-      		if session['map2'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für die erste Etage</a><br>' end
+      		if session['map2'] == '1' then @inventar+='<a class="link" href="/map2">die Karte für das Erdgeschoss</a><br>' end
       		if session['dieter'] == '1' then @inventar+='der Zettel auf dem "Dieter: 505151" steht<br>' end
       		if session['seil'] == '1' then @inventar+='ein Seil<br>' end
       		if session['key4'] == '1' then @inventar+='noch ein Schlüssel<br>' end
@@ -24,8 +24,10 @@
       		if session['draht'] == '1' then @inventar+='ein Stück Draht<br>' end
       		if session['key3'] == '1' then @inventar+='ein Schlüsselbund (mit einem kleinen und einem großen Schlüssel)<br>' end
       		if session['brief'] == '1' then @inventar+='ein Brief mit äusserst brisantem Inhalt<br>' end
+      		if session['unterlagen'] == '1' then @inventar+='ein Haufen sinnloser Unterlagen<br>' end
+      		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
       			#session['fenster4'] = '2'
-      			#session['map2'] = '0'
+      			#session['unterlagen'] = '0'
    		%>
       	<%=@inventar%><br>
       <a href="#" onclick="history.go(-1)">Zurück</a></p>
