@@ -299,6 +299,9 @@ get '/raum10b' do
 end
 
 get '/telefon' do
+  if !session['telefon']
+    session['telefon'] = 0
+  end 
   if session['arrogant'] != '1' && session['telefon'] != 3
       session['telefon']+=1
       pp session['telefon'] 

@@ -1023,6 +1023,7 @@ Willst Du ihn freilassen?<br><br>
 
 :kaefig1
 =Entfinden
+<object data="/entfinden.ogg" width="0" height="0">oggFile</object>
 Du lässt den armen Vogel frei...<br><br>
 Zweitgolf - Entfinden<br><br>
 Text:<br>

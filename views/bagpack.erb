@@ -2,6 +2,8 @@
       <h1 align="center"><Das Zweitgolf Text-Adventure>In Deinem Rucksack ist:</h1>
       <p align="center">
       	<%
+      		if !session['key'] then session['key'] = '0' end
+      		if !session['geld'] then session['geld'] = 0 end
       		if session['key'] == '1' then @inventar='ein Schlüssel<br>' else @inventar='noch nichts...<br>'end
       		if session['messer'] =='1' then @inventar+='ein altes, rostiges Messer<br>' end
       		if session['geld'] >= 1 then @inventar+=session['geld'].to_s+' Euro<br>' end
