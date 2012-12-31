@@ -4,11 +4,11 @@
     <pre></pre>
   </div>
   <p align="center">
-    <% 
+    <%
       @room='Du setzt Dich auf den Stuhl.<br>Er ist gemütlicher, als er aussieht.<br>'
-      if session['zig1'] == '2' && session['stuhl1'] != '1' then @room+='Der Stuhl ist soooo gemütlich...<br>Und Du bist ja sooo müde seit der selbstgedrehten...<br><br><b>Du schläfst ein.</b><br><br>Nach etwa einer Stunde wachst Du wieder auf.<br>Zum Glück kannst Du Dich noch an das erlebte erinnern:)<br>Du stehst vom Stuhl auf.<br>' end
+      if session['zig1'] == '2' && session['stuhl1'] != '1' then @room+='Der Stuhl ist soooo gemütlich...<br>Und Du bist ja sooo müde seit der selbstgedrehten...<br><br><b>Du schläfst ein.</b><br><br>Nach etwa einer Stunde wachst Du wieder auf.<br>Zum Glück kannst Du Dich noch an das erlebte erinnern:)<br>Du stehst vom Stuhl auf, dabei fällt Dir der Wandteppich auf.<br>' end
       if session['zig1'] == '2' && session['stuhl1'] == '1' then @room+='Du willst lieber keine Zeit mehr verlieren.<br>Du setzt Dich ganz kurz hin<br>und stehst sofort wieder auf um nicht einzuschlafen.<br>' end
-      if session['zig1'] != '2' && session['stuhl1'] != '1' then @room+='Wirklich ganz schön gemütlich...<br>Unter bestimmten umständen könntest Du hier einschlafen.<br>Du willst jedoch keine Zeit verlieren und stehst wieder auf.<br>' end
+      if session['zig1'] != '2' && session['stuhl1'] != '1' then @room+='Wirklich ganz schön gemütlich...<br>Unter bestimmten umständen könntest Du hier einschlafen.<br>Du willst jedoch keine Zeit verlieren und stehst wieder auf.<br>Dabei fällt Dir der Wandteppich auf<br>' end
       if session['zig1'] != '2' && session['stuhl1'] == '1' then @room+='Du hast diesen Stuhl schon mal getestet.<br>Er war sehr bequem, doch Du stehst lieber wieder auf,<br>um keine Zeit zu vergeuden.<br>' end
       @room+='<br><a class="link" href="raum33a">Huch!</a>'
     %>

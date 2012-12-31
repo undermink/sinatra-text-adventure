@@ -451,7 +451,8 @@ get '/raum32' do
     show(:raum32)
   elsif session['fenster4'] == '1' && session['seil'] != '2'
     show(:raum32a)
-  elsif session['fenster4'] == '2' && session['seil'] == '2'
+  elsif session['seil'] == '2'
+    session['fenster4'] = '2'
     show(:raum32c)
   end
 end
@@ -461,6 +462,8 @@ get '/fenster4' do
     show(:fenster4a)
   elsif session['fenster4'] == '1' && session['seil'] == '1'
     show(:fenster4c)
+  elsif session['seil'] == '2'
+    show(:fenster4d)
   else
     show(:fenster4)
   end
@@ -515,10 +518,14 @@ end
 
 get '/raum33a' do
   if session['key3'] != '1'
+    if session['stuhl1'] != '1'
     show(:raum33a)
-  else
-    show(:raum33b)
-  end
+    else show(:raum33a1) end end
+  if session['key3'] == '1'
+    if session['stuhl1'] != '1'
+    show(:raum33b) 
+  else show(:raum33b1) end
+  end 
 end
 
 get '/schrank4' do
@@ -582,6 +589,24 @@ get '/schublade' do
     '<h1 align=center>Die Schublade</h1><p align="center"><br><br>Du schaffst es, mit Hilfe des rostigen Messers<br>die Schublade aufzubrechen.<br>Darin liegt ein Hundert-Euro-Schein.<br>Du steckst ihn ein.<br><br><a class="link" href="stfach">Hmkay...</a>'
   else
     '<h1 align=center>Die Schublade</h1><p align="center"><br><br>Leider hast Du nicht das geeignete Werkzeug dafür.<br>Du bräuchtest etwas wie ein Messer.<br><br><a class="link" href="stfach">Grr</a>'
+  end
+end
+
+get '/wandteppich' do
+  if session['key4'] != '2'
+    show(:wandteppich)
+  else show(:raum34a)
+  end
+end
+
+get '/raum34' do
+  if session['key4'] == '1'
+    session['key4'] = '2'
+    show(:raum34)
+  elsif session['key4'] == '2'
+    show(:raum34a)
+  else
+    show(:doorclosed)
   end
 end
 

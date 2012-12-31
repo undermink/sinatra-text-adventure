@@ -1478,6 +1478,55 @@ Möchtest Du:<br><br>
 [[fenster5|Das Fenster untersuchen?]]<br>
 [[raum33|nichts davon]]
 
+:raum33a1
+=Raum 3 1.OG
+%          |    _______                 =============
+%          |    | .|. |                 ||    |    ||
+%          |    |__|__|                 ||____|____||
+%          |                            ||    |    ||
+%          |     __                     ||____|____||
+%          |    (__)   _______________  =============
+%          |     |___   |__:__| o|o |
+%          |_______|____|__:__|  |  |____________________
+%         /       oOo   |-----|__|__|
+%        /
+Du durchsuchst den Raum...<br>
+An der Wand hängt ein kleiner Schrank und daneben ist ein Schreibtisch.<br>
+Direkt am Schreibtisch steht ein Stuhl.<br>
+In diesem Raum gibt es auch ein Fenster zum Garten.<br>
+Möchtest Du:<br><br>
+[[schrank4|Zum Hängeschränkchen?]]<br>
+[[schreibtisch2|Zum Schreibtisch?]]<br>
+[[stuhl1|Dich auf den Stuhl setzen?]]<br>
+[[wandteppich|Den Wandteppich genauer untersuchen?]]<br>
+[[fenster5|Das Fenster untersuchen?]]<br>
+[[raum33|nichts davon]]
+
+:raum33b1
+=Raum 3 1.OG
+%          | _____________              =============
+%          | |  |_____|  |              ||    |    ||
+%          | |__|_____|__|              ||____|____||
+%          |                            ||    |    ||
+%          |     __                     ||____|____||
+%          |    (__)   _______________  =============
+%          |     |___   |__:__| o|o |
+%          |_______|____|__:__|  |  |____________________
+%         /       oOo   |-----|__|__|
+%        /
+Du durchsuchst den Raum...<br>
+An der Wand hängt ein kleiner Schrank und daneben ist ein Schreibtisch.<br>
+Direkt am Schreibtisch steht ein Stuhl.<br>
+In diesem Raum gibt es auch ein Fenster zum Garten.<br>
+Möchtest Du:<br><br>
+[[schrank4|Zum Hängeschränkchen?]]<br>
+[[schreibtisch2|Zum Schreibtisch?]]<br>
+[[stuhl1|Dich auf den Stuhl setzen?]]<br>
+[[wandteppich|Den seltsamen Wandteppich näher untersuchen?]]<br>
+[[fenster5|Das Fenster untersuchen?]]<br>
+[[raum33|nichts davon]]
+
+
 :schrank4
 =Raum 3 1.OG: Das Hängeschränkchen
 Du gehst zum Hängeschränkchen rüber...<br>
@@ -1533,4 +1582,37 @@ Das Fenster scheint abgeschlossen zu sein.<br>
 Du kannst es nicht öffnen...<br><br>
 [[raum33a|ok]]
 
+:wandteppich
+=Raum 3 1.OG: Der Wandteppich
+Bei genauerer Betrachtung fällt Dir auf,<br>
+daß der Teppich groß genug wäre um eine Tür dahinter zu verstecken.<br>
+Du gehst rüber und entdeckst eine versteckte Tür...<br><br>
+[[raum34|Versuchen, die Tür zu öffnen]]<br>
+[[raum33a|Lieber weg von da]]
 
+:raum34
+=Raum 4 1.OG
+Du öffnest die Tür mit Hilfe des vierten Schlüssels.<br>
+Den Schlüssel lässt Du in der Tür stecken...<br>
+Dieser Raum ist stockdunkel.<br>
+Du suchst nach einem Lichtschalter an der Wand<br>
+findest jedoch leider keinen...<br><br>
+[[raum33a|wieder zurück gehen]]
+
+:raum34a
+=Raum 4 1.OG
+Du befindest Dich jetzt im 4. Raum.<br>
+Dieser Raum ist stockdunkel.<br>
+Leider hast Du keine Taschnlampe oder ähnliches...<br><br>
+[[tasten|Willst Du versuchen den Raum im dunkeln zu ertasten?]]<br>
+[[raum33a|wieder zurück gehen]]
+
+:tasten
+=Raum 4 1.OG: Dunkelheit
+Du tastest vorsichtig die Wand rechts von Dir ab.<br>
+Plötzlich hörst Du ganz nah an Deinem Ohr<br>
+etwas oder jemanden atmen...<br><br>
+Du erschreckst Dich zu Tode<br>
+und flüchtest blindlings aus dem Raum<br>
+Dabei reisst Du den Wandteppich ab.<br><br>
+[[raum33|Hilfe...]]
