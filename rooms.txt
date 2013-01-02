@@ -1680,3 +1680,27 @@ Ich wünschte, ich wär auch nochmal so jung.<br>
 Euer Leben liegt noch vor Euch.<br>
 Also macht das Beste draus!<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
+
+:raum36
+=Raum 6 1.OG
+Du gehst in den 6. Raum...<br>
+In diesem Raum befindet sich eine Tür<br>
+und eine True...<br>
+Möchtest Du:<br><br>
+[[true|Die True beobachten?]]<br>
+[[raum37|In den siebten Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum35|zurück in den 5.Raum?]]
+
+:true
+=Raum 6 1.OG: Die True
+Leider ist die True abgeschlossen.<br>
+Möchtest Du:<br><br>
+[[true1|Deinen Rucksack nach einem Werkzeug durchsuchen?]]<br>
+[[raum36|Die Truhe in Ruhe lassen?]]
+
+:true1
+
+=Raum 6 1.OG: Die True
+Du versuchst die True mit Hilfe des Drahtes zu öffnen...<br><br>
+[[raum36|ok]]
