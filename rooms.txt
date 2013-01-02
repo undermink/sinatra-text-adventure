@@ -1277,7 +1277,7 @@ Du befindest Dich jetzt im ersten Raum auf der ersten Etage.<br>
 Hier sind zwei Türen.<br>
 Möchtest Du:<br><br>
 [[raum32|Durch die linke Tür gehen?]]<br>
-[[doorclosed|Durch die rechte Tür gehen?]]<br>
+[[raum35|Durch die rechte Tür gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum29|Zurück ins Erdgeschoss?]]
 
@@ -1616,3 +1616,43 @@ Du erschreckst Dich zu Tode<br>
 und flüchtest blindlings aus dem Raum<br>
 Dabei reisst Du den Wandteppich ab.<br><br>
 [[raum33|Hilfe...]]
+
+:raum35
+=Raum 5 1.OG
+Du öffnest die Tür mit Hilfe des kleinen Schlüssels...<br>
+Möchtest Du:<br><br>
+[[raum35b|Den Raum durchsuchen?]]
+[[raum31|Zurück in den 1. Raum gehen?]]
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum35a
+=Raum 5 1.OG
+Du gehst durch die Tür in den fünften Raum...<br>
+Möchtest Du:<br><br>
+[[raum35b|Den Raum durchsuchen?]]<br>
+[[raum31|Zurück in den 1. Raum gehen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:raum35b
+=Raum 5 1.OG
+%   |                                      _____________    |
+%   |                 __________           ||         ||    |
+%   |                |          |          ||         ||    |
+%   |                |  login:  |          ||         ||    |
+%   |                |__________|          ||         ||    |
+%   |   _______     ___/======\____        ||      ===||    |
+%   |   |  |  |     ||__o__|     ||        ||        :||    |
+%   |   | o|o |     ||__o__|o    ||        ||         ||    |
+%   |   |  |  |     ||     |     ||        ||         ||    |
+%   |___|  |  |_____||_____|     ||________||_________||____|
+%  /    |__|__|     ||     |_____||                          \
+Du durchsuchts den Raum...<br>
+Hier im Raum befindet sich ein schmaler Schrank<br>
+und ein Schreibtisch, auf dem ein Computer steht.<br>
+Ausserdem gibt es eine Tür.<br>
+Möchtest Du:<br><br>
+[[schrank5|Den Schrank durchsuchen?]]<br>
+[[pc|Den Computer unter die Lupe nehmen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Weiter in den nächsten Raum gehen?]]<br>
+[[raum31|Zurück in den 1. Raum gehen?]]

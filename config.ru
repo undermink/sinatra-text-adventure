@@ -517,15 +517,16 @@ get '/jump' do
 end
 
 get '/raum33a' do
-  if session['key3'] != '1'
-    if session['stuhl1'] != '1'
+  if session['key3'] != '1' && session['stuhl1'] != '1'
     show(:raum33a)
-    else show(:raum33a1) end end
-  if session['key3'] == '1'
-    if session['stuhl1'] != '1'
+  elsif session['key3'] != '1' && session['stuhl1'] == '1'
+    show(:raum33a1)
+  elsif session['key3'] == '1' && session['stuhl1'] != '1'
     show(:raum33b) 
-  else show(:raum33b1) end
-  end 
+  elsif session['key3'] == '1' && session['stuhl1'] == '1'
+     show(:raum33b1)
+  else show(:raum33a)
+  end
 end
 
 get '/schrank4' do
@@ -546,12 +547,7 @@ get '/schreibtisch2' do
 end
 
 get '/stuhl1' do
-  if session['stuhl1'] != '1'
-   session['stuhl1'] = '1'
    erb :stuhl1
- else
-   erb :stuhl1
- end
 end
 
 get '/unterlagen' do
@@ -607,6 +603,14 @@ get '/raum34' do
     show(:raum34a)
   else
     show(:doorclosed)
+  end
+end
+
+get '/raum35' do
+  if session['key3'] != '1'
+    show(:doorclosed)
+  else
+    show(:raum35)
   end
 end
 

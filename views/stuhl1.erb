@@ -11,6 +11,7 @@
       if session['zig1'] != '2' && session['stuhl1'] != '1' then @room+='Wirklich ganz schön gemütlich...<br>Unter bestimmten umständen könntest Du hier einschlafen.<br>Du willst jedoch keine Zeit verlieren und stehst wieder auf.<br>Dabei fällt Dir der Wandteppich auf<br>' end
       if session['zig1'] != '2' && session['stuhl1'] == '1' then @room+='Du hast diesen Stuhl schon mal getestet.<br>Er war sehr bequem, doch Du stehst lieber wieder auf,<br>um keine Zeit zu vergeuden.<br>' end
       @room+='<br><a class="link" href="raum33a">Huch!</a>'
+      session['stuhl1'] = '1'
     %>
     <%= @room%>
   </p>
