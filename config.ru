@@ -614,6 +614,15 @@ get '/raum35' do
   end
 end
 
+get '/schrank5' do
+  if session['geb'] != '1'
+    session['geb'] ='1'
+    show(:schrank5)
+  else
+    '<h1 align=center>Der Schrank</h1><p align="center"><br><br>Der Schrank ist leer.<br><br><a class="link" href="raum35b">OK</a>'
+  end
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'

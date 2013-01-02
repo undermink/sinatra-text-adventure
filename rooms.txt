@@ -1621,8 +1621,8 @@ Dabei reisst Du den Wandteppich ab.<br><br>
 =Raum 5 1.OG
 Du öffnest die Tür mit Hilfe des kleinen Schlüssels...<br>
 Möchtest Du:<br><br>
-[[raum35b|Den Raum durchsuchen?]]
-[[raum31|Zurück in den 1. Raum gehen?]]
+[[raum35b|Den Raum durchsuchen?]]<br>
+[[raum31|Zurück in den 1. Raum gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum35a
@@ -1646,7 +1646,7 @@ Möchtest Du:<br><br>
 %   |   |  |  |     ||     |     ||        ||         ||    |
 %   |___|  |  |_____||_____|     ||________||_________||____|
 %  /    |__|__|     ||     |_____||                          \
-Du durchsuchts den Raum...<br>
+Du durchsuchst den Raum...<br>
 Hier im Raum befindet sich ein schmaler Schrank<br>
 und ein Schreibtisch, auf dem ein Computer steht.<br>
 Ausserdem gibt es eine Tür.<br>
@@ -1656,3 +1656,27 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum36|Weiter in den nächsten Raum gehen?]]<br>
 [[raum31|Zurück in den 1. Raum gehen?]]
+
+:schrank5
+=Raum 5 1.OG: Der Schrank
+<object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
+Du öffnest den Schrank...<br>
+Im Schrank liegt eine Geburtstags Karte.<br><br>
+'Liebe Sophie und lieber Peter<br><br>
+Alles Gute zu Eurem 30. Geburstag!<br>
+wünscht Euch Zweitgolf'<br><br>[[raum35b|Die Karte einstecken]]
+
+:geb
+=Sophie & Peter
+<object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
+Zweitgolf - Sophie und Peter<br><br>
+Wir wünschen Dir Sophie alles Gute zum Geburtstag<br>
+weil Du 30 Jahre alt geworden bist.<br>
+Wir wünschen Dir Peter alles Gute zum Geburtstag<br>
+weil auch Du 30 Jahre alt geworden bist.<br>
+30 Jahre... pah!<br>
+Das ist doch gar nichts.<br>
+Ich wünschte, ich wär auch nochmal so jung.<br>
+Euer Leben liegt noch vor Euch.<br>
+Also macht das Beste draus!<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>

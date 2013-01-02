@@ -7,6 +7,7 @@
     if session['durchbruch'] == '1' then @lieder+='<a class="link" href="/mottek">Durchbruch</a><br>' end
   	if session['arrogant'] == '1' then @lieder+='<a class="link" href="/arrogant">Viel zu arrogant</a><br>' end
   	if session['entfinden'] == '1' then @lieder+='<a class="link" href="/entfinden">Entfinden</a><br>' end
+  	if session['geb'] == '1' then @lieder+='<a class="link" href="/geb">Sophie & Peter</a><br>' end
   %>
   <%=@lieder%>
   <a href="#" onclick="history.go(-1)">Zurück</a>
