@@ -1,8 +1,12 @@
 require './parse.rb'
 require 'sinatra'
 
-enable :sessions
-
+#enable :sessions
+use Rack::Session::Cookie, :key => 'rack.session',
+                           :domain => 'localhost',
+                           :path => '/',
+                           :expire_after => 2592000, # In seconds
+                           :secret => 'zweitgolf'
 helpers do
   def show(room)
     @room=$rooms.select{|r|r.name==room.to_s}[0]
