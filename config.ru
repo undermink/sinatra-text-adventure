@@ -623,6 +623,34 @@ get '/schrank5' do
   end
 end
 
+get '/einloggen' do
+  erb :einloggen
+end
+
+post '/log' do
+  if params['name'] == 'Dieter' && params['pw'] == '505051'
+    show(:loggedin)
+  else '<h1 align=center>Der Rechner</h1><p align="center"><br><br>Das Passwort oder der Benutzername sind falsch.<br><br><a class="link" href="pc">grml...</a>'
+  end 
+end
+
+get '/abmelden' do
+  if session['logout'] != '1'
+    session['logout'] = '1'
+    show(:logout)
+  else
+    show(:pc)
+  end
+end
+
+get '/truhe1' do
+  if session['draht'] != '1'
+    show(:truhe1a)
+  else
+    show(:truhe1)
+  end
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'

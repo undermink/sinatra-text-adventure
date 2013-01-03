@@ -1681,26 +1681,66 @@ Euer Leben liegt noch vor Euch.<br>
 Also macht das Beste draus!<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
+:pc
+=Raum 5 1.OG: Der Personal-Computer
+%                        _____________________________
+%                       |login:                       |
+%                       |                             |
+%                       |                             |
+%                       |                             |
+%                       |                             |
+%                       |                             |
+%                       |                             |
+%                       |                             |
+%                       |_____________________________|
+%                              /_______________\
+%
+Du gehst zum Schreibtisch rüber...<br>
+Vor Dir steht ein Rechner mit Monitor, Maus und Tastatur.<br>
+Der Bildschirm ist schwarz und oben links steht:<br><br>
+login:<br><br>
+Danach ein blinkender Cursor...<br>
+Willst Du:<br><br>
+[[einloggen|Versuchen, Dich einzuloggen?]]<br>
+[[raum35a|Wieder weg vom Rechner?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:loggedin
+=Raum 5 1.OG: Am Rechner
+Willkommen Dieter...<br><br>
+Du bist jetzt angemeldet.<br><br>
+[[abmelden|Abmelden]]
+
+:logout
+=log out
+Zweitgolf & Irrlicht Projekt<br><br>
+<a href="#" onclick="history.go(-3)">Zurück</a>
+
 :raum36
 =Raum 6 1.OG
 Du gehst in den 6. Raum...<br>
 In diesem Raum befindet sich eine Tür<br>
-und eine True...<br>
+und eine Truhe...<br>
 Möchtest Du:<br><br>
-[[true|Die True beobachten?]]<br>
+[[truhe|Die Truhe beobachten?]]<br>
 [[raum37|In den siebten Raum gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum35|zurück in den 5.Raum?]]
 
-:true
-=Raum 6 1.OG: Die True
-Leider ist die True abgeschlossen.<br>
+:truhe
+=Raum 6 1.OG: Die Truhe
+Leider ist die Truhe abgeschlossen.<br>
 Möchtest Du:<br><br>
-[[true1|Deinen Rucksack nach einem Werkzeug durchsuchen?]]<br>
+[[truhe1|Deinen Rucksack nach einem Werkzeug durchsuchen?]]<br>
 [[raum36|Die Truhe in Ruhe lassen?]]
 
-:true1
+:truhe1
+=Raum 6 1.OG: Die Truhe
+Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br><br>
+[[raum36|ok]]
 
-=Raum 6 1.OG: Die True
-Du versuchst die True mit Hilfe des Drahtes zu öffnen...<br><br>
+:truhe1a
+=Raum 6 1.OG: Die Truhe
+Leider hast Du kein geeignetes Werkzeug dabei...<br>
+So etwas wie ein Stück Draht wäre super.<br><br>
 [[raum36|ok]]
