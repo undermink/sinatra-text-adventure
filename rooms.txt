@@ -1711,10 +1711,35 @@ Willkommen Dieter...<br><br>
 Du bist jetzt angemeldet.<br><br>
 [[abmelden|Abmelden]]
 
-:logout
-=log out
+:logout1
+=log_out
+<object data="/log_out.ogg" width="0" height="0">oggFile</object>
 Zweitgolf & Irrlicht Projekt<br><br>
+Update your status and upload some pictures.<br>
+Add some more people and comment on others.<br>
+You seem quiet happy, but your world is empty.<br>
+All on the surface and nothing left inside.<br>
+log out - log out<br>
+<b>log out and dislike</b><br> 
+de-lete - de-lete<br>
+<b>delete and unfriend<br>
+fuck social networks!</b><br><br>
 <a href="#" onclick="history.go(-3)">Zurück</a>
+
+:logout
+=log_out
+<object data="/log_out.ogg" width="0" height="0">oggFile</object>
+Zweitgolf & Irrlicht Projekt<br><br>
+Update your status and upload some pictures.<br>
+Add some more people and comment on others.<br>
+You seem quiet happy, but your world is empty.<br>
+All on the surface and nothing left inside.<br>
+log out - log out<br>
+<b>log out and dislike</b><br> 
+de-lete - de-lete<br>
+<b>delete and unfriend<br>
+fuck social networks!</b><br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum36
 =Raum 6 1.OG
