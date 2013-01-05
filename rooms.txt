@@ -1068,10 +1068,10 @@ Du faltest es auseinander...<br><br>
 %
 %               ------------------------------------------------------
 %               |                   --Erdgeschoss--                  |
-%               |                                                    |
-%               |    _(1)-(2)-(3)-(4)-(5)-(7)                        |
-%               |  _|              |                                 |
-%               | |               (6)-(8)-(9)-(10)                   |
+%               |                                       (1.OG)       |
+%               |    _(1)-(2)-(3)-(4)-(5)-(7)         _|             |
+%               |  _|              |                _|               |
+%               | |               (6)-(8)-(9)-(10)_|                 |
 %               |(UG)   2:Telefonzimmer                              |
 %               |       3:Vogelzimmer                                |
 %               ------------------------------------------------------
@@ -1562,12 +1562,13 @@ Möchtest Du:<br><br>
 %
 %               ______________________________________________________
 %               |              --erstes Obergeschoss--               |
-%               |                                                    <
-%               |    _(1)-(2)-(3)-(4)                                <
-%               |  _|  |                                             <
-%               | |   (5)-(6)-(8)-(9)-(10)                           <
-%               |(EG)                                                <
-%               |                        3:Arbeitszimmer             <
+%               >                                                    <
+%               >               _(1)-(2)-(3)-(4)                     <
+%               >             _|  |                                  <
+%               >            |   (5)-(6)-(7)-(8)-(9)                 <
+%               >           (EG)                                     <
+%               >                      3:Arbeitszimmer               <
+%               >                      5:Computer-Raum               <
 %               |____________________________________________________|
 %
 <br>
@@ -1743,21 +1744,22 @@ fuck social networks!</b><br><br>
 
 :raum36
 =Raum 6 1.OG
-%            |
-%            |                                 ______________
+%            |     |======|
+%            |     |======|                    ______________
 %            |                                ||            ||
 %            |                                ||            ||
 %            |                                ||            ||
 %            |                                ||            ||
-%            |        _____________           ||==          ||
-%            |       /_____________\          ||0           ||
+%            |                                ||==          ||
+%            |        _____________           ||0           ||
+%            |       /_____________\          ||            ||
 %            |      |       8       |         ||            ||
-%            |      |+ + + + + + + +|         ||            ||
-%            |______|_______________|_________||____________||___
-%           /                          
+%            |______|+ + + + + + + +|_________||____________||___
+%           /       |_______________|
 Du gehst in den 6. Raum...<br>
 In diesem Raum befindet sich eine Tür<br>
 und eine Truhe...<br>
+Links über der Truhe ist eine Art Lüftungs-Schacht.<br>
 Möchtest Du:<br><br>
 [[truhe|Die Truhe beobachten?]]<br>
 [[raum37|In den siebten Raum gehen?]]<br>
@@ -1781,3 +1783,74 @@ Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br><br>
 Leider hast Du kein geeignetes Werkzeug dabei...<br>
 So etwas wie ein Stück Draht wäre super.<br><br>
 [[raum36|ok]]
+
+:raum37
+=Raum 7 1.OG
+%               |
+%               |
+%               |  ___________________
+%               |   |q| | | | | | |q|
+%               |  _|_|_|_|_|_|_|_|_|_
+%               |                ___________________
+%               |               /  üüüüüI|         /
+%               |              /__________________/
+%               |               | |             | |
+%               |_______________|_|_____________|_|________
+%              /                |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hängt eine Leiter<br>
+und auf einem Tisch liegt eine Säge...<br>
+Möchtest Du:<br><br>
+[[leiter|Die Leiter mitnehmen?]]<br>
+[[tisch2|Den Tisch begutachten?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
+
+:raum37a
+=Raum 7 1.OG
+%               |
+%               |
+%               |  
+%               |    q             q 
+%               |
+%               |                ___________________
+%               |               /  üüüüüI|         /
+%               |              /__________________/
+%               |               | |             | |
+%               |_______________|_|_____________|_|________
+%              /                |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hing die Leiter<br>
+darunter steht jetzt Dein Rucksack,<br>
+und auf einem Tisch liegt eine Säge...<br>
+Möchtest Du:<br><br>
+[[leiter|Den Rucksack mitnehmen?]]<br>
+[[tisch2|Den Tisch begutachten?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
+
+
+:leiter
+=Die Leiter
+Du gehst zur Leiter und nimmst sie ab...<br>
+Die Leiter ist ziemlich unhantlich.<br>
+Du solltest Dich entscheiden:<br><br>
+[[leiter1|Die Leiter mitnehmen und den Rucksack stehen lassen]]<br>
+oder<br>
+[[raum37|die Leiter hängen lassen]]
+
+:leiter1
+=Die Leiter
+Du lässt den Rucksack liegen<br>
+und nimmst die Leiter mit.<br><br>
+[[raum37|ok]]
+
+:leiter1a
+=Die Leiter
+Du nimmst den Rucksack wieder mit.<br>
+Es ist noch alles drin.<br><br>
+[[raum37|ok]]

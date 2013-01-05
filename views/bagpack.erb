@@ -1,5 +1,5 @@
 <table align="center" >
-      <h1 align="center"><Das Zweitgolf Text-Adventure>In Deinem Rucksack ist:</h1>
+      <h1 align="center">In Deinem Rucksack ist:</h1>
       <p align="center">
       	<%
       		if !session['key'] then session['key'] = '0' end
@@ -28,6 +28,7 @@
       		if session['brief'] == '1' then @inventar+='ein Brief mit äusserst brisantem Inhalt<br>' end
       		if session['unterlagen'] == '1' then @inventar+='ein Haufen sinnloser Unterlagen<br>' end
       		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
+      		if session['leiter'] == '1' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
       			#session['fenster4'] = '2'
       			#session['stuhl1'] = '0'
    		%>

@@ -655,6 +655,30 @@ get '/truhe1' do
   end
 end
 
+get '/raum37' do
+  if session['leiter'] == '1'
+    show(:raum37a)
+  else 
+    show(:raum37)
+  end
+end
+
+get '/leiter' do
+  if session['leiter'] != '1'
+    show(:leiter1)
+  else
+    session['leiter'] = '0'
+    show(:leiter1a)
+  end
+end
+
+get '/leiter1' do 
+  if session['leiter'] != '1'
+    session['leiter'] = '1'
+    show(:leiter1)
+  end
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'
