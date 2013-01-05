@@ -664,18 +664,13 @@ get '/raum37' do
 end
 
 get '/leiter' do
+  pp session['leiter']
   if session['leiter'] != '1'
+    session['leiter'] = '1'
     show(:leiter1)
   else
     session['leiter'] = '0'
     show(:leiter1a)
-  end
-end
-
-get '/leiter1' do 
-  if session['leiter'] != '1'
-    session['leiter'] = '1'
-    show(:leiter1)
   end
 end
 
