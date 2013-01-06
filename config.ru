@@ -341,7 +341,7 @@ get '/raum22' do
 end
 
 get '/raum23' do
-  if session['entfinden'] != '1'
+  if session['sonnenherzen'] != '1'
     show(:raum23)
   else
     show(:raum23a)
@@ -349,7 +349,7 @@ get '/raum23' do
 end
 
 get '/kaefig' do
-  if session['entfinden'] != '1'
+  if session['sonnenherzen'] != '1'
     show(:kaefig)
   else
     redirect 'kaefig1'
@@ -357,8 +357,8 @@ get '/kaefig' do
 end
 
 get '/kaefig1' do
-  if session['entfinden'] != '1'
-    session['entfinden'] = '1'
+  if session['sonnenherzen'] != '1'
+    session['sonnenherzen'] = '1'
     show(:kaefig1)
   elsif session['map2'] != '1'
     session['map2'] = '1'
@@ -671,6 +671,29 @@ get '/leiter' do
   else
     session['leiter'] = '0'
     show(:leiter1a)
+  end
+end
+
+get '/garten' do
+  if !session['pool'] then session['pool'] = 0 end
+  erb :garten
+end
+
+get '/pool' do
+  erb :pool
+end
+
+get '/pool1' do
+  session['pool'] += 10
+  '<h1 align=center>Der Swimmingpool</h1><p align="center"><br>Du schüttest das Wasser in den Swimmingpool.<br><br><a class="link" href="pool">...</a>'
+end
+
+get '/knoepfe' do
+  if session['wrad'] != '1'
+    show(:knoepfe)
+  else
+    session['pool'] = 100
+    show(:knoepfe1)
   end
 end
 
