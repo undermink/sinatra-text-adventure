@@ -1831,6 +1831,29 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum36|Zurück in den 6. Raum gehen?]]<br>
 
+:raum37b
+=Raum 7 1.OG
+%               |
+%               |
+%               |  
+%               |    q             q 
+%               |
+%               |                ___________________
+%               |               /  üüüüüI|         /
+%               |              /__________________/
+%               |               | |             | |
+%               |_______________|_|_____________|_|________
+%              /                |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hing die Leiter<br>
+darunter steht jetzt Dein Rucksack,<br>
+und auf einem Tisch liegt eine Säge...<br>
+Möchtest Du:<br><br>
+[[tisch2|Den Tisch begutachten?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
 
 :leiter
 =Die Leiter
@@ -1848,7 +1871,7 @@ und nimmst die Leiter mit.<br><br>
 [[raum37|ok]]
 
 :leiter1a
-=Die Leiter
+=Der Rucksack
 Du nimmst den Rucksack wieder mit.<br>
 Es ist noch alles drin.<br><br>
 [[raum37|ok]]

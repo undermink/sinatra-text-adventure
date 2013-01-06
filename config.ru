@@ -656,20 +656,29 @@ get '/truhe1' do
 end
 
 get '/raum37' do
-  if session['leiter'] == '1'
+  if session['leiter'] == '1' 
     show(:raum37a)
-  else 
+  elsif session['leiter'] == '2'
+    show(:raum37a)
+  elsif session['leiter'] == '3'
+    show(:raum37b)
+  else
     show(:raum37)
   end
 end
 
 get '/leiter' do
   pp session['leiter']
-  if session['leiter'] != '1'
+  if session['leiter'] != '1' && session['leiter'] != '2' && session['leiter'] != '3' 
     session['leiter'] = '1'
     show(:leiter1)
-  else
+  elsif session['leiter'] == '2'
+    session['leiter'] = '3'
+    show(:leiter1a)
+  elsif session['leiter'] == '1'
     session['leiter'] = '0'
+    show(:leiter1a)
+  else 
     show(:leiter1a)
   end
 end
