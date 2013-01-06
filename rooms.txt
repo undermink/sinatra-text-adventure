@@ -1881,7 +1881,70 @@ Es ist noch alles drin.<br><br>
 Du kletterst mit Hilfe der Leiter in den leeren Pool...<br>
 Unten angekommen gehst Du zu dem seltsamen Objekt.<br>
 Es ist...<br>
-To be continued:)
+ein dicker, fetter Käfer.<br>
+Du bist erstaunt... von oben sah er ganz anders aus.<br>
+Er versuch die Wand hochzuklettern.<br>
+Willst Du:<br><br>
+[[kaefer1|Ihm raus helfen?]]<br>
+[[kaefer2|Ihn mit einem gezielten Fusstritt unschädlich machen?]]<br>
+[[pool|Wieder raus aus dem Pool!]]
+
+:poole1
+=Im Swimmingpool
+Du kletterst mit Hilfe der Leiter in den leeren Pool...<br>
+Unten angekommen schaust Du Dich noch einmal um.<br>
+Du kannst aber nichts besonderes entdecken...<br><br>
+[[pool|Wieder raus aus dem Pool!]]
+
+:kaefer
+=Karl der Käfer
+<object data="/karl.ogg" width="0" height="0">oggFile</object>
+Zweitgolf - Karl der Käfer (text:gänsehaut)<br>
+Tief im Wald zwischen Moos und Farn.<br>
+Da lebte ein Köfer mit Namen Karl.<br>
+Sein Leben wurde jäh gestört, als er ein dumpfes Grollen hört.<br>
+Lärmende Maschinen überrollen den Wald.<br>
+Übertönen den Gesang der Vögel schon bald.<br>
+Mit scharfer Axt fällt man Baum um Baum<br>
+und zerstört damit seinen Lebensraum.<br><br>
+Karl der Käfer wurde nicht gefragt.<br>
+Man hatte ihn einfach fortgejagt.<br>
+Ein Band aus Asphalt, das breitet sich aus.<br>
+Fordert die Natur zum Rückzug auf.<br>
+Eine Blume, die noch am Wegesrand steht wird einfach zugeteert.<br>
+Karl - ist schon längst nicht mehr hier.<br>
+Ein Platz für Tiere, den gibt es nicht mehr.<br>
+DOrt wo Karl einmal zu Hause war,<br>
+fahren jetzt Käfer aus Blech und Stahl.<br><br>
+<a href="#" onclick="history.go(-1)">Zurück</a>
+
+:kaefer1
+=Karl der Käfer
+Zweitgolf - Karl der Käfer (text:gänsehaut)<br>
+Tief im Wald zwischen Moos und Farn.<br>
+Da lebte ein Köfer mit Namen Karl.<br>
+Sein Leben wurde jäh gestört, als er ein dumpfes Grollen hört.<br>
+Lärmende Maschinen überrollen den Wald.<br>
+Übertönen den Gesang der Vögel schon bald.<br>
+Mit scharfer Axt fällt man Baum um Baum<br>
+und zerstört damit seinen Lebensraum.<br><br>
+Karl der Käfer wurde nicht gefragt.<br>
+Man hatte ihn einfach fortgejagt.<br>
+Ein Band aus Asphalt, das breitet sich aus.<br>
+Fordert die Natur zum Rückzug auf.<br>
+Eine Blume, die noch am Wegesrand steht wird einfach zugeteert.<br>
+Karl - ist schon längst nicht mehr hier.<br>
+Ein Platz für Tiere, den gibt es nicht mehr.<br>
+DOrt wo Karl einmal zu Hause war,<br>
+fahren jetzt Käfer aus Blech und Stahl.<br><br>
+<a href="#" onclick="history.go(-2)">Zurück</a>
+
+:kaefer2
+=Der Swimmingpool
+Du zermatscht den Käfer mit Deinem Fuss...<br>
+Sonst ist nichts spannendes hier im Pool.<br><br>
+[[pool|Wieder raus klettern]]
+
 
 :knoepfe
 =Im Garten am Swimmingpool

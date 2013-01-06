@@ -9,6 +9,7 @@
   	if session['sonnenherzen'] == '1' then @lieder+='<a class="link" href="/sonnenherzen">Sonnenherzen</a><br>' end
   	if session['geb'] == '1' then @lieder+='<a class="link" href="/geb">Sophie & Peter</a><br>' end
   	if session['logout'] == '1' then @lieder+='<a class="link" href="/logout">log_out</a><br>' end
+  	if session['kaefer'] == '1' then @lieder+='<a class="link" href="/kaefer">karl</a><br>' end
   %>
   <%=@lieder%>
   <a href="#" onclick="history.go(-1)">Zurück</a>

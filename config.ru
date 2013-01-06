@@ -632,7 +632,7 @@ get '/einloggen' do
 end
 
 post '/log' do
-  if params['name'] == 'Dieter' && params['pw'] == '505051'
+  if params['name'] == 'Dieter' && params['pw'] == '505151'
     show(:loggedin)
   else '<h1 align=center>Der Rechner</h1><p align="center"><br><br>Das Passwort oder der Benutzername sind falsch.<br><br><a class="link" href="pc">grml...</a>'
   end 
@@ -692,9 +692,27 @@ get '/pool' do
   erb :pool
 end
 
+get '/poole' do
+  if session['kaefer'] !='1'
+    show(:poole)
+  else
+    show(:poole1)
+  end
+end
+
 get '/pool1' do
   session['pool'] += 10
   '<h1 align=center>Der Swimmingpool</h1><p align="center"><br>Du schüttest das Wasser in den Swimmingpool.<br><br><a class="link" href="pool">...</a>'
+end
+
+get '/kaefer1' do
+    session['kaefer'] = '1'
+    show(:kaefer1)
+end
+
+get '/kaefer2' do
+    session['kaefer'] = '2'
+    show(:kaefer2)
 end
 
 get '/knoepfe' do
