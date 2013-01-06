@@ -1,0 +1,16 @@
+<table align="center" >
+  <h1 align="center">Im Garten</h1>
+  <div style="width:30em;margin:0 auto;">
+    <pre></pre>
+  </div>
+  <p align="center">
+    <%
+      @room='Du kletterst das Seil hinunter in den Garten.<br>'
+      if session['pool'] <= 100 then @room+='Hier ist ein Swimmingpool ohne Wasser.<br>Daneben stehel ein paar alte Gartenmöbel rum...<br>' end
+      if session['pool'] >= 50 then @room+='Naja... sagen wir der Pool ist halb voll mit Wasser...<br>' end
+      @room+='Möchtest Du:<br><br><a class="link" href="pool">Den Pool näher untersuchen?</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a>'
+      @room+='<br><a class="link" href="raum32">Wieder am Seil hochklettern?</a>'
+    %>
+    <%= @room%>
+  </p>
+</table>

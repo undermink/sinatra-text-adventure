@@ -1,0 +1,20 @@
+<table align="center" >
+  <h1 align="center">Im Garten am Swimmingpool</h1>
+  <div style="width:30em;margin:0 auto;">
+    <pre></pre>
+  </div>
+  <p align="center">
+    <%
+      @room='Du gehst zum Pool und schaust ihn Dir genauer an...<br>
+      Du siehst, daß etwas auf dem Grund des Pools liegt,<br>
+      kannst aber nicht genau erkennen, was es ist.<br>
+      Leider is der Pool zu tief um hinunter zu springen.<br>
+      Am Rand des Pools sind zwei Knöpfe.<br><br>'
+      if session['pool'] <= 100 then @room+='<br><a class="link" href="knoepfe">Die Knöpfe betätigen.</a><br>' end
+      if session['eimer'] == '2' then @room+='<a class="link" href="pool1">Den Eimer im Pool entleeren.</a><br>' end
+      if session['leiter'] == '1' && session['pool'] <= 100 then @room+='<a class="link" href="poole">Versuchen mit der Leiter in den Pool zu gelangen.</a><br>' end
+      @room+='<a class="link" href="garten">Weg vom Pool</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen.</a>'
+    %>
+    <%= @room%>
+  </p>
+</table>

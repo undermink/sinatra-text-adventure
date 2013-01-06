@@ -1022,25 +1022,24 @@ Willst Du ihn freilassen?<br><br>
 [[raum23|Nö...wer weiß, wem der gehört?]]
 
 :kaefig1
-=Entfinden
-<object data="/entfinden.ogg" width="0" height="0">oggFile</object>
+=Sonnenherzen
+<object data="/sonnenherzen.ogg" width="0" height="0">oggFile</object>
 Du lässt den armen Vogel frei...<br><br>
-Zweitgolf - Entfinden<br><br>
+Zweitgolf - Sonnenherzen<br><br>
 Text:<br>
-"Hey, ich weiß gar nicht, was ich Euch noch sagen soll.<br>
-Ihr wisst doch im Vorfeld sowieso schon alles besser als ich, oder nicht?<br>
-Na...hab ich recht? Ach so! Ihr habt mir überhaupt nicht zugehört?<br>
-Naja...kein Problem. Das passiert mir ständig. Ja, wirklich.<br>
-Ich hab übrigens herausgefunden, daß man gar nicht auf den Gefühlen<br>
-anderer Leute herumtrampeln muss. Man kann denen auch direkt ins Gesicht treten.<br>
-Könnt Ihr eigentlich noch etwas entfinden? Etwas empfinden?<br>
-Hey...ein schöner Tag: Ich leb mein Leben für die Liebe.<br>
-Und jede scheiß Sekunde stirbt ein Kind. Und das ist schön,<br>
-denn Gott hat einen Plan.<br>
-Mit mir hat er etwas ganz besonderes vor.<br>
-Im AZ bin ich als Holocaust-Leugner verschrien und im CHili<br>
-wurd ich sogar mal als Nazi beschimpft...<br>
-Könnt Ihr eigentlich noch etwas entfinden? Etwas empfinden?"<br><br>
+"Ich sag Dir:<br>
+Kauf Dir die Kacke, kauf Dir den ganzen Scheiß im Laden.<br>
+Kauf Dir Dinge, die wir absolut nicht brauchen, aber trotzdem haben.<br>
+Wir sind wie Maden im Speck, kaufen den ganzen Dreck.<br>
+Baden im Sekt und wissen nicht mehr wie ne Pflanze schmeckt.<br>
+Weil wir die Nahrung mit so Chemo-Scheiss verseucht haben.<br>
+Bald gehen wir baden, aber vorher will ich Euch sagen:<br>
+Lasst Euch nicht verarschen und hört, was Euer Herz sagt!<br>
+Leben ist so wunderschön, wie Sonne an nem Herbsttag.<br><br>
+Lass die Sonne in Dein Herz.<br>
+Versteh den Schmerz in Dir.<br>
+Lasst uns froh und munter sein.<br>
+Öffne Dein Herz - und lass die Sonne rein!"<br><br>
 [[raum23a|weiter]]
 
 :kaefig1a
@@ -1079,24 +1078,23 @@ Du faltest es auseinander...<br><br>
 <br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
-:entfinden
-=Entfinden
-Zweitgolf - Entfinden<br><br>
+:sonnenherzen
+=Sonnenjerzen
+Zweitgolf - Sonnenherzen<br><br>
 Text:<br>
-"Hey, ich weiß gar nicht, was ich Euch noch sagen soll.<br>
-Ihr wisst doch im Vorfeld sowieso schon alles besser als ich, oder nicht?<br>
-Na...hab ich recht? Ach so! Ihr habt mir überhaupt nicht zugehört?<br>
-Naja...kein Problem. Das passiert mir ständig. Ja, wirklich.<br>
-Ich hab übrigens herausgefunden, daß man gar nicht auf den Gefühlen<br>
-anderer Leute herumtrampeln muss. Man kann denen auch direkt ins Gesicht treten.<br>
-Könnt Ihr eigentlich noch etwas entfinden? Etwas empfinden?<br>
-Hey...ein schöner Tag: Ich leb mein Leben für die Liebe.<br>
-Und jede scheiß Sekunde stirbt ein Kind. Und das ist schön,<br>
-denn Gott hat einen Plan.<br>
-Mit mir hat er etwas ganz besonderes vor.<br>
-Im AZ bin ich als Holocaust-Leugner verschrien und im CHili<br>
-wurd ich sogar mal als Nazi beschimpft...<br>
-Könnt Ihr eigentlich noch etwas entfinden? Etwas empfinden?"<br><br>
+"Ich sag Dir:<br>
+Kauf Dir die Kacke, kauf Dir den ganzen Scheiß im Laden.<br>
+Kauf Dir Dinge, die wir absolut nicht brauchen, aber trotzdem haben.<br>
+Wir sind wie Maden im Speck, kaufen den ganzen Dreck.<br>
+Baden im Sekt und wissen nicht mehr wie ne Pflanze schmeckt.<br>
+Weil wir die Nahrung mit so Chemo-Scheiss verseucht haben.<br>
+Bald gehen wir baden, aber vorher will ich Euch sagen:<br>
+Lasst Euch nicht verarschen und hört, was Euer Herz sagt!<br>
+Leben ist so wunderschön, wie Sonne an nem Herbsttag.<br><br>
+Lass die Sonne in Dein Herz.<br>
+Versteh den Schmerz in Dir.<br>
+Lasst uns froh und munter sein.<br>
+Öffne Dein Herz - und lass die Sonne rein!"<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 
@@ -1395,7 +1393,7 @@ Möchtest Du:<br><br>
 Du hast das Seil an der Heizung befestigt.<br>
 Das sieht einigermaßen sicher aus...<br>
 Möchtest Du das Seil runter in den Garten klettern?<br><br>
-Ja.<br>
+[[garten|Ja.]]<br>
 [[raum32|Nein, ist mir zu riskant...]]
 
 :jump
@@ -1818,9 +1816,9 @@ Möchtest Du:<br><br>
 %               |                ___________________
 %               |               /  üüüüüI|         /
 %               |              /__________________/
-%               |               | |             | |
-%               |_______________|_|_____________|_|________
-%              /                |               |
+%               |      ____     | |             | |
+%               |_____( || )____|_|_____________|_|________
+%              /      (_||_)    |               |
 %             /
 Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
 Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
@@ -1854,3 +1852,29 @@ und nimmst die Leiter mit.<br><br>
 Du nimmst den Rucksack wieder mit.<br>
 Es ist noch alles drin.<br><br>
 [[raum37|ok]]
+
+:poole
+=Im Swimmingpool
+Du kletterst mit Hilfe der Leiter in den leeren Pool...<br>
+Unten angekommen gehst Du zu dem seltsamen Objekt.<br>
+Es ist...<br>
+To be continued:)
+
+:knoepfe
+=Im Garten am Swimmingpool
+Du drückst die Knöpfe...<br>
+Es rattert kurz, aber sonst passiert nichts.<br>
+Sieht aus, als wären das die Knöpfe um den Pool mit Wasser zu füllen.<br>
+Vielleicht ist es abgedreht?<br><br>
+[[pool|ok]]
+
+:knoepfe1
+=Im Garten am Swimmingpool
+Du drückst die Knöpfe...<br>
+Es rattert kurz, und der Pool füllt sich mit Wasser.<br>
+Das sind definitiv die Knöpfe um den Pool mit Wasser zu füllen.<br>
+Nach etwa einer Minute ist der Pool voll und das Wasser stoppt wieder.<br>
+Jetzt ist der Pool voll mit Wasser.<br><br>
+[[pool|ok]]
+<br><br>
+[[pool|ok]]
