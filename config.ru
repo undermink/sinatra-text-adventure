@@ -51,6 +51,7 @@ end
 
 get '/key01' do
   if session['key'] != '1'
+  session['bag'] = 5
   session['key'] = '1'
   show(:key01)
   else
@@ -71,7 +72,8 @@ get '/schrank1' do
     show(:messerweg)
    else
      session['messer'] = '1'
-#     session['bag'] += 'ein altes, rostiges Messer<br>'
+     session['bag'] += 5
+     pp session['bag']
      show(:messer1)
   end
 end
@@ -100,7 +102,8 @@ get '/kisten1a' do
       session['geld'] = 10
       session['goldbarren'] = '1'
       session['holzwolle'] = '1'
-#      session['bag'] += 'ein Goldbarren<br>Holzwolle<br>zehn Euro<br>'
+      session['bag'] += 25 + 10
+      pp session['bag']
       show(:kisten1a)
   else
     show(:kisten1c)
@@ -163,14 +166,16 @@ end
 
 get '/eimer1a' do
   session['eimer'] = '1'
-#  session['bag']+= 'ein Eimer<br>'
+  session['bag'] += 20
+  pp session['bag']
   show(:eimer1a)
 end
 
 get '/zig1' do
   if session['zig1'] != '1'
     session['zig1'] = '1'
-#    session['bag'] +='eine selbstgedrehte Zigarette<br>'
+    session['bag'] += 5
+    pp session['bag']
     show(:zig1)
   else
     '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr<br><br><a class="link" href="/raum5">zurück</a></p>'   
@@ -197,7 +202,8 @@ end
 get '/tisch1' do
   if session['key2'] != '1'
     session['key2'] = '1'
-#    session['bag'] += 'ein großer, alter Schlüssel<br>'
+    session['bag'] += 5
+    pp session['bag']
     show(:tisch1)
   else 
     '<p align="center"><br><br>Der Tisch ist leer <br><br><a class="link" href="raum6">weiter</a> '
@@ -226,7 +232,8 @@ end
 get '/schreibtisch1' do
   if session['map1'] != '1'
     session['map1'] = '1'
-#    session['bag'] += '<a class="link" href="/map1">eine Karte</a><br>'
+     session['bag'] += 1
+     pp session['bag']
     show(:schreibtisch1)
   else
     '<p align="center"><br><br>Der Schreibtisch ist leer...<br>Er hat keine Schubladen oder weiteren Fächer.<br><br><a class="link" href="raum7">weiter</a> '
@@ -235,7 +242,8 @@ end
 
 get '/regal1' do
   session['phones'] = '1'
-#  session['bag'] += 'ein Paar Kopfhörer<br>'
+     session['bag'] += 5
+     pp session['bag']
   if session['walkman'] != '1'
     show(:regal1)
   else
@@ -254,9 +262,13 @@ end
 get '/raum8b' do
   if session['walkman'] != '1' && session['phones'] != '1'
     session['walkman'] = '1'
+    session['bag'] += 5
+    pp session['bag']
     show(:raum8b)
   elsif session['walkman'] != '1' && session['phones'] == '1'
     session['walkman'] = '1'
+    session['bag'] += 5
+    pp session['bag']
     show(:raum8c)
   elsif session['walkman'] == '1' 
     '<p align="center"><br><br>Auf dem Boden liegt nichts mehr...<br><br><a href="#" onclick="history.go(-1)">Ok</a> :/</p></a>'
@@ -276,7 +288,8 @@ end
 get '/schrank2' do
   if session['mottek'] != '1'
     session['mottek'] = '1'
-#    session['bag'] += 'ein Mottek<br>'
+    session['bag'] += 15
+    pp session['bag']
     show(:schrank2)
   else
     show(:schrank2a)
@@ -295,7 +308,6 @@ get '/raum10b' do
   session['telefon'] = 1
   if session['intro'] != '1'
     session['intro'] = '1'
-#    session['bag'] += 'eine Kassette<br>'
     show(:raum10b)
   else
   '<p align="center"><br><br>Der Raum ist absolut leer...<br>Das einzig interessante ist das Treppenhaus...<br><br><a class="link" href="raum10a">ok</a> '  
@@ -362,6 +374,8 @@ get '/kaefig1' do
     show(:kaefig1)
   elsif session['map2'] != '1'
     session['map2'] = '1'
+    session['bag'] += 1
+    pp session['bag']
     show(:kaefig1a)
   else
      '<p align="center"><br><br>Du hast den Vogel bereits frei gelassen...<br>Der Käfig ist leer.<br><br><a class="link" href="raum23a">ok</a>'
@@ -371,6 +385,8 @@ end
 get '/raum24a' do
   if session['dieter'] != '1'
     session['dieter'] = '1'
+     session['bag'] += 1
+     pp session['bag']    
     '<h1 align=center>Raum 4 EG</h1><p align="center"><br><br>In einer unbeleuchteten Ecke des Raumes<br>findest Du einen Notizzettel, auf dem steht:<br><br>   "Dieter: 505151"<br><br>Du steckst ihn ein.<br><br><a class="link" href="raum24">ok</a>'
   else 
     '<p align="center"><br><br>Der Raum ist leer...<br><br><a class="link" href="raum24">ok</a>'
@@ -417,6 +433,8 @@ end
 get '/kiste2' do
   if session['seil'] != '1'
     session['seil'] = '1'
+     session['bag'] += 10
+     pp session['bag']
     show(:kiste2)
   else
     '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Die Kiste ist leer.<br><br><a class="link" href="raum28">Hmpf...</a>'
@@ -576,6 +594,8 @@ end
 get '/schatulle' do
   if session['map3'] != '1'
     session['map3'] = '1'
+     session['bag'] += 1
+     pp session['bag']
     '<h1 align=center>Die Schatulle</h1><p align="center"><br><br>In der Schatulle ist eine Karte.<br>Du steckst sie ein...<br><br><a class="link" href="stfach">ok</a>'
   else
     '<h1 align=center>Die Schatulle</h1><p align="center"><br><br>Die Schatulle ist leer...<br><br><a class="link" href="stfach">ok</a>'
