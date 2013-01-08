@@ -432,6 +432,16 @@ get '/raum25' do
   end
 end
 
+get '/rad' do
+  if session['wrad'] != '1'
+    session['wrad'] = '1'
+    '<h1 align=center>Der Heizungskeller</h1><p align="center"><br><br>Du drehst das große Rad und hörst Wasser rauschen.<br>Wofür das wohl gut war?<br><br><a class="link" href="raum25">hm...ok</a>'
+  else
+    session['wrad'] = '0'
+    '<h1 align=center>Der Heizungskeller</h1><p align="center"><br><br>Du drehst das große Rad und es wird wieder still.<br>Jetzt ist der Wasserzulauf wieder unterbrochen<br><br><a class="link" href="raum25">Sehr gut!</a>'
+  end
+end
+
 get '/raum26' do
   @linesp='Du bist jetzt im sechsten Raum im Erdgeschoss.<br><br>Möchtest Du:<br><br>
   <a class="link" href="fenster3">Zum Fenster gehen?</a><br><a class="link" href="raum26a">Den Raum durchsuchen?</a><br><a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum28">Durch die Tür gehen?</a><br><a class="link" href="raum24">Zurück in den vierten Raum?</a>'

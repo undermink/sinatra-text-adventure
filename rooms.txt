@@ -1129,7 +1129,7 @@ Hier im Raum sieht es aus, wie in einem Heizungskeller.<br>
 An den Wänden sind lauter Rohre, die aussehen, wie Wasserleitungen.<br>
 In der Mitte ist ein großes Rad um die Wasserzufuhr zu regulieren.<br>
 Willst Du:<br><br>
-Versuchen, am Rad zu drehen?<br>
+[[rad|Versuchen, am Rad zu drehen?]]<br>
 [[raum24|Zurück in den vierten Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
