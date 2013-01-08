@@ -69,6 +69,10 @@ end
 
 get '/door1' do
   if session['key'] == '1'
+    session['key'] = '2'
+    session['bag'] -= 5
+    show(:raum2)
+  elsif session['key'] == '2'
     show(:raum2)
   else
    show(:doorclosed) 
