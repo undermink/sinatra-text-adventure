@@ -1964,3 +1964,9 @@ Jetzt ist der Pool voll mit Wasser.<br><br>
 [[pool|ok]]
 <br><br>
 [[pool|ok]]
+
+:voll
+=Dein Rucksack
+Leider ist Dein Rucksack voll...<br>
+Mehr kannst Du nicht mitnehmen:(<br><br>
+<a href="#" onclick="history.go(-2)">verdammt</a>

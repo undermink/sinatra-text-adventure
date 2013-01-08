@@ -23,6 +23,14 @@ helpers do
     end
   end
 
+  def bpchk(load)
+    pp load
+    if load.to_i >= 105.to_i then
+      pp 'trigger.....................'
+      redirect 'voll'
+    end
+  end
+
 end
 
 get '/' do
@@ -68,6 +76,7 @@ get '/door1' do
 end
 
 get '/schrank1' do
+  bpchk(session['bag'])
   if session['messer'] == '1'
     show(:messerweg)
    else
@@ -98,6 +107,7 @@ get '/kisten1' do
 end 
 
 get '/kisten1a' do
+  bpchk(session['bag'])
   if session['messer'] == '1' 
       session['geld'] = 10
       session['goldbarren'] = '1'
@@ -165,6 +175,7 @@ get '/eimer1' do
 end
 
 get '/eimer1a' do
+  bpchk(session['bag'])
   session['eimer'] = '1'
   session['bag'] += 20
   pp session['bag']
@@ -172,6 +183,7 @@ get '/eimer1a' do
 end
 
 get '/zig1' do
+  bpchk(session['bag'])
   if session['zig1'] != '1'
     session['zig1'] = '1'
     session['bag'] += 5
@@ -200,6 +212,7 @@ get '/raum6' do
 end
  
 get '/tisch1' do
+  bpchk(session['bag'])
   if session['key2'] != '1'
     session['key2'] = '1'
     session['bag'] += 5
@@ -230,6 +243,7 @@ get '/raum7' do
 end
 
 get '/schreibtisch1' do
+  bpchk(session['bag'])
   if session['map1'] != '1'
     session['map1'] = '1'
      session['bag'] += 1
@@ -241,6 +255,7 @@ get '/schreibtisch1' do
 end
 
 get '/regal1' do
+  bpchk(session['bag'])
   session['phones'] = '1'
      session['bag'] += 5
      pp session['bag']
@@ -260,6 +275,7 @@ get '/raum8' do
 end
 
 get '/raum8b' do
+  bpchk(session['bag'])
   if session['walkman'] != '1' && session['phones'] != '1'
     session['walkman'] = '1'
     session['bag'] += 5
@@ -286,6 +302,7 @@ get '/walkman' do
 end
 
 get '/schrank2' do
+  bpchk(session['bag'])
   if session['mottek'] != '1'
     session['mottek'] = '1'
     session['bag'] += 15
@@ -373,6 +390,7 @@ get '/kaefig1' do
     session['sonnenherzen'] = '1'
     show(:kaefig1)
   elsif session['map2'] != '1'
+    bpchk(session['bag'])
     session['map2'] = '1'
     session['bag'] += 1
     pp session['bag']
@@ -383,6 +401,7 @@ get '/kaefig1' do
 end
 
 get '/raum24a' do
+  bpchk(session['bag'])
   if session['dieter'] != '1'
     session['dieter'] = '1'
      session['bag'] += 1
@@ -432,9 +451,6 @@ end
 
 get '/kiste2' do
   if session['seil'] != '1'
-    session['seil'] = '1'
-     session['bag'] += 10
-     pp session['bag']
     show(:kiste2)
   else
     '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Die Kiste ist leer.<br><br><a class="link" href="raum28">Hmpf...</a>'
@@ -442,8 +458,11 @@ get '/kiste2' do
 end
 
 get '/kiste2a' do
+  bpchk(session['bag'])
   if session['messer'] == '1'
     session['seil'] = '1'
+    session['bag'] += 10
+    pp session['bag']
     show(:kiste2a)
   else
     '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Leider hast Du kein geeignetes Werkzeug dabei...<br><br><a class="link" href="raum28">Kacke!</a>'
@@ -451,6 +470,7 @@ get '/kiste2a' do
 end
 
 get '/schrank3' do
+  bpchk(session['bag'])
   if session['feuer'] != '1'
     session['feuer'] = '1'
     '<h1 align=center>Raum 8 EG: Der Schrank</h1><p align="center"><br><br>Im Schrank liegt ein Feuerzeug.<br>Du steckst es ein...<br><br><a class="link" href="raum28">ok</a>'
@@ -460,6 +480,7 @@ get '/schrank3' do
 end
 
 get '/raum29a' do
+  bpchk(session['bag'])
   if session['draht'] != '1'
     session['draht'] = '1'
     show(:raum29a)
@@ -523,6 +544,7 @@ get '/fenster4d' do
 end
 
 get '/regal3' do
+  bpchk(session['bag'])
   if session['key4'] != '1'
     session['key4'] = '1'
     '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Auf dem Regal liegt ein Schlüssel.<br>Du steckst ihn ein<br><br><a class="link" href="raum32">ok</a> :)'
@@ -552,6 +574,7 @@ get '/raum33a' do
 end
 
 get '/schrank4' do
+  bpchk(session['bag'])
   if session['key3'] != '1'
     session['key3'] = '1'
     show(:schrank4)
@@ -573,6 +596,7 @@ get '/stuhl1' do
 end
 
 get '/unterlagen' do
+  bpchk(session['bag'])
   session['unterlagen'] = '1'
   '<h1 align=center>Raum 3 1.OG: Der Schreibtisch</h1><p align="center"><br><br>Du steckst die sinnlosen Unterlagen ein...<br><br><a class="link" href="schreibtisch2a">gut...</a>'
 end
@@ -592,6 +616,7 @@ get '/brief' do
 end
 
 get '/schatulle' do
+  bpchk(session['bag'])
   if session['map3'] != '1'
     session['map3'] = '1'
      session['bag'] += 1
@@ -615,13 +640,15 @@ end
 get '/wandteppich' do
   if session['key4'] != '2'
     show(:wandteppich)
-  else show(:raum34a)
+  else 
+    show(:raum34a)
   end
 end
 
 get '/raum34' do
   if session['key4'] == '1'
     session['key4'] = '2'
+    session['bag'] -= 5
     show(:raum34)
   elsif session['key4'] == '2'
     show(:raum34a)
@@ -631,10 +658,14 @@ get '/raum34' do
 end
 
 get '/raum35' do
-  if session['key3'] != '1'
-    show(:doorclosed)
-  else
+  if session['key3'] == '1'
+    session['bag'] -= 5
+    session['key3'] = '2'
+    show(:raum35)    
+  elsif session['key3'] == '2' 
     show(:raum35)
+  else
+    show(:doorclosed)
   end
 end
 
