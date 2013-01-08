@@ -1123,7 +1123,7 @@ Möchtest Du:<br><br>
 
 :raum25
 =Raum 5 EG
-Du öffnest die Tür mit Hilfe des dritten Schlüssels...<br>
+Du öffnest die Tür mit Hilfe des großen, alten Schlüssels...<br>
 Du bist im fünften Raum des Erdgeschosses.<br>
 Hier im Raum sieht es aus, wie in einem Heizungskeller.<br>
 An den Wänden sind lauter Rohre, die aussehen, wie Wasserleitungen.<br>

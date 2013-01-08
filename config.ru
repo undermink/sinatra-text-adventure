@@ -210,6 +210,9 @@ end
 get '/raum6' do
   if session['key2'] == '1'
     show(:raum6a)
+  elsif
+    session['key'] == '2'
+    show(:raum6a)
   else
     show(:raum6)
   end
@@ -417,10 +420,15 @@ get '/raum24a' do
 end
 
 get '/raum25' do
-  if session['key3'] != '1'
-    '<h1 align=center>Raum 5 EG</h1><p align="center"><br><br>Die Tür zum 5. Raum ist verschlossen...<br><br><a class="link" href="raum24">Mist!</a>'
-  else
+  if session['key2'] == '1'
+    session['key2'] = '2'
+    session['bag'] -= 5
     show(:raum25)
+  elsif session['key'] == '2' 
+    show(:raum25)
+  else
+    '<h1 align=center>Raum 5 EG</h1><p align="center"><br><br>Die Tür zum 5. Raum ist verschlossen...<br><br><a class="link" href="raum24">Mist!</a>'
+    
   end
 end
 
@@ -551,6 +559,7 @@ get '/regal3' do
   bpchk(session['bag'])
   if session['key4'] != '1'
     session['key4'] = '1'
+    session['bag'] += 5
     '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Auf dem Regal liegt ein Schlüssel.<br>Du steckst ihn ein<br><br><a class="link" href="raum32">ok</a> :)'
   else
     '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Das Regal ist leer...<br><br><a class="link" href="raum32">na gut</a> :/'
