@@ -1920,6 +1920,7 @@ fahren jetzt Käfer aus Blech und Stahl.<br><br>
 
 :kaefer1
 =Karl der Käfer
+<object data="/karl.ogg" width="0" height="0">oggFile</object>
 Zweitgolf - Karl der Käfer (text:gänsehaut)<br>
 Tief im Wald zwischen Moos und Farn.<br>
 Da lebte ein Köfer mit Namen Karl.<br>
@@ -1961,8 +1962,6 @@ Es rattert kurz, und der Pool füllt sich mit Wasser.<br>
 Das sind definitiv die Knöpfe um den Pool mit Wasser zu füllen.<br>
 Nach etwa einer Minute ist der Pool voll und das Wasser stoppt wieder.<br>
 Jetzt ist der Pool voll mit Wasser.<br><br>
-[[pool|ok]]
-<br><br>
 [[pool|ok]]
 
 :voll
