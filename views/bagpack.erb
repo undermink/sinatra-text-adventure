@@ -1,4 +1,4 @@
-<table align="center" >
+<div id="bagpack" style="border: solid 2px black;width: 550px;border-radius: 25px;margin: auto;"><table align="center" >
       <h1 align="center">Dein Rucksack</h1>
       <p align="center">
       	<%
@@ -32,7 +32,7 @@
       		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
       		if session['leiter'] == '1' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
       		if session['leiter'] == '2' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end	
-      			#session['map1'] = '0'
+      			#session['geb'] = '0'
       			#session['bag'] += 2
    		%>
       	<%=@inventar%><br>
@@ -41,4 +41,4 @@
       	<%=session['bag']%>/ 100  <br><br>
       <a href="#" onclick="history.go(-1)">Zurück</a></p>
       </table>
-   
+   </div>
