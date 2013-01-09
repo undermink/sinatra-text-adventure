@@ -857,19 +857,19 @@ Ausser den beiden Türen findest Du nichts besonderes hier.<br><br>
 
 :raum22
 =Raum 2 Erdgeschoss
-%                                       ______________                     |
-%                                       |=___====___=|                     |
-%                                       |+          +|                     |
-%                                       |+          +|                     |
-%                                       |+          +|          _|_        |
-%                                       |+          +|          |O|        |
-%                                       |+--o       +|          |I|        |
-%                                       |+          +|          |O|        |
-%                                       |+          +|          ===        |
-%                                       |+   ====   +|                     |
-%                   ____________________|+__________+|_____________________|
-%                                                                           \
-%                                                                            \
+%                                  ______________                     |
+%                                  |=___====___=|                     |
+%                                  |+          +|                     |
+%                                  |+          +|                     |
+%                                  |+          +|          _|_        |
+%                                  |+          +|          |O|        |
+%                                  |+--o       +|          |I|        |
+%                                  |+          +|          |O|        |
+%                                  |+          +|          ===        |
+%                                  |+   ====   +|                     |
+%              ____________________|+__________+|_____________________|
+%                                                                      \
+%                                                                       \
 Du befindest Dich im zweiten Raum.<br>
 Vor Dir hängt ein Telefon an der Wand.<br>
 Es klingelt...<br>
@@ -882,19 +882,19 @@ Willst Du:<br><br>
 
 :raum22a
 =Raum 2 Erdgeschoss
-%                                       ______________                     |
-%                                       |=___====___=|                     |
-%                                       |+          +|                     |
-%                                       |+          +|                     |
-%                                       |+          +|          _|_        |
-%                                       |+          +|          |O|        |
-%                                       |+--o       +|          |I|        |
-%                                       |+          +|          |O|        |
-%                                       |+          +|          ===        |
-%                                       |+   ====   +|                     |
-%                   ____________________|+__________+|_____________________|
-%                                                                           \
-%                                                                            \
+%                                  ______________                     |
+%                                  |=___====___=|                     |
+%                                  |+          +|                     |
+%                                  |+          +|                     |
+%                                  |+          +|          _|_        |
+%                                  |+          +|          |O|        |
+%                                  |+--o       +|          |I|        |
+%                                  |+          +|          |O|        |
+%                                  |+          +|          ===        |
+%                                  |+   ====   +|                     |
+%              ____________________|+__________+|_____________________|
+%                                                                      \
+%                                                                       \
 Du befindest Dich im zweiten Raum.<br>
 Vor Dir hängt ein Telefon an der Wand.<br>
 <br>
@@ -1662,9 +1662,17 @@ Möchtest Du:<br><br>
 <object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
 Du öffnest den Schrank...<br>
 Im Schrank liegt eine Geburtstags Karte.<br><br>
-'Liebe Sophie und lieber Peter<br><br>
-Alles Gute zu Eurem 30. Geburstag!<br>
-wünscht Euch Zweitgolf'<br><br>[[raum35b|Die Karte einstecken]]
+Zweitgolf - Sophie und Peter<br><br>
+Wir wünschen Dir Sophie alles Gute zum Geburtstag<br>
+weil Du 30 Jahre alt geworden bist.<br>
+Wir wünschen Dir Peter alles Gute zum Geburtstag<br>
+weil auch Du 30 Jahre alt geworden bist.<br>
+30 Jahre... pah!<br>
+Das ist doch gar nichts.<br>
+Ich wünschte, ich wär auch nochmal so jung.<br>
+Euer Leben liegt noch vor Euch.<br>
+Also macht das Beste draus!<br><br>
+[[raum35b|Die Karte einstecken]]
 
 :geb
 =Sophie & Peter
@@ -1775,8 +1783,9 @@ Möchtest Du:<br><br>
 :truhe1
 =Raum 6 1.OG: Die Truhe
 Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br>
-Nach einiger Zeit gelingt es Dir<br>
-und Du öffnest die Truhe.<br>
+Nach einiger Zeit gelingt es Dir.<br>
+*klick*<br>
+und sie lässt sich öffnen.<br>
 Darin befindet sich ein Zettel:<br><br>
 Poller - 0202 702300<br>
 <br><br>

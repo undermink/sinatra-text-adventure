@@ -366,6 +366,8 @@ post '/telefonieren' do
     show(:notruf)
   elsif params['nummer'] == '666'
     show(:satan)
+  elsif params['nummer'] == '702300' || params['nummer'] == '0202702300'
+    'Du rufst Poller an...'
   elsif params['nummer'] == ''
     pp'<p align="center"><br><br>Du h&ouml;rst das Freizeichen...<br><br>Scheinbar ein A.<br>Du lauscht noch ein Wenig und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
   else pp'<p align="center"><br><br>Es tutet...<br><br>Niemand antwortet.<br>Du wartest noch eine Weile und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
