@@ -769,7 +769,6 @@ get '/raum37' do
 end
 
 get '/leiter' do
-  pp session['leiter']
   if session['leiter'] != '1' && session['leiter'] != '2' && session['leiter'] != '3' 
     session['leiter'] = '1'
     show(:leiter1)
@@ -782,6 +781,21 @@ get '/leiter' do
   else 
     show(:leiter1a)
   end
+end
+
+get '/tisch2' do
+  if session['saege'] == '1'
+    '<h1 align=center>Der Tisch</h1><p align="center"><br>Der Tisch ist bis auf einige Sägespäne leer...<br><br><a class="link" href="raum37">:()</a>'
+  else
+    show(:tisch2)
+  end
+end
+
+get '/saege' do
+  bpchk(session['bag'])
+  session['bag'] += 10
+  session['saege'] = '1'
+  '<h1 align=center>Die Säge</h1><p align="center"><br>Du steckst die Säge ein...<br><br><a class="link" href="raum37">...</a>'
 end
 
 get '/garten' do

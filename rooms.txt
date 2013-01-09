@@ -1986,6 +1986,15 @@ Nach etwa einer Minute ist der Pool voll und das Wasser stoppt wieder.<br>
 Jetzt ist der Pool voll mit Wasser.<br><br>
 [[pool|ok]]
 
+:tisch2
+=Auf dem Tisch
+Auf dem Tisch liegen ein paar Sägespäne<br>
+und eine Säge.<br>
+Sonst ist er leer und hat auch keine weiteren Fächer...<br><br>
+Möchtest Du die Säge mitnehmen?<br><br>
+[[saege|Klar, ne Säge find ich gut:)]]<br>
+[[raum37|Nee...was soll ich denn jetzt mit ner Säge?!]]
+
 :voll
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>

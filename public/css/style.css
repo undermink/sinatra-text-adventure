@@ -1,0 +1,13 @@
+/*<br clear="all" />
+ */
+@font-face {
+    font-family: 'tagged04';
+    src:url('/fonts/tagged04a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+h1 {
+	font-family:'tagged04';
+	font-size: 54px;
+	text-decoration: simple;
