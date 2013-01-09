@@ -621,7 +621,7 @@ Du befindest Dich im siebten Raum.<br>
 Auch in diesem Raum ist kein Fenster.<br>
 Es gibt aber zwei weitere Türen.<br>
 In dem Raum befindet sich ein Schreibtisch.<br>
-Darauf liegt ein zusammengerolltes Papier.<br>
+Er ist leer...<br>
 Rechter Hand steht ein Bücherregal.<br>
 Möchtest Du:<br><br>
 [[schreibtisch1|Zum Schreibtisch gehen?]]<br>
@@ -1079,7 +1079,8 @@ Du faltest es auseinander...<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :sonnenherzen
-=Sonnenjerzen
+=Sonnenherzen
+<object data="/sonnenherzen.ogg" width="0" height="0">oggFile</object>
 Zweitgolf - Sonnenherzen<br><br>
 Text:<br>
 "Ich sag Dir:<br>
@@ -1773,7 +1774,12 @@ Möchtest Du:<br><br>
 
 :truhe1
 =Raum 6 1.OG: Die Truhe
-Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br><br>
+Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br>
+Nach einiger Zeit gelingt es Dir<br>
+und Du öffnest die Truhe.<br>
+Darin befindet sich ein Zettel:<br><br>
+Poller - 0202 702300<br>
+<br><br>
 [[raum36|ok]]
 
 :truhe1a
@@ -1781,6 +1787,13 @@ Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br><br>
 Leider hast Du kein geeignetes Werkzeug dabei...<br>
 So etwas wie ein Stück Draht wäre super.<br><br>
 [[raum36|ok]]
+
+:truhe1b
+=Raum 6 1.OG: Die Truhe
+Die Truhe ist bereits offen...<br>
+Sie ist leider leer:(<br><br>
+[[raum36|ok]]
+
 
 :raum37
 =Raum 7 1.OG

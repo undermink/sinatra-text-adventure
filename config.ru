@@ -137,6 +137,7 @@ end
 
 get '/mottek' do
   if session['durchbruch'] != '1'
+    session['bag'] -= 25
     session['durchbruch'] = '1'
     show(:mottek1)
   else
@@ -202,8 +203,10 @@ get '/zig1a' do
   if session['feuer'] != '1'
     '<p align="center"><br><br>Du hast kein Feuer...<br><br><a class="link" href="/raum5">zurück</a></p>'
   else
+    session['bag'] -= 5
     session['zig1'] = '2'
-    '<p align="center"><br><br>Du rauchst die Zigarette...<br>Sie schmeckt sehr gut.<br>Leicht beflügelt gehst Du weiter.<br>Ein wohliges Gefühl breites sich in Dir aus.<br>"Zweitgolf, ...so ein witziger Name...", denkst Du.<br><br><a class="link" href="/raum5">zurück</a></p>'
+    erb :rauchen
+#    '<p align="center"><br><br>Du rauchst die Zigarette...<br>Sie schmeckt sehr gut.<br>Leicht beflügelt gehst Du weiter.<br>Ein wohliges Gefühl breites sich in Dir aus.<br>"Zweitgolf, ...so ein witziger Name...", denkst Du.<br><br><a class="link" href="/raum5">zurück</a></p>'
   end
 end
 
@@ -211,7 +214,7 @@ get '/raum6' do
   if session['key2'] == '1'
     show(:raum6a)
   elsif
-    session['key'] == '2'
+    session['key2'] == '2'
     show(:raum6a)
   else
     show(:raum6)
@@ -312,7 +315,7 @@ get '/schrank2' do
   bpchk(session['bag'])
   if session['mottek'] != '1'
     session['mottek'] = '1'
-    session['bag'] += 15
+    session['bag'] += 25
     pp session['bag']
     show(:schrank2)
   else
@@ -331,6 +334,7 @@ end
 get '/raum10b' do
   session['telefon'] = 1
   if session['intro'] != '1'
+    session['bag'] += 2
     session['intro'] = '1'
     show(:raum10b)
   else
@@ -483,7 +487,7 @@ get '/kiste2a' do
   bpchk(session['bag'])
   if session['messer'] == '1'
     session['seil'] = '1'
-    session['bag'] += 10
+    session['bag'] += 20
     pp session['bag']
     show(:kiste2a)
   else
@@ -494,6 +498,7 @@ end
 get '/schrank3' do
   bpchk(session['bag'])
   if session['feuer'] != '1'
+    session['bag'] += 2
     session['feuer'] = '1'
     '<h1 align=center>Raum 8 EG: Der Schrank</h1><p align="center"><br><br>Im Schrank liegt ein Feuerzeug.<br>Du steckst es ein...<br><br><a class="link" href="raum28">ok</a>'
   else
@@ -504,6 +509,7 @@ end
 get '/raum29a' do
   bpchk(session['bag'])
   if session['draht'] != '1'
+    session['bag'] += 3
     session['draht'] = '1'
     show(:raum29a)
   else 
@@ -558,6 +564,7 @@ end
 get '/fenster4d' do
   if session['seil'] == '1' && session['fenster4'] == '1'
     session['seil'] = '2'
+    session['bag'] -= 20
     session['fenster4'] = '2'
     show(:fenster4d)
   else
@@ -599,6 +606,7 @@ end
 get '/schrank4' do
   bpchk(session['bag'])
   if session['key3'] != '1'
+    session['bag'] += 2
     session['key3'] = '1'
     show(:schrank4)
   else
@@ -620,6 +628,7 @@ end
 
 get '/unterlagen' do
   bpchk(session['bag'])
+  session['bag'] += 10
   session['unterlagen'] = '1'
   '<h1 align=center>Raum 3 1.OG: Der Schreibtisch</h1><p align="center"><br><br>Du steckst die sinnlosen Unterlagen ein...<br><br><a class="link" href="schreibtisch2a">gut...</a>'
 end
@@ -630,9 +639,11 @@ end
 
 get '/brief' do
   if session['brief'] != '1'
+    session['bag'] += 2
     session['brief'] = '1'
     '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du liest den Brief und steckst ihn ein...<br><br><a class="link" href="stfach">weiter</a> =)'
   else
+    session['bag'] -= 2
     session['brief'] = '0'
     '<h1 align=center>Der Brief</h1><p align="center"><br><br>Du legst den Brief zurück...<br><br><a class="link" href="stfach">weiter</a> =)'
   end
@@ -722,10 +733,14 @@ get '/abmelden' do
 end
 
 get '/truhe1' do
-  if session['draht'] != '1'
-    show(:truhe1a)
-  else
+  if session['draht'] == '1'
+    session['draht'] = '2'
     show(:truhe1)
+  elsif session['draht'] == '2'
+    show(:truhe1)
+  else
+    show(:truhe1a)
+    
   end
 end
 
