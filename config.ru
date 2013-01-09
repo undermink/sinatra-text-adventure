@@ -734,12 +734,22 @@ get '/abmelden' do
   end
 end
 
+get '/truhe' do
+  if session['draht'] == '2'
+    show(:truhe1b)
+  else
+    show(:true)
+  end
+end
+
 get '/truhe1' do
+  bpchk(session['bag'])
   if session['draht'] == '1'
+    session['bag'] -= 3
+    session['bag'] += 1
     session['draht'] = '2'
     show(:truhe1)
-  elsif session['draht'] == '2'
-    show(:truhe1)
+  
   else
     show(:truhe1a)
     

@@ -27,12 +27,14 @@
       		if session['key4'] == '1' then @inventar+='noch ein Schlüssel<br>' end
       		if session['feuer'] == '1' then @inventar+='ein Feuerzeug<br>' end
       		if session['draht'] == '1' then @inventar+='ein Stück Draht<br>' end
+      		if session['draht'] == '2' then @inventar+='ein Zettel mit der Nummer von Poller: 0202 702300<br>' end
       		if session['key3'] == '1' then @inventar+='ein Schlüsselbund (mit einem kleinen und einem großen Schlüssel)<br>' end
       		if session['brief'] == '1' then @inventar+='ein Brief mit äusserst brisantem Inhalt<br>' end
       		if session['unterlagen'] == '1' then @inventar+='ein Haufen sinnloser Unterlagen<br>' end
       		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
       		if session['leiter'] == '1' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
-      		if session['leiter'] == '2' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end	
+      		if session['leiter'] == '2' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
+      			
       			#session['geb'] = '0'
       			#session['bag'] += 2
    		%>
