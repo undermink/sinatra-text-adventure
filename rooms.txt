@@ -1805,7 +1805,7 @@ Sie ist leider leer:(<br><br>
 
 
 :raum37
-=Raum 7 1.OG
+=Der Hobbyraum
 %               |
 %               |
 %               |  ___________________
@@ -1829,7 +1829,7 @@ Möchtest Du:<br><br>
 [[raum36|Zurück in den 6. Raum gehen?]]<br>
 
 :raum37a
-=Raum 7 1.OG
+=Der Hobbyraum
 %               |
 %               |
 %               |  
@@ -1854,7 +1854,7 @@ Möchtest Du:<br><br>
 [[raum36|Zurück in den 6. Raum gehen?]]<br>
 
 :raum37b
-=Raum 7 1.OG
+=Der Hobbyraum
 %               |
 %               |
 %               |  
@@ -1876,6 +1876,76 @@ Möchtest Du:<br><br>
 [[tisch2|Den Tisch begutachten?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum36|Zurück in den 6. Raum gehen?]]<br>
+
+:raum37c
+=Der Hobbyraum
+%               |
+%               |
+%               |  
+%               |    q             q 
+%               |
+%               |                ___________________
+%               |               /  . ;.  .         /
+%               |              /________,_________/
+%               |      ____     | |             | |
+%               |_____( || )____|_|_____________|_|________
+%              /      (_||_)    |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hing die Leiter<br>
+darunter steht jetzt Dein Rucksack,<br>
+und auf einem Tisch liegen nur noch ein paar Sägespäne...<br>
+Möchtest Du:<br><br>
+[[leiter|Den Rucksack mitnehmen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
+
+:raum37d
+=Der Hobbyraum
+%               |
+%               |
+%               |  
+%               |    q             q 
+%               |
+%               |                ___________________
+%               |               /  . ;.  .         /
+%               |              /________,_________/
+%               |               | |             | |
+%               |_______________|_|_____________|_|________
+%              /                |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hing die Leiter<br>
+dort sind jetzt nur noch die beiden Halterungen zu sehen...<br>
+Möchtest Du:<br><br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
+
+:raum37e
+=Der Hobbyraum
+%               |
+%               |
+%               |  ___________________
+%               |   |q| | | | | | |q|
+%               |  _|_|_|_|_|_|_|_|_|_
+%               |                ___________________
+%               |               /  . ;.  .         /
+%               |              /________,_________/
+%               |               | |             | |
+%               |_______________|_|_____________|_|________
+%              /                |               |
+%             /
+Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+Dieser Raum sieht wie eine Art Hobbyraum aus.<br>
+An der Wand hängt eine Leiter<br>
+und auf einem Tisch liegen nur noch Sägespäne...<br>
+Möchtest Du:<br><br>
+[[leiter|Die Leiter mitnehmen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]<br>
+[[raum36|Zurück in den 6. Raum gehen?]]<br>
+
 
 :leiter
 =Die Leiter

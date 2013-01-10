@@ -699,7 +699,7 @@ get '/raum35' do
     session['key3'] = '2'
     show(:raum35)    
   elsif session['key3'] == '2' 
-    show(:raum35)
+    show(:raum35a)
   else
     show(:doorclosed)
   end
@@ -757,12 +757,20 @@ get '/truhe1' do
 end
 
 get '/raum37' do
-  if session['leiter'] == '1' 
+  if session['leiter'] == '1' && session['saege'] != '1' 
     show(:raum37a)
-  elsif session['leiter'] == '2'
+  elsif session['leiter'] == '2' && session['saege'] != '1'
     show(:raum37a)
-  elsif session['leiter'] == '3'
+  elsif session['leiter'] == '3' && session['saege'] != '1'
     show(:raum37b)
+  elsif session['leiter'] == '1' && session['saege'] == '1'
+    show(:raum37c)
+  elsif session['leiter'] == '2' && session['saege'] == '1'
+    show(:raum37c)
+  elsif session['leiter'] == '3' && session['saege'] == '1'
+    show(:raum37d)
+  elsif session['leiter'] == '0' && session['saege'] == '1'
+    show(:raum37e)
   else
     show(:raum37)
   end
