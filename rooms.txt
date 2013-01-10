@@ -1816,7 +1816,7 @@ Sie ist leider leer:(<br><br>
 [[raum36|ok]]
 
 
-:raum37
+:raum37xxx
 =Der Hobbyraum
 %               |
 %               |

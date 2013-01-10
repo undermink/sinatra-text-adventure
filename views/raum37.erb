@@ -1,0 +1,55 @@
+<body style="background:#aaa;">
+<div id="room">
+<table align="center" >
+  <h1 align="center">Der Hobbyraum</h1>
+  <div style="width:30em;margin:0 auto;border:solid black;border-radius: 25px">
+    <pre><% #session['leiter'] = '3' 
+    @rooml='
+               |
+               |'%>
+<% unless ['1','2','3'].member?(session['leiter']) then @rooml +='
+               |  ___________________
+               |   |q| | | | | | |q|
+               |  _|_|_|_|_|_|_|_|_|_'else @rooml+='
+               |
+               |    q             q
+               |' end
+@rooml+='
+               |                ___________________'
+               if session['saege'] != '1' then @rooml+='
+               |               /  üüüüüI|         /
+               |              /__________________/' else
+               @rooml+='
+               |               /  . ;.  .         /
+               |              /________,_________/' end
+if ['1','2'].member?(session['leiter']) then @rooml+='
+               |      ____     | |             | |
+               |_____( || )____|_|_____________|_|________
+              /      (_||_)    |               |
+             /' else @rooml+='
+               |               | |             | |
+               |_______________|_|_____________|_|________
+              /                |               |
+             /' end
+%>
+<%=@rooml%>
+    </pre>
+  </div>
+  <p align="center">
+    <%
+      @room='Du bist jetzt im 7. Raum des ersten Obergeschosses.<br>
+        Dieser Raum sieht wie eine Art Hobbyraum aus.<br>'
+      unless ['1','2','3'].member?(session['leiter']) then @room+='An der Wand hängt eine Leiter.<br>' end
+      if session['saege'] != '1' then @room+='Auf einem Tisch liegt eine Säge...<br>' else @room+='Auf dem Tisch sind nur noch ein paar Sägespäne...<br>' end
+      @room+='Willst Du:<br><br>'
+      if session['saege'] != '1' then @room+='<a class="link" href="tisch2">Den Tisch begutachten?</a><br>' end
+      unless ['1','2','3'].member?(session['leiter']) then @room+='<a class="link" href="leiter">Die Leiter mitnehmen?<br>' end
+      if ['1','2'].member?(session['leiter']) then @room+='<a class="link" href="leiter"><br>Willst Du Deinen Rucksack wieder mitnehmen?<br></a>' end
+      @room+='<a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum36">Zurück in den 6.Raum?</a>'
+      #session['stuhl1'] = '1'
+    %>
+    <%= @room%>
+  </p>
+</table>
+</div>
+</body>

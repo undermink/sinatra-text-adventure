@@ -757,23 +757,24 @@ get '/truhe1' do
 end
 
 get '/raum37' do
-  if session['leiter'] == '1' && session['saege'] != '1' 
-    show(:raum37a)
-  elsif session['leiter'] == '2' && session['saege'] != '1'
-    show(:raum37a)
-  elsif session['leiter'] == '3' && session['saege'] != '1'
-    show(:raum37b)
-  elsif session['leiter'] == '1' && session['saege'] == '1'
-    show(:raum37c)
-  elsif session['leiter'] == '2' && session['saege'] == '1'
-    show(:raum37c)
-  elsif session['leiter'] == '3' && session['saege'] == '1'
-    show(:raum37d)
-  elsif session['leiter'] == '0' && session['saege'] == '1'
-    show(:raum37e)
-  else
-    show(:raum37)
-  end
+#  if session['leiter'] == '1' && session['saege'] != '1' 
+#    show(:raum37a)
+#  elsif session['leiter'] == '2' && session['saege'] != '1'
+#    show(:raum37a)
+#  elsif session['leiter'] == '3' && session['saege'] != '1'
+#    show(:raum37b)
+#  elsif session['leiter'] == '1' && session['saege'] == '1'
+#    show(:raum37c)
+#  elsif session['leiter'] == '2' && session['saege'] == '1'
+#    show(:raum37c)
+#  elsif session['leiter'] == '3' && session['saege'] == '1'
+#    show(:raum37d)
+#  elsif session['leiter'] == '0' && session['saege'] == '1'
+#    show(:raum37e)
+#  else
+#    show(:raum37)
+#  end
+  erb :raum37
 end
 
 get '/leiter' do
@@ -817,8 +818,10 @@ end
 
 get '/poole' do
   if session['kaefer'] !='1'
+    session['leiter'] = '2'
     show(:poole)
   else
+    session['leiter'] = '2'
     show(:poole1)
   end
 end
