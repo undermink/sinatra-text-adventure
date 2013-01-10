@@ -1271,7 +1271,19 @@ Möchtest Du:<br><br>
 [[raum28|Zurück in den achten Raum?]]
 
 :raum31
-=Raum 1 1.OG
+=erster Raum im 1.OG
+%          |                      |                       |
+%          |      ____________   {o}    ==============    |
+%          |      |          |   /_\    ||          ||    |
+%          |      |          |          ||          ||    |
+%          |      |          |          ||          ||    |
+%          |      |~~        |          ||==        ||    |
+%          |      |0         |          ||p         ||    |
+%          |      |          |          ||          ||    |
+%          |      |          |          ||          ||    |
+%          |______|__________|__________||__________||____|
+%         /                                                \
+%
 Du befindest Dich jetzt im ersten Raum auf der ersten Etage.<br>
 Hier sind zwei Türen.<br>
 Möchtest Du:<br><br>
@@ -1281,7 +1293,7 @@ Möchtest Du:<br><br>
 [[raum29|Zurück ins Erdgeschoss?]]
 
 :raum32
-=Raum 2 1.OG
+=zweiter Raum im ersten OG
 %                         ______________
 %                         |=__________=|
 %                         |+          +|          _____________
@@ -1305,7 +1317,7 @@ Möchtest Du:<br><br>
 [[raum31|Zurück in den ersten Raum?]]
 
 :raum32a
-=Raum 2 1.OG
+=zweiter Raum im ersten OG
 %                         ______________
 %                         |=__________=|
 %                         |+          +|         _______________
@@ -1329,14 +1341,14 @@ Möchtest Du:<br><br>
 [[raum31|Zurück in den ersten Raum?]]
 
 :raum32b
-=Raum 2 1.OG
+=zweiter Raum im ersten OG
 Im Raum hängt ein Regal an der Wand.<br>
 Willst Du es näher untersuchen?<br><br>
 [[regal3|Klar, mal sehen was da so rumliegt.]]<br>
 [[raum32|Nö, Lagerregal is mir egal...]]
 
 :raum32c
-=Raum 2 1.OG
+=zweiter Raum im ersten OG
 %                         ______________
 %                         |=__________=|
 %                         |+          +|         _______________
@@ -1361,7 +1373,7 @@ Möchtest Du:<br><br>
 
 
 :fenster4
-=Raum 2 1.OG: Am Fenster
+=Am Fenster
 Durch das Fenster schaust Du in einen Garten.<br>
 Da unten ist ein Swimmingpool.<br>
 Möchtest Du:<br><br>
@@ -1369,7 +1381,7 @@ Möchtest Du:<br><br>
 [[raum32|Zurück?]]
 
 :fenster4a
-=Raum 2 1.OG: Am Fenster
+=Am Fenster
 Du kannst durch das offene Fenster erkennen,<br>
 daß im Swimmingpool kein Wasser ist.<br>
 Leider ist es zu tief um einfach hinunter zu springen.<br>
@@ -1379,7 +1391,7 @@ Möchtest Du:<br><br>
 [[raum32|Zurück?]]
 
 :fenster4c
-=Raum 2 1.OG: Am Fenster
+=Am Fenster
 Du kannst durch das offene Fenster erkennen,<br>
 daß im Swimmingpool kein Wasser ist.<br>
 Leider ist es zu tief um einfach hinunter zu springen.<br>
@@ -1390,7 +1402,7 @@ Möchtest Du:<br><br>
 [[raum32|Zurück?]]
 
 :fenster4d
-=Raum 2 1.OG: Am Fenster
+=Am Fenster
 Du hast das Seil an der Heizung befestigt.<br>
 Das sieht einigermaßen sicher aus...<br>
 Möchtest Du das Seil runter in den Garten klettern?<br><br>
@@ -1398,7 +1410,7 @@ Möchtest Du das Seil runter in den Garten klettern?<br><br>
 [[raum32|Nein, ist mir zu riskant...]]
 
 :jump
-=Raum 2 1.OG: Das Fenster des Todes
+=Das Fenster des Todes
 %                                     ___
 %                                   /| + |
 %                                  | | + |
@@ -1424,7 +1436,7 @@ Beim Sprung aus dem Fenster brichst Du Dir das Genick.<br><br>
 [[raum1|Ramschasar!]]
 
 :raum33
-=Raum 3 1.OG
+=Das Arbeitszimmer
 Du bist jetzt im 3. Raum des ersten Obergeschosses.<br><br>
 Möchtest Du:<br><br>
 [[raum33a|Den Raum durchsuchen?]]<br>
@@ -1432,7 +1444,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum33a
-=Raum 3 1.OG
+=Das Arbeitszimmer
 %          |    _______                 =============
 %          |    | .|. |                 ||    |    ||
 %          |    |__|__|                 ||____|____||
@@ -1455,7 +1467,7 @@ Möchtest Du:<br><br>
 [[raum33|nichts davon]]
 
 :raum33b
-=Raum 3 1.OG
+=Das Arbeitszimmer
 %          | _____________              =============
 %          | |  |_____|  |              ||    |    ||
 %          | |__|_____|__|              ||____|____||
@@ -1478,7 +1490,7 @@ Möchtest Du:<br><br>
 [[raum33|nichts davon]]
 
 :raum33a1
-=Raum 3 1.OG
+=Das Arbeitszimmer
 %          |    _______                 =============
 %          |    | .|. |                 ||    |    ||
 %          |    |__|__|                 ||____|____||
@@ -1502,7 +1514,7 @@ Möchtest Du:<br><br>
 [[raum33|nichts davon]]
 
 :raum33b1
-=Raum 3 1.OG
+=Das Arbeitszimmer
 %          | _____________              =============
 %          | |  |_____|  |              ||    |    ||
 %          | |__|_____|__|              ||____|____||
@@ -1527,7 +1539,7 @@ Möchtest Du:<br><br>
 
 
 :schrank4
-=Raum 3 1.OG: Das Hängeschränkchen
+=Das Hängeschränkchen
 Du gehst zum Hängeschränkchen rüber...<br>
 und öffnest ihn.<br>
 Im Schrank liegen zwei Schlüssel.<br>
@@ -1535,7 +1547,7 @@ Du steckst sie ein.<br><br>
 [[raum33a|ok]]
 
 :schreibtisch2
-=Raum 3 1.OG: Der Schreibtisch
+=Der Schreibtisch
 Du gehst zum Schreibtisch...<br>
 Der Schreibtisch hat zwei Schubladen links<br>
 und ein größeres Fach rechts.<br>
@@ -1547,7 +1559,7 @@ Möchtest Du:<br><br>
 [[raum33a|Zurück]]
 
 :schreibtisch2a
-=Raum 3 1.OG: Der Schreibtisch
+=Der Schreibtisch
 Du gehst zum Schreibtisch...<br>
 Der Schreibtisch hat zwei Schubladen links<br>
 und ein größeres Fach rechts.<br>
@@ -1574,7 +1586,7 @@ Möchtest Du:<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :fenster5
-=Raum 3 1.OG: Am Fenster
+=Am Fenster
 Durch das Fenter kannst Du runter in den Garten gucken.<br>
 Man kann einen Swimmingpool und ein paar kaputte Gartenmöbel erkennen.<br>
 Der Garten ist von einem hohen undurchsichtigen Zaun umgeben.<br>
@@ -1583,7 +1595,7 @@ Du kannst es nicht öffnen...<br><br>
 [[raum33a|ok]]
 
 :wandteppich
-=Raum 3 1.OG: Der Wandteppich
+=Der Wandteppich
 Bei genauerer Betrachtung fällt Dir auf,<br>
 daß der Teppich groß genug wäre um eine Tür dahinter zu verstecken.<br>
 Du gehst rüber und entdeckst eine versteckte Tür...<br><br>
@@ -1591,7 +1603,7 @@ Du gehst rüber und entdeckst eine versteckte Tür...<br><br>
 [[raum33a|Lieber weg von da]]
 
 :raum34
-=Raum 4 1.OG
+=Der dunkle Raum
 Du öffnest die Tür mit Hilfe des vierten Schlüssels.<br>
 Den Schlüssel lässt Du in der Tür stecken...<br>
 Dieser Raum ist stockdunkel.<br>
@@ -1600,7 +1612,7 @@ findest jedoch leider keinen...<br><br>
 [[raum33a|wieder zurück gehen]]
 
 :raum34a
-=Raum 4 1.OG
+=Der dunkle Raum
 Du befindest Dich jetzt im 4. Raum.<br>
 Dieser Raum ist stockdunkel.<br>
 Leider hast Du keine Taschnlampe oder ähnliches...<br><br>
@@ -1608,7 +1620,7 @@ Leider hast Du keine Taschnlampe oder ähnliches...<br><br>
 [[raum33a|wieder zurück gehen]]
 
 :tasten
-=Raum 4 1.OG: Dunkelheit
+=Dunkelheit
 Du tastest vorsichtig die Wand rechts von Dir ab.<br>
 Plötzlich hörst Du ganz nah an Deinem Ohr<br>
 etwas oder jemanden atmen...<br><br>
@@ -1618,7 +1630,7 @@ Dabei reisst Du den Wandteppich ab.<br><br>
 [[raum33|Hilfe...]]
 
 :raum35
-=Raum 5 1.OG
+=Computerraum
 Du öffnest die Tür mit Hilfe des kleinen Schlüssels...<br>
 Möchtest Du:<br><br>
 [[raum35b|Den Raum durchsuchen?]]<br>
@@ -1626,7 +1638,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum35a
-=Raum 5 1.OG
+=Computerraum
 Du gehst durch die Tür in den fünften Raum...<br>
 Möchtest Du:<br><br>
 [[raum35b|Den Raum durchsuchen?]]<br>
@@ -1634,7 +1646,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum35b
-=Raum 5 1.OG
+=Computerraum
 %   |                                      _____________    |
 %   |                 __________           ||         ||    |
 %   |                |          |          ||         ||    |
@@ -1658,7 +1670,7 @@ Möchtest Du:<br><br>
 [[raum31|Zurück in den 1. Raum gehen?]]
 
 :schrank5
-=Raum 5 1.OG: Der Schrank
+=Der Schrank
 <object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
 Du öffnest den Schrank...<br>
 Im Schrank liegt eine Geburtstags Karte.<br><br>
@@ -1690,7 +1702,7 @@ Also macht das Beste draus!<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :pc
-=Raum 5 1.OG: Der Personal-Computer
+=Der Personal-Computer
 %                        _____________________________
 %                       |login:                       |
 %                       |                             |
@@ -1714,7 +1726,7 @@ Willst Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :loggedin
-=Raum 5 1.OG: Am Rechner
+=Am Rechner
 Willkommen Dieter...<br><br>
 Du bist jetzt angemeldet.<br><br>
 [[abmelden|Abmelden]]
@@ -1750,7 +1762,7 @@ fuck social networks!</b><br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum36
-=Raum 6 1.OG
+=sechster Raum erstes OG
 %            |     |======|
 %            |     |======|                    ______________
 %            |                                ||            ||
@@ -1774,14 +1786,14 @@ Möchtest Du:<br><br>
 [[raum35|zurück in den 5.Raum?]]
 
 :truhe
-=Raum 6 1.OG: Die Truhe
+=Die Truhe
 Leider ist die Truhe abgeschlossen.<br>
 Möchtest Du:<br><br>
 [[truhe1|Deinen Rucksack nach einem Werkzeug durchsuchen?]]<br>
 [[raum36|Die Truhe in Ruhe lassen?]]
 
 :truhe1
-=Raum 6 1.OG: Die Truhe
+=Die Truhe
 Du versuchst die Truhe mit Hilfe des Drahtes zu öffnen...<br>
 Nach einiger Zeit gelingt es Dir.<br>
 *klick*<br>
@@ -1792,13 +1804,13 @@ Poller - 0202 702300<br>
 [[raum36|ok]]
 
 :truhe1a
-=Raum 6 1.OG: Die Truhe
+=Die Truhe
 Leider hast Du kein geeignetes Werkzeug dabei...<br>
 So etwas wie ein Stück Draht wäre super.<br><br>
 [[raum36|ok]]
 
 :truhe1b
-=Raum 6 1.OG: Die Truhe
+=Die Truhe
 Die Truhe ist bereits offen...<br>
 Sie ist leider leer:(<br><br>
 [[raum36|ok]]
