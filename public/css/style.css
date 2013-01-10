@@ -11,3 +11,23 @@ h1 {
 	font-family:'tagged04';
 	font-size: 54px;
 	text-decoration: simple;
+}
+
+#garten{
+	width: 650px;
+	background: white;
+	border: dashed 20px black;
+	border-radius: 25px;
+	margin:auto;
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+#pool{
+	width: 650px;
+	background: white;
+	border: dashed 20px black;
+	border-radius: 25px;
+	margin:auto;
+	margin-top: 50px;
+}
