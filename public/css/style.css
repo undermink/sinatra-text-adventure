@@ -31,3 +31,11 @@ h1 {
 	margin:auto;
 	margin-top: 50px;
 }
+
+#room{
+	width: 650px;
+	background: white;
+	border: dashed 20px #aaa;
+	border-radius: 25px;
+	margin:auto;
+}
