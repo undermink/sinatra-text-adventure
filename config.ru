@@ -125,7 +125,7 @@ get '/kisten1a' do
 end
 
 get '/fenster1' do
-  if session['mottek'] == '1'
+  if ['1','2'].member?(session['mottek'])
     if session['durchbruch'] != '1'
       show(:fenster1b)
     else
@@ -315,7 +315,7 @@ end
 
 get '/schrank2' do
   bpchk(session['bag'])
-  if session['mottek'] != '1'
+  if ['1','2'].member?(session['mottek'])
     session['mottek'] = '1'
     session['bag'] += 25
     pp session['bag']
