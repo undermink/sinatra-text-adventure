@@ -125,19 +125,21 @@ get '/kisten1a' do
 end
 
 get '/fenster1' do
-  if session['mottek'] != '1'
-    show(:fenster1)
-  else
+  if session['mottek'] == '1'
     if session['durchbruch'] != '1'
       show(:fenster1b)
-    else show(:fenster1c)
+    else
+      show(:fenster1c)
     end
+  else
+    show(:fenster1)
   end
 end
 
 get '/mottek' do
   if session['durchbruch'] != '1'
     session['bag'] -= 25
+    session['mottek'] = '2'
     session['durchbruch'] = '1'
     show(:mottek1)
   else

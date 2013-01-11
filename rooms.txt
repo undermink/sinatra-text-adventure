@@ -18,7 +18,7 @@
  </table>
 
 :raum1
-= Raum 1
+=erster Raum
 %                                   ____________
 %                                   |          |
 %                                   |          |
@@ -39,7 +39,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum1a
-= Raum 1
+=erster Raum
 %                                   ____________
 %                                   |          |
 %                                   |          |
@@ -60,18 +60,18 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :key01
-= Raum 1
+=erster Schlüssel
 Auf dem Boden, neben der Tür liegt ein Schlüssel.<br>
 Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br><br>
 [[raum1|zurück]]
 
 :doorclosed
-= Tür
+=die Tür
 Die Tür ist verschlossen...<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum2
-= Raum 2
+=zweiter Raum
 %                                               |
 %                     ______________           /o\
 %                     I|          |I
@@ -94,7 +94,7 @@ Möchtest Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3dunkel
-=Raum 3
+=dritter Raum
 Du bist jetzt im dritten Raum. Es ist stockdunkel...<br>
 Möchtest Du:<br>
 [[raum3|versuchen, das Licht einzuschlaten?]]<br>
@@ -102,7 +102,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3
-=Raum 3
+=dritter Raum
 %    ___________      ____________
 %    |_________|      |          |
 %    |_________|      |          |
@@ -114,7 +114,8 @@ Möchtest Du:<br>
 %                     |          |         |#####|  _____
 % ____________________|__________|_________|#####|__|###|___
 %
-In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+In dem Raum befinden sich zwei Kisten,<br>
+eine weitere Tür und ein Fenster.<br>
 Das Fenster ist mit Brettern vernagelt...<br>
 Es scheint kein Licht hindurch.<br>
 Möchtest Du:<br>
@@ -125,7 +126,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3b
-=Raum 3
+=dritter Raum
 %    ___________      ____________
 %    |_________|      |          |
 %    |_________|      |          |
@@ -137,7 +138,8 @@ Möchtest Du:<br>
 %                     |          |        /|#####|      /
 % ____________________|__________|_______/_|#####|__|###|___
 %
-In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+In dem Raum befinden sich zwei Kisten,<br>
+eine weitere Tür und ein Fenster.<br>
 Das Fenster ist mit Brettern vernagelt...<br>
 Es scheint kein Licht hindurch.<br>
 Möchtest Du:<br>
@@ -148,7 +150,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3a
-=Raum 3
+=dritter Raum
 %    ___________      ____________
 %    |>__|___|<|      |          |
 %    |>_|__|__<|      |          |
@@ -160,7 +162,8 @@ Möchtest Du:<br>
 %                     |          |         |#####|  _____
 % ____________________|__________|_________|#####|__|###|___
 %     ." .;: % . ´ 
-In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+In dem Raum befinden sich zwei Kisten,<br>
+eine weitere Tür und ein Fenster.<br>
 Jetzt sieht es aus, als ob jemand die Bretter<br>
 mit einem Hammer zerstört hätte.<br>
 Das Fenster ist solide zugemauert...<br>
@@ -173,7 +176,7 @@ Möchtest Du:<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3c
-=Raum 3
+=dritter Raum
 %    ___________      ____________
 %    |>__|___|<|      |          |
 %    |>_|__|__<|      |          |
@@ -185,7 +188,8 @@ Möchtest Du:<br>
 %                     |          |        /|#####|      /
 % ____________________|__________|_______/_|#####|__|###|___
 %     ." .;: % . ´ 
-In dem Raum befinden sich zwei Kisten, eine weitere Tür und ein Fenster.<br>
+In dem Raum befinden sich zwei Kisten,<br>
+eine weitere Tür und ein Fenster.<br>
 Jetzt sieht es aus, als ob jemand die Bretter<br>
 mit einem Hammer zerstört hätte.<br>
 Das Fenster ist solide zugemauert...<br>
@@ -199,7 +203,7 @@ Möchtest Du:<br>
 
 
 :kisten1
-= Raum 03 die Kisten
+=Die Kisten
 Die erste der beiden Kisten ist sehr leicht und scheinbar leer.<br>
 Du kannst sie nicht öffnen.<br>
 Die zweite Kiste ist sehr schwer. Auch diese kannst Du ohne Werkzeug nicht öffnen.<br>
@@ -208,31 +212,31 @@ Möchtest Du:<br><br>
 [[raum3|die Kisten ignorieren]]
 
 :kisten1a
-= Raum 03 die Kisten
+=Die Kisten
 Mit Hilfe des rostigen Messers bekommst Du die beiden Kisten auf.<br>
 In der großen ist ein Goldbarren und in der kleinen zehn Euro und Holzwolle.<br>
 Du steckst alles ein...<br><br>
 [[raum3|weiter...]]
 
 :kisten1b
-= Raum 03 die Kisten
+=Die Kisten
 Die Kisten sind leer.<br><br>
 [[raum3|zurück]]
 
 :kisten1c
-= Raum 03 die Kisten
+=Die Kisten
 Du hast leider kein geeignetes Werkzeug um die Kisten zu öffnen.<br>
 So etwas wie ein Messer wäre wunderbar...<br><br>
 [[raum3|zurück]]
 
 :messerweg
-=Raum 02
+=Im Schrank
 Der Schrank ist jetzt leer.<br> 
 Das Messer ist in Deinem Rucksack...<br><br>
 [[raum2|zurück]]
 
 :messer1
-=Raum 02
+=Im Schrank
 %
 %
 %                                 ___________________
@@ -243,7 +247,7 @@ Du steckst es ein...<br>
 [[raum2|zurück]]
 
 :fenster1
-=Raum 03 Fenster
+=Das Fenster
 %                           _________________
 %                          |_________________|
 %                          |_________________|
@@ -261,7 +265,7 @@ Willst Du versuchen die Bretter mit der Hand zu lösen?<br>
 [[raum3|nein]]
 
 :fenster1a
-=Raum 03 Fenster
+=Das Fenster
 %                                 __!!!__
 %                                /       \
 %                               |  O   O  |
@@ -274,7 +278,7 @@ Die Bretter sitzen zu fest...<br><br>
 [[raum3|zurück]]
 
 :fenster1b
-=Raum 03: Das Fenster
+=Das Fenster
 %                           _________________
 %                          |_________________|
 %                          |_________________|
@@ -292,7 +296,7 @@ Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br><br>
 [[raum3|Nö, lieber nicht]]<br>
 
 :fenster1c
-=Raum 3: Das Fenster
+=Das Fenster
 %                           _________________
 %                          |>____|_____|_____|
 %                          |<__|____|_____|_<|
@@ -310,7 +314,7 @@ Willst Du versuchen auch die Steine mit dem Mottek kaputt zu machen?<br><br>
 [[raum3|Nö, lieber nicht]]<br>
 
 :fenster1d
-=Raum 03: Das Fenster
+=Das Fenster
 Du schlägst ein paar Mal fest zu...<br>
 Jedoch sind die Steine scheinbar fachmännisch gemauert,<br>
 oder mit etwas dahinter verstärkt,<br>
@@ -343,7 +347,6 @@ Los nimm den Mottek und mach es kaputt"<br><br>
 :mottek
 =Durchbruch
 <object data="/durchbruch.ogg" width="0" height="0">oggFile</object>
-Du nimmst den Mottek und machst es kaputt...<br>
 Zweitgolf - Durchbruch<br><br>
 Text:<br>
 "Worte - Menschen - leere Räume<br>
