@@ -832,6 +832,13 @@ get '/pool' do
   erb :pool
 end
 
+get '/pool1' do
+  session['eimer'] = '1'
+  session['bag'] -= 50
+  session['pool'] += 10
+  show(:pool1)
+end
+
 get '/poole' do
   if session['kaefer'] !='1'
     session['leiter'] = '2'
@@ -840,11 +847,6 @@ get '/poole' do
     session['leiter'] = '2'
     show(:poole1)
   end
-end
-
-get '/pool1' do
-  session['pool'] += 10
-  '<h1 align=center>Der Swimmingpool</h1><p align="center"><br>Du schüttest das Wasser in den Swimmingpool.<br><br><a class="link" href="pool">...</a>'
 end
 
 get '/kaefer1' do

@@ -1846,6 +1846,11 @@ Du nimmst den Rucksack wieder mit.<br>
 Es ist noch alles drin.<br><br>
 [[raum37|ok]]
 
+:pool1
+=Der Swimmingpool
+Du schüttest das Wasser in den Swimmingpool.<br><br>
+[[pool|...]]
+
 :poole
 =Im Swimmingpool
 Du kletterst mit Hilfe der Leiter in den leeren Pool...<br>
