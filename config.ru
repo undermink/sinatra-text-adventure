@@ -173,12 +173,13 @@ get '/hamburger1' do
   end
 end
 
-get '/eimer1' do  
-  if session['eimer'] != '1'
+get '/eimer1' do
+  bpchk(session['bag'])  
+  if !['1','2'].member?(session['eimer'])
     show(:eimer1)
-  elsif session['zig1'] !='1' && session['eimer'] == '1'
+  elsif session['zig1'] !='1' && ['1','2'].member?(session['eimer'])
       show(:eimer1b)
-  elsif session['zig1'] =='1' && session['eimer'] == '1'
+  elsif session['zig1'] =='1' && ['1','2'].member?(session['eimer'])
       '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr.<br>Den Eimer hast Du auch schon...<br><br><a class="link" href="/raum5">zurück</a></p>'
   else
     show(:eimer1)
