@@ -50,7 +50,7 @@ post '/welcome' do
 end
 
 get '/raum1' do
-  if session['key'] != '1'
+  unless ['1','2'].member?(session['key'])
     show(:raum1)
   else
     show(:raum1a)
@@ -58,12 +58,12 @@ get '/raum1' do
 end
 
 get '/key01' do
-  if session['key'] != '1'
-  session['bag'] = 5
-  session['key'] = '1'
-  show(:key01)
+  unless ['1','2'].member?(session['key'])
+    session['bag'] = 5
+    session['key'] = '1'
+    show(:key01)
   else
-    '<h1 align=center>Raum 1</h1><p align="center"><br><br>Du findest nichts...<br>Der Raum ist leer.<br><br><a class="link" href="raum1">Verflixt!</a>'
+    '<h1 align=center>erster Raum</h1><p align="center"><br><br>Du findest nichts...<br>Bis auf die beiden leeren Bierflaschen ist<br>der Raum leer.<br><br><a class="link" href="raum1">Verflixt!</a>'
   end
 end
 

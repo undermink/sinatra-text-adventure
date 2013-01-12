@@ -19,16 +19,17 @@
 
 :raum1
 =erster Raum
-%                                   ____________
-%                                   |          |
-%                                   |          |
-%                                   |          |
-%                                   |---       |
-%                                   |          |
-%                                   |          |
-%                                   |          |
-%               ____________________|__________|______________0-"_______
-<br><br>
+%            |                   ____________                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |---       |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |___________________|__________|________________________|
+%           /   __ (__>o                              0-"             \
+%          /  o<__)                                                    \
 Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
 Du weisst nicht mehr wie Du hier gelandet bist.<br>
 Nur dunkel kannst Du dich daran erinnern gestern Abend auf einem Konzert gewesen zu sein.<br>
@@ -40,16 +41,17 @@ Möchtest Du:<br><br>
 
 :raum1a
 =erster Raum
-%                                   ____________
-%                                   |          |
-%                                   |          |
-%                                   |          |
-%                                   |---       |
-%                                   |          |
-%                                   |          |
-%                                   |          |
-%               ____________________|__________|________________________
-<br><br>
+%            |                   ____________                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |---       |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |                   |          |                        |
+%            |___________________|__________|________________________|
+%           /   __ (__>o                                              \
+%          /  o<__)                                                    \
 Du befindest dich in einem Raum. Vor Dir siehst Du eine Tür.<br>
 Du weisst nicht mehr wie Du hier gelandet bist.<br>
 Nur dunkel kannst Du dich daran erinnern gestern Abend auf einem Konzert gewesen zu sein.<br>
@@ -61,7 +63,9 @@ Möchtest Du:<br><br>
 
 :key01
 =erster Schlüssel
-Auf dem Boden, neben der Tür liegt ein Schlüssel.<br>
+Bis auf zwei leere Bierflaschen ist der Raum leer...<br> 
+Da entdeckst Du plötzlich, daß auf dem Boden,<br>
+neben der Tür ein Schlüssel liegt.<br>
 Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br><br>
 [[raum1|zurück]]
 
@@ -90,7 +94,7 @@ Auf der gegenüberliegenden Seite ist noch eine Tür.<br>
 Möchtest Du:<br><br>
 [[schrank1|den Schrank untersuchen?]]<br>
 [[raum3dunkel|die Tür öffnen?]]<br>
-[[raum1|zurück in den letzten Raum?]]<br>
+[[raum1|zurück in den ersten Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum3dunkel
@@ -100,6 +104,7 @@ Möchtest Du:<br>
 [[raum3|versuchen, das Licht einzuschlaten?]]<br>
 [[raum2|zurück in den 2.Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
+
 
 :raum3
 =dritter Raum
@@ -157,11 +162,12 @@ Möchtest Du:<br>
 %    |>__|___|<|      |          |
 %    |>_|__|__<|      |          |
 %    |___|___|_|      |==O       |
-%                     |          | 
-%                     |          |         _______    
-%                     |          |         |#####|  _____
-% ____________________|__________|_________|#####|__|###|___
-%     ." .;: % . ´ 
+%                  .. |          | 
+%                  || |          |         _______    
+%                  || |          |         |#####|  _____
+% _________________||_|__________|_________|#####|__|###|___
+%     ." .;: % . ´_||_ 
+%                \____|
 In dem Raum befinden sich zwei Kisten,<br>
 eine weitere Tür und ein Fenster.<br>
 Jetzt sieht es aus, als ob jemand die Bretter<br>
@@ -183,11 +189,12 @@ Möchtest Du:<br>
 %    |>__|___|<|      |          |
 %    |>_|__|__<|      |          |
 %    |___|___|_|      |==O       |
-%                     |          | 
-%                     |          |         /             /
-%                     |          |        /|#####|      /
-% ____________________|__________|_______/_|#####|__|###|___
-%     ." .;: % . ´ 
+%                  .. |          | 
+%                  || |          |         /             /
+%                  || |          |        /|#####|      /
+% _________________||_|__________|_______/_|#####|__|###|___
+%     ." .;: % . ´_||_
+%                \____| 
 In dem Raum befinden sich zwei Kisten,<br>
 eine weitere Tür und ein Fenster.<br>
 Jetzt sieht es aus, als ob jemand die Bretter<br>
@@ -309,6 +316,7 @@ Willst Du versuchen die Bretter mit dem Mottek kaputt zu machen?<br><br>
 %                    
 %
 Das Fenster ist zugemauert...<br>
+Neben dem Fenster steht der Mottek.<br>
 Willst Du versuchen auch die Steine mit dem Mottek kaputt zu machen?<br><br>
 [[fenster1d|Logo. Mach kaputt, was Dich kaputt macht!]]<br>
 [[raum3|Nö, lieber nicht]]<br>
@@ -366,7 +374,7 @@ Los nimm den Mottek und mach es kaputt"<br><br>
 <a href="#" onclick="history.go(-1)">Zurück</a>
 
 :raum4
-=Raum 04
+=Raum 4
 %   |                 ______________             Ö
 %   |                 ||          ||
 %   |                 ||          ||
@@ -389,20 +397,20 @@ Möchtest Du:<br>
 [[raum3|zurück in den dritten Raum?]]
 
 :raum4a
-=Raum 04
+=Raum 4
 In dem Raum liegt ein Zettel auf dem Boden.<br>
 Willst Du ihn Dir ansehen?<br>
 [[raum4b|Klar doch!]]<br>
 [[raum4|Nö...]]
 
 :raum4b
-=Raum 04: Der Zettel
+=Der Zettel
 Du hebst den Zettel vom Boden auf und liest:<br><br>
 <a class="link" href="http://www.sunnata.de/zweitgolf">www.sunnata.de</a><br><br>
 [[raum4|den Zettel wieder auf den Boden werfen...]]
 
 :raum5
-=Raum 05
+=Fünfter Raum
 Du befindest Dich im fünften Raum.<br>
 Dieser Raum ist gut beleuchtet und komplett gekachelt.<br>
 Links von Dir befindet sich ein Waschbecken.<br>
@@ -418,7 +426,7 @@ Möchstest Du:<br>
 [[raum4|zurück in den vierten Raum?]]<br>
 
 :waschbecken1
-=Raum 05: Am Waschbecken
+=Am Waschbecken
 %       |                    ||
 %       |               ____o||o____
 %       |              |\___(==)___/|
@@ -463,7 +471,7 @@ Der Hamburger ist aufgequollen und ekelig.<br><br>
 [[raum5|weg vom Waschbecken]]
 
 :eimer1
-=Raum 05: Der Eimer
+=Der Eimer
 %                                                 |
 %                               _____             |
 %                              |\___/|            |
@@ -484,7 +492,7 @@ Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
 [[bagpack|Deinen Rucksack durchsuchen]]
 
 :eimer1b
-=Raum 05: Die selbstgedrehte Zigarette
+=Die selbstgedrehte Zigarette
 %                             ____
 %                             \__/
 %                             |  |
@@ -511,7 +519,7 @@ Du steckst die seltsame, selbstgedrehte Zigarette ein...<br><br>
 [[raum5|weiter]]
 
 :raum6
-=Raum 06
+=Sechster Raum
 %
 %                                                      |
 %                                                      |
@@ -531,7 +539,7 @@ Möchtest Du:<br>
 [[raum5|Den Raum wieder verlassen?]]
 
 :raum6a
-=Raum 06
+=Sechster Raum
 %
 %                                                      |
 %                                                      |
@@ -550,7 +558,7 @@ Möchtest Du:<br>
 [[raum5|Den Raum wieder verlassen?]]
 
 :tisch1
-=Raum 06: Am Tisch
+=Am Tisch
 Auf dem Tisch liegt ein großer, alter Schlüssel.<br>
 Du steckst ihn ein...<br><br>
 [[raum6a|weiter]]
@@ -564,7 +572,7 @@ Text:<br>
 <a href="#" onclick="history.go(-1)">ausschalten...</a>
 
 :raum7
-=Raum 7
+=Siebter Raum
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -588,7 +596,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7a
-=Raum 7
+=Siebter Raum
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -611,7 +619,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7b
-=Raum 7
+=Siebter Raum
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -634,7 +642,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :raum7c
-=Raum 7
+=Siebter Raum
 %                          ____________
 %                         /|____/|*|/ |
 %                        | | |||||*|| |
@@ -656,7 +664,7 @@ Möchtest Du:<br><br>
 [[raum5|In den fünften Raum zurückgehen?]]
 
 :schreibtisch1
-=Raum 7: Am Schreibtisch
+=Der Schreibtisch
 Du gehst zum Schreibtisch rüber...<br>
 Du hebst das zusammengerollte Papier auf und entrollst es.<br>
 Das sieht aus, wie eine Karte...<br>
@@ -664,14 +672,14 @@ Es ist eine Abkürzung vom zweiten in den achten Raum eingezeichnet.<br><br>
 [[raum7|zurück]]
 
 :regal1
-=Raum 7: Das LagerRegal
+=Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br><br>
 [[raum7|weiter]]
 
 :regal2
-=Raum 7: Das LagerRegal
+=Das LagerRegal
 Du gehst zum Bücherregal...<br>
 Im Regal stehen einige Bücher. Leider hast Du keine Zeit zum Lesen.<br>
 Jedoch findest Du ein Paar Kopfhörer. Du steckst sie ein.<br>
@@ -695,7 +703,7 @@ Willst Du den Walkman benutzen und Musik hören?<br><br>
 <a href="#" onclick="history.go(-1)">Die Karte wieder einpacken</a>
 
 :raum8
-=Raum 8
+=Achter Raum
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Möchtest Du:<br><br>
 [[raum8b|Den Raum durchsuchen?]]<br>
@@ -703,7 +711,7 @@ Möchtest Du:<br><br>
 [[raum7|zurück in den 7. Raum?]]
 
 :raum8a
-=Raum 8
+=Achter Raum
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>
 Wie auf der Karte eingezeichnet befindet sich hier eine geheime Tür.<br>
 Durch diese kannst Du wieder in den zweiten Raum.<br>
@@ -714,20 +722,20 @@ Möchtest Du:<br><br>
 [[raum7|zurück in den 7. Raum?]]
 
 :raum8b
-=Raum 8
+=Achter Raum
 Auf dem Boden liegt ein Walkman - er funktioniert.<br>
 Leider hast Du keine Kopfhörer...<br><br>
 [[raum8|Den Walkman mitnehmen]]
 
 :raum8c
-=Raum 8
+=Achter Raum
 Auf dem Boden liegt ein Walkman - er funktioniert.<br>
 Willst Du die Kopfhörer benutzen und Musik hören?<br><br>
 [[walkman|Na klar doch!]]<br>
 [[raum8|Nö... kein Bock auf Musik]]
 
 :raum9
-=Raum 9
+=Neunter Raum
 Du befindest Dich im neunten Raum.<br>
 In dem Raum befindet sich ein Schrank und eine Tür.<br>
 Möchtest Du:<br><br>
@@ -737,7 +745,7 @@ Möchtest Du:<br><br>
 [[raum7|Zurück in den siebten Raum gehen?]]
 
 :schrank2
-=Raum 9: Der Schrank
+=Der Schrank
 %                    
 %                            ______
 %                            |_____\
@@ -755,7 +763,7 @@ Du steckst den Mottek ein und schliesst den Schrank wieder.<br><br>
 [[raum9|weiter]]
 
 :schrank2a
-=Raum 9: Der Schrank
+=Der Schrank
 Du gehst zum Schrank rüber und öffnest ihn...<br>
 Der Schrank ist leer.<br>
 Irgendetwas hat in der dicken Staubschicht<br>
@@ -763,7 +771,8 @@ einen hammerförmigen Abdruck hinterlassen...<br><br>
 [[raum9|weiter]]
 
 :raum10
-=Raum 10: Das Treppenhaus
+=Das Treppenhaus
+%                          EG
 %                    ______________
 %                    ||          ||
 %                    ||          ||
@@ -784,7 +793,8 @@ Möchtest Du:<br>
 [[raum9|Zurück in den neunten Raum gehen?]]
 
 :raum10a
-=Raum 10: Das Treppenhaus
+=Das Treppenhaus
+%                          EG
 %                    ______________
 %                    ||          ||
 %                    ||          ||
@@ -804,7 +814,7 @@ Möchtest Du:<br>
 [[raum9|Zurück in den neunten Raum gehen?]]
 
 :raum10b
-=Raum 10: Das Treppenhaus
+=Im Treppenhaus
 %
 %          _________________
 %         /|    _     _    |
@@ -827,7 +837,7 @@ Das ist das intrumental 'Intro' von Zweitgolf...<br><br>
 
 
 :raum20
-=Raum 1 Erdgeschoss
+=Erdgeschoss
 Du gehst die Treppe hinauf...<br>
 Oben angekommen öffnest Du eine Tür und betrittst den dahinterliegenden Raum.<br>
 Du bist jetzt eine Etage höher.<br>
@@ -840,7 +850,7 @@ Möchtest Du:<br><br>
 [[raum22|Durch die Tür zweiten Raum gehen?]]
 
 :raum21
-=Raum 1 Erdgeschoss
+=Erdgeschoss
 %            |        ______________                    UG            |
 %            |        ||==========||               ____________       |
 %            |        ||          ||               |          |       |

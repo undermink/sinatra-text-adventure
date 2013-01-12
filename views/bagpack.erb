@@ -33,11 +33,10 @@
       		if session['saege'] == '1' then @inventar+='eine Säge<br>' end
       		if session['unterlagen'] == '1' then @inventar+='ein Haufen sinnloser Unterlagen<br>' end
       		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
-      		if session['leiter'] == '1' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
-      		if session['leiter'] == '2' then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
+      		if ['1','2'].member?(session['leiter']) then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
       			
-      			#session['mottek'] = '2'
-      			#session['bag'] += 2
+      			#session['leiter'] = '3'
+      			#session['bag'] = 68
    		%>
       	<%=@inventar%><br>
       	<br>
