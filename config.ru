@@ -3,7 +3,7 @@ require 'sinatra'
 
 #enable :sessions
 use Rack::Session::Cookie, :key => 'rack.session',
-                           :domain => 'localhost',
+                           :domain => 'http://sunnata.no-ip.org',
                            :path => '/',
                            :expire_after => 2592000, # In seconds
                            :secret => 'zweitgolf'
