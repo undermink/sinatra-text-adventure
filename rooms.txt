@@ -486,7 +486,7 @@ Nach kurzer Zeit ist Dein Eimer voll...<br><br>
 Dein Eimer ist voll bis zum Rand mit Wasser.<br>
 Die Frage ist nur:<br>
 Was willst Du jetzt damit anfangen...<br><br>
-[[raum5|mal sehen]]
+<a href="#" onclick="history.go(-1)">mal sehen</a>
 
 :eimer1b
 =Die selbstgedrehte Zigarette
