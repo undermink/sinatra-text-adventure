@@ -147,6 +147,10 @@ get '/mottek' do
   end
 end
 
+get '/waschbecken' do
+  erb :waschbecken
+end
+
 get '/hamburger' do
   if session['wasser']!='1'
     show(:hamburger)

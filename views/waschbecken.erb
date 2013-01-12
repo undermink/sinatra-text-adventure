@@ -1,0 +1,32 @@
+<body style="background:#aaa;">
+<div id="room">
+<table align="center" >
+  <h1 align="center">Am Waschbecken</h1>
+  <div style="width:30em;margin:0 auto;border:solid black;border-radius: 25px">
+    <% @rooml='
+
+            |
+            |                    ||
+            |               ____o||o____
+            |              |\_(==)_____/|
+            |              \|__________|/
+            |_________________||____||_______
+           /                  ||    ||
+'%>
+
+    <pre><%=@rooml%></pre>
+</div>  <p align="center">
+    <%
+    if !session['wasser'] then session['wasser'] = '0' end 
+    @room='Du gehst zum Waschbecken...<br>
+    Im Waschbecken liegt ein angebissener Hamburger.<br><br>
+    Willst Du:<br>
+    <a class="link" href="hamburger">Den Hamburger mitnehmen?</a><br>'
+ if session['wasser'] == '1' then @room+='<a class="link" href="hamburger1">Den Wasserhahn abdrehen?</a><br>' else
+   @room+='<a class="link" href="hamburger1">Den Wasserhahn aufdrehen?</a><br>' end
+   @room+='<a class="link" href="raum5">Den Hamburger Hamburger sein lassen...</a><br>'%>
+    <%=@room%>
+  </p>
+</table>
+</div>
+</body>

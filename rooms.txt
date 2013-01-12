@@ -418,58 +418,39 @@ Rechts von Dir steht ein Eimer aus Metall.<br>
 Es gibt zwei weitere Türen in diesem Raum.<br>
 Eine Holz- und eine Metalltür.<br>
 Möchstest Du:<br>
-[[waschbecken1|zum Waschbecken gehen?]]<br>
+[[waschbecken|zum Waschbecken gehen?]]<br>
 [[eimer1|zum Eimer rüber gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum6|durch die Metalltür gehen?]]<br>
 [[raum7|durch die Holztür gehen?]]<br>
 [[raum4|zurück in den vierten Raum?]]<br>
 
-:waschbecken1
-=Am Waschbecken
-%
-%       |
-%       |                    ||
-%       |               ____o||o____
-%       |              |\___(==)___/|
-%       |              \|__________|/
-%       |_________________||____||_______
-%      /                  ||    ||
-%
-%
-Du gehst zum Waschbecken...<br>
-Im Waschbecken liegt ein angebissener Hamburger.<br><br>
-Willst Du:<br>
-[[hamburger|Den Hamburger mitnehmen?]]<br>
-[[hamburger1|Den Wasserhahn bedienen?]]<br>
-[[raum5|Den Hamburger Hamburger sein lassen...]]<br>
-
 :hamburger
 =Der Hamburger
 Du willst den Hamburger in die Hand nehmen, doch kannst Dich nicht überwinden<br>
 so etwas ekeliges anzufassen... Du lässt ihn liegen.<br><br>
-[[waschbecken1|zurück zum Waschbecken]]<br>
+[[waschbecken|zurück zum Waschbecken]]<br>
 [[raum5|weg vom Waschbecken]]
 
 :hamburger2
 =Der Hamburger
 Du willst den Hamburger in die Hand nehmen, doch kannst Dich nicht überwinden<br>
 so etwas nasses anzufassen... Du lässt ihn liegen.<br><br>
-[[waschbecken1|zurück zum Waschbecken]]<br>
+[[waschbecken|zurück zum Waschbecken]]<br>
 [[raum5|weg vom Waschbecken]]
 
 :hamburger1
 =Der Hamburger und das Wasser...
 Du drehst den Wasserhahn auf...<br>
 Nach einigen Sekunden sieht der Hamburger noch ekeliger aus.<br><br>
-[[waschbecken1|zurück zum Waschbecken]]<br>
+[[waschbecken|zurück zum Waschbecken]]<br>
 [[raum5|weg vom Waschbecken]]
 
 :hamburger1a
 =Der Hamburger und das Wasser...
 Du drehst den Wasserhahn ab...<br>
 Der Hamburger ist aufgequollen und ekelig.<br><br>
-[[waschbecken1|zurück zum Waschbecken]]<br>
+[[waschbecken|zurück zum Waschbecken]]<br>
 [[raum5|weg vom Waschbecken]]
 
 :eimer1
