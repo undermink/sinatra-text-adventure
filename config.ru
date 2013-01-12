@@ -185,6 +185,16 @@ get '/eimer1' do
   end
 end
 
+get '/eimervoll' do
+  if session['eimer'] != '2'
+    session['eimer'] = '2'
+    session['bag'] += 50
+    show(:eimervoll)
+  else
+    show(:eimervoll1)
+  end
+end
+
 get '/eimer1a' do
   bpchk(session['bag'])
   session['eimer'] = '1'

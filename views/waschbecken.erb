@@ -24,6 +24,7 @@
     <a class="link" href="hamburger">Den Hamburger mitnehmen?</a><br>'
  if session['wasser'] == '1' then @room+='<a class="link" href="hamburger1">Den Wasserhahn abdrehen?</a><br>' else
    @room+='<a class="link" href="hamburger1">Den Wasserhahn aufdrehen?</a><br>' end
+ if session['eimer'] == '1' then @room+='<a class="link" href="eimervoll">Den Eimer mit Wasser füllen?</a><br>' end
    @room+='<a class="link" href="raum5">Den Hamburger Hamburger sein lassen...</a><br>'%>
     <%=@room%>
   </p>

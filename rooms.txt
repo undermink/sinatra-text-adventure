@@ -474,6 +474,20 @@ Auf wundersame Weise passt er genau in Deinen Rucksack...<br><br>
 [[raum5|weiter]]<br>
 [[bagpack|Deinen Rucksack durchsuchen]]
 
+:eimervoll
+=Am Waschbecken
+Du füllst den Eimer mit Wasser<br>
+und versuchst dabei nicht den fiesen Hamburger zu berühren.<br>
+Nach kurzer Zeit ist Dein Eimer voll...<br><br>
+[[raum5|super!]]
+
+:eimervoll1
+=Am Waschbecken
+Dein Eimer ist voll bis zum Rand mit Wasser.<br>
+Die Frage ist nur:<br>
+Was willst Du jetzt damit anfangen...<br><br>
+[[raum5|mal sehen]]
+
 :eimer1b
 =Die selbstgedrehte Zigarette
 %                             ____
