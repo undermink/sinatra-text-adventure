@@ -3,7 +3,7 @@ require 'sinatra'
 
 #enable :sessions
 use Rack::Session::Cookie, :key => 'rack.session',
-                           :domain => 'http://sunnata.no-ip.org:9292',
+                           :domain => 'localhost',
                            :path => '/',
                            :expire_after => 2592000, # In seconds
                            :secret => 'zweitgolf'
@@ -179,7 +179,7 @@ get '/eimer1' do
     show(:eimer1)
   elsif session['zig1'] !='1' && ['1','2'].member?(session['eimer'])
       show(:eimer1b)
-  elsif session['zig1'] =='1' && ['1','2'].member?(session['eimer'])
+  elsif ['1','2'].member?(session['zig1']) && ['1','2'].member?(session['eimer'])
       '<p align="center"><br><br>Dort wo die Zigarette lag ist nichts mehr.<br>Den Eimer hast Du auch schon...<br><br><a class="link" href="/raum5">zurück</a></p>'
   else
     show(:eimer1)
@@ -330,7 +330,7 @@ end
 
 get '/schrank2' do
   bpchk(session['bag'])
-  if ['1','2'].member?(session['mottek'])
+  unless ['1','2'].member?(session['mottek'])
     session['mottek'] = '1'
     session['bag'] += 25
     pp session['bag']
@@ -495,7 +495,7 @@ get '/fenster3a' do
 end
 
 get '/kiste2' do
-  if session['seil'] != '1'
+  unless ['1','2'].member?(session['seil'])
     show(:kiste2)
   else
     '<h1 align=center>Raum 8 EG: Die Kiste</h1><p align="center"><br><br>Die Kiste ist leer.<br><br><a class="link" href="raum28">Hmpf...</a>'
@@ -593,7 +593,7 @@ end
 
 get '/regal3' do
   bpchk(session['bag'])
-  if session['key4'] != '1'
+  unless ['1','2'].member?(session['key4'])
     session['key4'] = '1'
     session['bag'] += 5
     '<h1 align=center>Raum 2 1.OG: Das LagerRegal</h1><p align="center"><br><br>Auf dem Regal liegt ein Schlüssel.<br>Du steckst ihn ein<br><br><a class="link" href="raum32">ok</a> :)'
@@ -624,7 +624,7 @@ end
 
 get '/schrank4' do
   bpchk(session['bag'])
-  if session['key3'] != '1'
+  unless ['1','2'].member?(session['key3'])
     session['bag'] += 2
     session['key3'] = '1'
     show(:schrank4)
@@ -755,7 +755,7 @@ get '/truhe' do
   if session['draht'] == '2'
     show(:truhe1b)
   else
-    show(:true)
+    show(:truhe)
   end
 end
 
