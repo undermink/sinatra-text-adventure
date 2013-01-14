@@ -1948,6 +1948,94 @@ Möchtest Du die Säge mitnehmen?<br><br>
 [[saege|Klar, ne Säge find ich gut:)]]<br>
 [[raum37|Nee...was soll ich denn jetzt mit ner Säge?!]]
 
+:raum38
+=Achter Raum 1.oG
+%     \                                         /                           ::
+%      \_______________________________________/                   . .:    ::
+%       |                                     |           . ..    :: ::   ::
+%       |                           ..        |      .:  :: ::::  :: ::  ::
+%       |               .             .       |  ::: ::  :: :: :: :: :: ::
+%       |      .                              |  ::: ::  :: ::  :::: ::::
+%       |  z                ,                 |  :   :::::: ::   ::: :: ::
+%       |   w     g                           |       ::::  ::    :: ::  ::
+%       |    e     o                          |  .          ::    :: ::   ::
+%       |     i     l     .            :      |        .          :: ::    ::
+%       |      t     f        ________        |     ,              '  '     ::
+%       |_____________________|_8___.|\_______|                              '
+%      /  T  T   #__          |xxxxxx||   . ;* \
+%     /  |_||_| o<__)  *      |______||    ,    \
+%    /                                           \
+Dieser Raum sieht aus, als hätte hier<br>
+kürzlich ein Konzert stattgefunden.<br>
+Überall liege leere Flaschen und Zigarettenstummel herum<br>
+und die Luft ist abgestanden.<br>
+Irgendwie kommt Dir das hier alles bekannt vor...<br>
+...Du warst schon mal hier.<br><br>
+[[raum38a|den Raum genauer untersuchen]]<br>
+[[raum37|zurück in den 7.Raum]]<br>
+[[bagpack|Dein Rucksack...]]
+
+:raum38a
+=Der Konzertraum
+Du nimmst Dir den Raum vor...<br>
+Hinten links liegen ein paar leere Bierflaschen<br>
+und eine Menge Kippenstummel.<br>
+Rechts steht ein E-Gitarren Verstärker.<br>
+Dahinter hat jemand mit einem Edding 'Zweitgolf'<br>
+An die Wand geschrieben.<br>
+Die Wand rechts von Dir ist mit dem Wort 'Punk' besprüht.<br>
+Was hast Du vor:<br><br>
+[[amp|den Verstärker untersuchen]]<br>
+[[back|zurück in den letzten Raum]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]
+
+:amp
+=Der Verstärker
+Du gehst zum Verstärker...<br>
+Er ist angeschlossen jedoch ausgeschaltet.<br>
+Es ist ein kleiner Röhrenamp.<br>
+Leider hast Du keine Gitarre dabei:)<br><br>
+[[ampan|den Verstärker aus/anschalten]]<br>
+[[raum38|wieder weg vom Verstärker]]
+
+:ampan
+=Der Verstärker
+Du schaltest den Verstärker an...<br>
+Er brummt leise vor sich hin.<br><br>
+[[raum38a|tst...]]
+
+:ampaus
+=Der Verstärker
+Du schaltest den Verstärker wieder aus...<br>
+Jetzt ist er wieder still.<br><br>
+[[raum38a|so denn...]]
+
+:fsws
+=Free Software Song
+(Text by Richard Stallman)<br>
+Zweitgolf - Free Sonftware Song<br><br>
+Join us now and share the software;<br>
+You'll be free, <a class="link" href="http://stallman.org/articles/on-hacking.html">hackers</a>, you'll be free.<br>
+Join us now and share the software;<br>
+You'll be free, hackers, you'll be free.<br>
+<br>
+Hoarders can get piles of money,<br>
+That is true, hackers, that is true.<br>
+But they cannot help their neighbors;<br>
+That's not good, hackers, that's not good.<br>
+<br>
+When we have enough free software<br>
+At our call, hackers, at our call,<br>
+We'll kick out those dirty licenses<br>
+Ever more, hackers, ever more.<br>
+<br>
+Join us now and share the software;<br>
+You'll be free, hackers, you'll be free.<br>
+Join us now and share the software;<br>
+You'll be free, hackers, you'll be free.<br>
+<br>
+<a href="#" onclick="history.go(-1)">hehe</a>
+
 :voll
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>

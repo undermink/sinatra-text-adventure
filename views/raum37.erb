@@ -45,7 +45,7 @@ if ['1','2'].member?(session['leiter']) then @rooml+='
       if session['saege'] != '1' then @room+='<a class="link" href="tisch2">Den Tisch begutachten?</a><br>' end
       unless ['1','2','3'].member?(session['leiter']) then @room+='<a class="link" href="leiter">Die Leiter mitnehmen?<br>' end
       if ['1','2'].member?(session['leiter']) then @room+='<a class="link" href="leiter"><br>Willst Du Deinen Rucksack wieder mitnehmen?<br></a>' end
-      @room+='<a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum36">Zurück in den 6.Raum?</a>'
+      @room+='<a class="link" href="bagpack">Deinen Rucksack durchsuchen?</a><br><a class="link" href="raum38">Weiter in den nächsten Raum?</a><br><a class="link" href="raum36">Zurück in den 6.Raum?</a>'
       #session['stuhl1'] = '1'
     %>
     <%= @room%>

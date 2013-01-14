@@ -1,0 +1,34 @@
+<body style="background:#333;">
+<div id="room">
+<table align="center" >
+  <h1 align="center">Der Typ</h1>
+  <div style="width:30em;margin:0 auto;border:solid #333;border-radius: 25px">
+    <pre></pre>
+    <% #session['typ'] = 0 
+    @room='Als Du Dich umdrehst steht plötzlich ein Typ vor Dir.<br>
+    Du erschreckst Dich fast zu Tode,<br>
+    während er extrem gelassen wirkt.<br><br>'
+    if session['typ'] == 1 then @room+='
+    "Hey...sag mal, haste ne Kippe?" fragt er dich.<br><br>
+    <a class="link" href="typ">Nö...tut mir leid.</a><br>
+    <a class="link" href="typ1">Verpiss Dich!</a><br>
+    ' end
+    if session['typ'] == 2 then @room+='
+    "Hmm... verdammt." sagt er und sieht sich im Raum um.<br>
+    Dabei kratzt er sich am Hintern...<br>
+    "War geil gestern, ne?" fragt er Dich.<br><br>
+    <a class="link" href="typ">Was ist denn hier passiert? Ich kann mich an nichts erinnern.</a><br>
+    <a class="link" href="typ1">Nö... war Scheiße</a><br>' end
+    if session['typ'] == 3 then @room+='
+    "Leck mich doch..." sagt er und verschwindet.<br>
+    Dabei kratzt er sich am Hintern...<br><br>
+    <a class="link" href="typ">Was ist denn hier passiert? Ich kann mich an nichts erinnern.</a><br>
+    <a class="link" href="typ1">Nö... war Scheiße</a><br>' end
+    %>
+    
+</div>  <p align="center">
+    <%= @room%>
+  </p>
+</table>
+</div>
+</body>

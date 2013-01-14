@@ -869,6 +869,40 @@ get '/knoepfe' do
   end
 end
 
+get '/ampan' do
+  if !['1','2'].member?(session['freesoft'])
+    session['freesoft'] = '1'
+    show(:fsws)
+  elsif session['freesoft'] =='2'
+    session['freesoft'] ='1'
+    show(:ampan)
+  elsif session['freesoft'] =='1'
+    session['freesoft'] ='2'
+    show(:ampaus)
+  end
+end
+
+get '/back' do
+  if !['1','2'].member?(session['back'])
+    session['back'] = '1'
+    redirect 'raum37'
+  elsif session['back'] == '1'
+    session['back'] = '2'
+    show(:typ)
+  elsif session['back'] == '2'
+    redirect 'raum37'
+  end
+end
+
+get '/typ' do
+  pp session['typ']
+  if !session['typ']
+    session['typ'] = 0
+  end
+  session['typ']+= 1
+  erb :typ
+end
+
 get '/rauchen' do
   if session['zig1'] == '1'
   session['zig1'] = '2'
