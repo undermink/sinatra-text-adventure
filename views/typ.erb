@@ -4,7 +4,7 @@
   <h1 align="center">Der Typ</h1>
   <div style="width:30em;margin:0 auto;border:solid #333;border-radius: 25px">
     <pre></pre>
-    <% #session['typ'] = 0 
+    <% #session['typ'] = 1 
     @room='Als Du Dich umdrehst steht plötzlich ein Typ vor Dir.<br>
     Du erschreckst Dich fast zu Tode,<br>
     während er extrem gelassen wirkt.<br><br>'
@@ -20,10 +20,30 @@
     <a class="link" href="typ">Was ist denn hier passiert? Ich kann mich an nichts erinnern.</a><br>
     <a class="link" href="typ1">Nö... war Scheiße</a><br>' end
     if session['typ'] == 3 then @room+='
+    "Hier war doch gestern Konzi.<br>
+    Weisste nich mehr? Zweitgolf haben gespielt.<br>
+    Die verrückten mit den Gameboys." erzählt er.<br>
+    Du erinnerst Dich langsam...<br><br>
+    <a class="link" href="typ">Verdammt... ich erinner mich.</a><br>
+    <a class="link" href="typ1">Ach Du erzählst doch nur Schwachsinn...</a><br>' end
+    if session['typ'] == 4 then @room+='
+    "Super Mann! Wenn wir jetzt noch<br>
+    ne Kippe organisieren können, bin ich<br>
+    glücklich." sagt er.<br><br>
+    <a class="link" href="typ1">Wie kommt man wieder hier raus?</a><br>
+    <a class="link" href="typ">Du stinkst!</a><br>' end
+    if session['typ'] == 5 then @room+='
     "Leck mich doch..." sagt er und verschwindet.<br>
     Dabei kratzt er sich am Hintern...<br><br>
-    <a class="link" href="typ">Was ist denn hier passiert? Ich kann mich an nichts erinnern.</a><br>
-    <a class="link" href="typ1">Nö... war Scheiße</a><br>' end
+    <a class="link" href="typ">Warte...Ich kann mich an nichts erinnern.</a><br>
+    <a class="link" href="raum37">Du mich auch</a><br>' end
+    if ['6','8'].member?(session['typ']) then @room+='
+    "Ich hab auch immer black-outs..." murmelt er und ist weg.<br><br>
+    <a class="link" href="raum37">Mist!</a><br>' end
+    if session['typ'] == 9 then @room+='
+    "Komm mit ich zeig Dir, wo wir rein sind."<br>
+    sagt er und geht mit Dir zurück ins Ergeschoss...<br><br>
+    <a class="link" href="fenster2">Wunderbar:)</a><br>' end
     %>
     
 </div>  <p align="center">

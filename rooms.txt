@@ -1015,13 +1015,36 @@ Möchtest Du:<br><br>
 [[raum22|Zurück in den zweiten Raum?]]
 
 :fenster2
-=Raum 3 EG: Am Fenster
+=Am Fenster
 Du gehst zum Fenster rüber...<br>
 Vielleicht kannst Du durchs Fenster etwas erkennen,<br>
 das Dir sagt, wo Du bist?<br>
 Du versuchst es.<br>
 Leider sind es Milchglasfenster und Du kannst gar nichts erkennen.<br><br>
 [[raum23|Verdammt...]]
+
+:fenster2a
+=Am Fenster
+Du gehst mit dem Typ zum Fenster rüber...<br>
+"Da..." sagt er und öffnet das Fenster.<br>
+"Da sind wir alle rein geklettert."<br>
+Du bist erstaunt, daß Dir das entgangen ist.<br>
+"Mach's gut und bis zum nächsten Mal." sagt er,<br>
+klettert aus dem Fenster und verschwindet.<br>
+Willst Du:<br><br>
+[[raus|hinterher klettern?]]<br>
+[[raum23|erstmal noch das Haus durchsuchen?]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
+
+:fenster2b
+=dritter Raum EG: Am Fenster
+Du gehst zum Fenster rüber...<br>
+Das Fenster ist immernoch angelehnt<br>
+und der Wind bewegt es langsam auf und zu.<br>
+Willst Du:<br><br>
+[[raus|raus klettern?]]<br>
+[[raum23|zurück]]<br>
+[[bagpack|Deinen Rucksack durchsuchen?]]
 
 :kaefig
 =Raum 3 EG: Der Vogelkäfig

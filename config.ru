@@ -407,6 +407,18 @@ get '/raum23' do
   end
 end
 
+get '/fenster2' do
+  pp session['typ']
+  if session['typ'] == 9
+    session['typ'] = 10
+    show(:fenster2a)
+  elsif session['typ'] == 10
+    show(:fenster2b)
+  else
+    show(:fenster2)
+  end
+end
+
 get '/kaefig' do
   if session['sonnenherzen'] != '1'
     show(:kaefig)
@@ -900,6 +912,15 @@ get '/typ' do
     session['typ'] = 0
   end
   session['typ']+= 1
+  erb :typ
+end
+
+get '/typ1' do
+  pp session['typ']
+  if !session['typ']
+    session['typ'] = 0
+  end
+  session['typ']+= 5
   erb :typ
 end
 
