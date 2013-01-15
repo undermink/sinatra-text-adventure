@@ -1,0 +1,46 @@
+<body style="background:#aaa;">
+<div id="room">
+<table align="center" >
+  <h1 align="center">Der Typ</h1>
+  <div style="width:30em;margin:0 auto;border:solid black;border-radius: 25px">
+    <pre></pre>
+    <% if !session['poller'] then session['poller'] = 1 end
+    @room='Du rufst Poller an...<br>
+    Nach kurzem klingeln geht er dran:<br><br>
+    '
+    if session['poller'] == 1 then @room+='
+    "Jau.." sagt er verschlafen
+    "wer issn da?"<br><br>
+    <a class="link" href="poller1">Äh..hi! Ich hatte Deine Nummer aufm Zettel gefunden...</a><br>
+    <a class="link" href="poller">Hey Poller, allet fit?</a><br>
+    ' end
+    if session['poller'] == 2 then @room+='
+    "Klar doch bei Dir auch, Alter?" antwortet Poller.<br><br>
+    <a class="link" href="poller">Was haste gestern so getrieben, Mann?</a><br>
+    <a class="link" href="poller1">Du musst mir helfen...ich werde gefangen gehalten!</a><br>' end
+    if session['poller'] == 3 then @room+='
+    "Ich war gestern in sonnem leerstehenden Haus.<br>
+    da haben Zweitgolf gespielt.<br>
+    Die Spinner mit den Gameboys." erzählt er.<br>
+    Du erinnerst Dich langsam...<br><br>
+    <a class="link" href="poller">Verdammt... ich erinner mich.</a><br>
+    <a class="link" href="poller1">Du spinnst doch! Hol lieber Hilfe ich werde gefangen gehalten!</a><br>' end
+    if session['poller'] == 4 then @room+='
+    "Hehe... haste so viel gesoffen?<br>
+    Naja die Praty gestern war auch echt gut.<br>
+    Hör mal...bei mir klopfts an der Tür...ich muss Schluss machen"<br>
+    sagt er und legt auf.<br><br>
+    <a class="link" href="telefon">Jemand anderen anrufen.</a><br>
+    <a class="link" href="raum22">Weg vom Telefon.</a><br>' end
+    if session['poller'] >= 5 then @room+='
+    "Verarschen kann ich mich alleine..." sagt er und legt auf.<br><br>
+    <a class="link" href="poller">Nochmal anrufen.</a><br>
+    <a class="link" href="raum22">Verdammt...weg vom Telefon.</a><br>' end
+    %>
+    
+</div>  <p align="center">
+    <%= @room%>
+  </p>
+</table>
+</div>
+</body>

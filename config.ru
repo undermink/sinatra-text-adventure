@@ -384,11 +384,30 @@ post '/telefonieren' do
   elsif params['nummer'] == '666'
     show(:satan)
   elsif params['nummer'] == '702300' || params['nummer'] == '0202702300'
-    'Du rufst Poller an...'
+    #session['poller'] = 0
+    redirect 'poller'
   elsif params['nummer'] == ''
     pp'<p align="center"><br><br>Du h&ouml;rst das Freizeichen...<br><br>Scheinbar ein A.<br>Du lauscht noch ein Wenig und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
   else pp'<p align="center"><br><br>Es tutet...<br><br>Niemand antwortet.<br>Du wartest noch eine Weile und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
   end
+end
+
+get '/poller' do
+  pp session['poller']
+  if !session['poller'] then session['poller'] = 0 end 
+  session['poller'] += 1
+  if session['poller'] >= 6
+    '<p align="center"><br><br>Es tutet...<br><br>Niemand antwortet.<br>Du wartest noch eine Weile und legst dann wieder auf.<br><br><a class="link" href="raum22">ok</a>'
+  else
+    erb :poller
+  end
+end
+
+get '/poller1' do
+  if !session['poller'] then session['poller'] = 0 end
+  pp session['poller']
+  session['poller'] += 5
+  erb :poller
 end
 
 get '/raum22' do

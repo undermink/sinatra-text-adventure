@@ -1995,7 +1995,7 @@ und die Luft ist abgestanden.<br>
 Irgendwie kommt Dir das hier alles bekannt vor...<br>
 ...Du warst schon mal hier.<br><br>
 [[raum38a|den Raum genauer untersuchen]]<br>
-[[raum37|zurück in den 7.Raum]]<br>
+[[back|zurück in den 7.Raum]]<br>
 [[bagpack|Dein Rucksack...]]
 
 :raum38a
@@ -2059,8 +2059,72 @@ You'll be free, hackers, you'll be free.<br>
 <br>
 <a href="#" onclick="history.go(-1)">hehe</a>
 
+:raus
+=Draussen
+Du kletterst durch das Fenster nach draussen ins freie...<br>
+Als Du draussen bist drehst Du Dich um und siehst<br>
+daß das Haus ein verlassenes, altes Haus<br>
+inmitten eines durchwachsenen Dickichts ist.<br>
+Willst Du:<br><br>
+[[dickicht|Dich durch das Dickicht kämpfen]]<br>
+[[raum23|zurück ins Haus klettern]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]<br>
+[[haus|ums Haus herum gehen]]
+
+:haus
+=Das verlassene Haus
+Du gehst einmal um das ganze Haus rum...<br>
+Der Teil mit dem Swimmingpool und dem Garten<br>
+befinden sich hinter einer hohen Mauer.<br>
+Ansonsten findest Du keine Möglichkeit in das Haus zu kommen.<br>
+Die Haustür ist zugemauert und die meisten Fenster auch.<br>
+Willst Du:<br><br>
+[[raum23|zurück ins Haus]]<br>
+[[dickicht|versuchen Dich durchs Dickicht zu kämpfen]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]
+
+:haus1
+=Das verlassene Haus
+%                         ______________________
+%                        /()(()()()()()()()()()(\
+%                       /                        \
+%                      /__________________________\
+%                       |  ____        _____     |
+%                       | ||_|_|      |__|__|    |
+%                       | |_|_||      |__|__|    |
+%                       |                        |
+%             :  :      |                        |
+%       :      \/     __|  ____      ____        |______________      :
+%       | .: : |.       | |    |    |_|_||       |___|____|____||   : |  :
+%     : | :| |:Y. :   __| |____|    ||_|_|       ||____|_____|__|  :| |…:| 
+%    _|_|_||_||V|_|__|__|________________________|___|____|_____|__||:|_||_þ_
+%
+Du stehst vor den leerstehenden Haus...<br>
+Der Teil mit dem Swimmingpool und dem Garten<br>
+sind hinter einer hohen Mauer.<br>
+Ansonsten gibt es keine Möglichkeit in das Haus zu kommen.<br>
+Die Haustür ist zugemauert und die meisten Fenster auch.<br>
+Willst Du:<br><br>
+[[raum23|zurück ins Haus]]<br>
+[[dickicht|versuchen Dich durchs Dickicht zu kämpfen]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]
+
+:dickicht
+=Das Dickicht
+Du kämpfst Dich langsam vorwärts...<br>
+Seltsamer Weise hat niemand eine sichtbare Spur hinterlassen,<br>
+der Du folgen könntest um den richtigen Weg zu finden.<br>
+Nach einigen Minuten erreichst Du eine Strasse.<br>
+Du bist Dir nicht sicher, ob Du wirklich weisst,<br>
+wo Du bist...<br>
+Willst Du:<br><br>
+[[strassel|die Strasse nach links gehen]]<br>
+[[strasser|die Strasse nach rechts gehen]]<br>
+[[bagpack|Deinen Rucksack durchsuchen]]<br>
+[[haus1|zurück zum Haus]]
+
 :voll
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>
 Mehr kannst Du nicht mitnehmen:(<br><br>
-<a href="#" onclick="history.go(-2)">verdammt</a>
+<a href="#" onclick="history.go(-1)">verdammt</a>
