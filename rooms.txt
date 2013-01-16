@@ -2035,6 +2035,7 @@ Jetzt ist er wieder still.<br><br>
 
 :fsws
 =Free Software Song
+<object data="/free_software_song.ogg" width="0" height="0">oggFile</object>
 (Text by Richard Stallman)<br>
 Zweitgolf - Free Sonftware Song<br><br>
 Join us now and share the software;<br>
