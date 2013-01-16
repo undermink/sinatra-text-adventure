@@ -2,6 +2,7 @@ require './parse.rb'
 require 'sinatra'
 
 #enable :sessions
+disable :protection
 use Rack::Session::Cookie, :key => 'rack.session',
                            :domain => 'localhost',
                            :path => '/',
@@ -768,7 +769,7 @@ end
 
 post '/log' do
   if params['name'] == 'Dieter' && params['pw'] == '505151'
-    show(:loggedin)
+    erb :loggedin
   else '<h1 align=center>Der Rechner</h1><p align="center"><br><br>Das Passwort oder der Benutzername sind falsch.<br><br><a class="link" href="pc">grml...</a>'
   end 
 end
