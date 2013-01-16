@@ -32,6 +32,18 @@ helpers do
     end
   end
 
+  def truhenchk(stuff,weight)
+    pp stuff
+    if stuff != 'truhe'
+      stuff = 'truhe'
+      session['bag'] -= weight
+    elsif stuff == 'truhe'
+      stuff = '1'
+      session['bag'] += weight      
+    end
+    pp stuff
+    return stuff
+  end
 end
 
 get '/' do
@@ -785,7 +797,7 @@ end
 
 get '/truhe' do
   if session['draht'] == '2'
-    show(:truhe1b)
+    erb :truhe
   else
     show(:truhe)
   end
@@ -798,11 +810,20 @@ get '/truhe1' do
     session['bag'] += 1
     session['draht'] = '2'
     show(:truhe1)
-  
   else
     show(:truhe1a)
-    
   end
+end
+
+get '/untertruh' do
+  x = params["stuff"]
+  session['unterlagen']=truhenchk(session['unterlagen'],10)
+  erb :truhe
+end
+
+get '/goldtruh' do
+  session['goldbarren']=truhenchk(session['goldbarren'],25)
+  erb :truhe
 end
 
 get '/raum37' do

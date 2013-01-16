@@ -1,0 +1,26 @@
+<body style="background:#aaa;">
+<div id="room">
+<table align="center" >
+  <h1 align="center">Die Truhe</h1>
+  <div style="width:30em;margin:0 auto;border:solid black;border-radius: 25px">
+    <pre></pre>
+</div>  <p align="center">
+    <% 
+    @room='In der Truhe ist:<br><br>'
+    @inventar=''
+    @roomf='<br>Willst Du:<br><br>'
+    if session['goldbarren'] =='truhe' then @inventar+='<a class="link" href="goldtruh">ein Goldbarren</a><br>' end
+    if session['goldbarren'] =='1' then @roomf+='<a class="link" href="goldtruh">den Goldbarren in die Truhe legen?</a><br>' end
+    if session['holzwolle'] =='truhe' then @inventar+='ein bißchen Holzwolle<br>' end
+    if session['unterlagen'] == 'truhe' then @inventar+='<a class="link" href="untertruh">ein Haufen sinnloser Unterlagen</a></form><br>' end
+    if session['unterlagen'] == '1' then @roomf+='<a class="link" href="untertruh">den Haufen sinnloser Unterlagen in die Truhe packen?</a></form><br>' end
+    if @inventar=='' then @inventar='nichts...<br><br>' end
+    @roomf+='<a class="link" href="raum36">zurück</a><br>'
+    %>
+    <%=@room%>
+    <%=@inventar%>
+    <%=@roomf%>
+  </p></form>
+</table>
+</div>
+</body>
