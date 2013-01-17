@@ -11,7 +11,14 @@
     @roomf='<br>Willst Du:<br><br>'
     if session['goldbarren'] =='truhe' then @inventar+='<a class="link" href="goldtruh">ein Goldbarren</a><br>' end
     if session['goldbarren'] =='1' then @roomf+='<a class="link" href="goldtruh">den Goldbarren in die Truhe legen?</a><br>' end
-    if session['holzwolle'] =='truhe' then @inventar+='ein bißchen Holzwolle<br>' end
+    if session['saege'] == 'truhe' then @inventar+='<a class="link" href="saegtruh">eine Säge</a><br>' end
+    if session['saege'] == '1' then @roomf+='<a class="link" href="saegtruh">die Säge in die Truhe legen?<br>' end
+    if session['draht'] == '2' then @roomf+='<a class="link" href="polltruh">den Zettel mit Pollers Nummer in die Truhe tun?</a><br>' end
+    if session['draht'] == 'truhe' then @inventar+='<a class="link" href="polltruh">der Zettel mit der Nummer von Poller<br></a>' end
+    if session['holzwolle'] =='1' then @roomf+='<a class="link" href="holztruh">die Holzwolle in der Truhe verstauen?</a><br>' end
+    if session['holzwolle'] =='truhe' then @inventar+='<a class="link" href="holztruh">ein bißchen Holzwolle</a><br>' end
+    if session['map1'] == '1' then @roomf+='<a class="link" href="map1truh">die KellerKarte in die Truhe schmeissen?</a><br>' end
+    if session['map1'] == 'truhe' then @inventar+='<a class="link" href="map1truh">die KellerKarte</a><br>' end
     if session['unterlagen'] == 'truhe' then @inventar+='<a class="link" href="untertruh">ein Haufen sinnloser Unterlagen</a></form><br>' end
     if session['unterlagen'] == '1' then @roomf+='<a class="link" href="untertruh">den Haufen sinnloser Unterlagen in die Truhe packen?</a></form><br>' end
     if @inventar=='' then @inventar='nichts...<br><br>' end

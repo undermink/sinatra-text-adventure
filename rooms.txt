@@ -684,21 +684,6 @@ Willst Du den Walkman benutzen und Musik hören?<br><br>
 [[walkman|Ja, klar.]]<br>
 [[raum7|Nö... kein Bock auf Musik.]]
 
-:map1
-=Die KellerKarte
-%               ------------------------------------------------------
-%               |                   --KellerKarte--                  |
-%               |                                      (EG)          |
-%               |    (1)-(2)-(3)-(4)-(5)-(6)         _|              |
-%               |         |           |            _|                |
-%               |         -------(8)-(7)-(9)-(10)_|                  |
-%               | 5:Waschküche                                       |
-%               | 10:Treppenhaus                                     |
-%               ------------------------------------------------------
-%
-%
-<a href="#" onclick="history.go(-1)">Die Karte wieder einpacken</a>
-
 :raum8
 =Achter Raum
 Du öffnest die rechte Tür und gehst in den 8. Raum...<br>

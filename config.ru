@@ -796,7 +796,7 @@ get '/abmelden' do
 end
 
 get '/truhe' do
-  if session['draht'] == '2'
+  if ['2','truhe'].member?(session['draht'])
     erb :truhe
   else
     show(:truhe)
@@ -824,6 +824,32 @@ end
 get '/goldtruh' do
   session['goldbarren']=truhenchk(session['goldbarren'],25)
   erb :truhe
+end
+
+get '/map1truh' do
+  session['map1']=truhenchk(session['map1'],1)
+  erb :truhe
+end
+
+get '/saegtruh' do
+  session['saege']=truhenchk(session['saege'],10)
+  erb :truhe
+end
+
+get '/holztruh' do
+  session['holzwolle']=truhenchk(session['holzwolle'],10)
+  erb :truhe
+end
+
+get '/polltruh' do
+ if session['draht'] != 'truhe'
+      session['draht'] = 'truhe'
+      session['bag'] -= 3
+    elsif session['draht'] == 'truhe'
+      session['draht'] = '2'
+      session['bag'] += 3      
+    end
+ erb :truhe
 end
 
 get '/raum37' do
@@ -971,6 +997,10 @@ get '/rauchen' do
   erb :rauchen
   else '<h1 align=center>Die selbstgedrehte Zigarette</h1><p align="center"><br><br>Du bist Dir nicht mehr sicher,<br>ob Du die selbstgedrehte Zigarette schon geraucht hast,<br>kannst sie aber nirgends finden...<br><br><a class="link" href="bagpack">im Rucksack nachsehen</a>'
   end
+end
+
+get '/map1' do
+  erb :map
 end
 
 get '/bagpack' do
