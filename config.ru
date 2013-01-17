@@ -105,18 +105,18 @@ get '/schrank1' do
 end
 
 get '/raum3' do
-  if session['durchbruch'] != '1' && session['goldbarren'] != '1'
+  if session['durchbruch'] != '1' && !['1','truhe'].member?(session['goldbarren'])
     show(:raum3)
-  elsif session['durchbruch'] != '1' && session['goldbarren'] == '1'
+  elsif session['durchbruch'] != '1' && ['1','truhe'].member?(session['goldbarren']) 
     show(:raum3b)
-  elsif session['durchbruch'] == '1' && session['goldbarren'] != '1'
+  elsif session['durchbruch'] == '1' && !['1','truhe'].member?(session['goldbarren'])
     show(:raum3a)
   else show(:raum3c)
   end
 end
 
 get '/kisten1' do
-  if session['goldbarren'] == '1'
+  if ['1','truhe'].member?(session['goldbarren'])
     show(:kisten1b)
   else
     show(:kisten1)    
@@ -271,11 +271,11 @@ end
 get '/raum7' do
 #  session['phones'] ='0'
 #  session['map1'] ='0'
-  if session['phones'] != '1' && session['map1'] != '1'
+  if session['phones'] != '1' && !['1','truhe'].member?(session['map1'])
     show(:raum7)
-  elsif session['phones'] != '1' && session['map1'] == '1' 
+  elsif session['phones'] != '1' && ['1','truhe'].member?(session['map1'])
     show(:raum7a)
-  elsif session['phones'] == '1' && session['map1'] != '1'
+  elsif session['phones'] == '1' && !['1','truhe'].member?(session['map1'])
     show(:raum7b)
 #  elsif session['phones'] == '1' && session['map1'] == '1'
   else show(:raum7c) 
@@ -570,7 +570,7 @@ end
 
 get '/raum29a' do
   bpchk(session['bag'])
-  if session['draht'] != '1'
+  unless ['1','truhe'].member?(session['draht'])
     session['bag'] += 3
     session['draht'] = '1'
     show(:raum29a)
