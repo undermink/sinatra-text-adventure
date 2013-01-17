@@ -284,10 +284,9 @@ end
 
 get '/schreibtisch1' do
   bpchk(session['bag'])
-  if session['map1'] != '1'
+  unless ['1','truhe'].member?(session['map1'])
     session['map1'] = '1'
      session['bag'] += 1
-     pp session['bag']
     show(:schreibtisch1)
   else
     '<p align="center"><br><br>Der Schreibtisch ist leer...<br>Er hat keine Schubladen oder weiteren Fächer.<br><br><a class="link" href="raum7">weiter</a> '
@@ -678,7 +677,7 @@ get '/schrank4' do
 end
 
 get '/schreibtisch2' do
-  if session['unterlagen'] != '1'
+  unless ['1','truhe'].member?(session['unterlagen'])
     show(:schreibtisch2)
   else
     show(:schreibtisch2a)

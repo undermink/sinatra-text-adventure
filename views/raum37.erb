@@ -16,7 +16,7 @@
                |' end
 @rooml+='
                |                ___________________'
-               if session['saege'] != '1' then @rooml+='
+               unless ['1','truhe'].member?(session['saege']) then @rooml+='
                |               /  üüüüüI|         /
                |              /__________________/' else
                @rooml+='
