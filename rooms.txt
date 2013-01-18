@@ -72,7 +72,7 @@ Du hebst ihn auf, dabei merkst Du, daß Du einen Kater hast.<br><br>
 :doorclosed
 =die Tür
 Die Tür ist verschlossen...<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :raum2
 =zweiter Raum
@@ -371,7 +371,7 @@ Kannst nichts dagegen tun<br>
 Nur sitzen, warten, ruh'n<br>
 Nimm dem Mottek und mach es kaputt<br>
 Los nimm den Mottek und mach es kaputt"<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :raum4
 =Raum 4
@@ -486,7 +486,7 @@ Nach kurzer Zeit ist Dein Eimer voll...<br><br>
 Dein Eimer ist voll bis zum Rand mit Wasser.<br>
 Die Frage ist nur:<br>
 Was willst Du jetzt damit anfangen...<br><br>
-<a href="#" onclick="history.go(-1)">mal sehen</a>
+<a href="#" class="back"">mal sehen</a>
 
 :eimer1b
 =Die selbstgedrehte Zigarette
@@ -815,7 +815,7 @@ Willst Du sie Dir anhören?<br><br>
 =Intro
 <object data="/12-intro.ogg" width="0" height="0">oggFile</object>
 Das ist das intrumental 'Intro' von Zweitgolf...<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back">Zurück</a>
 
 
 :raum20
@@ -904,7 +904,7 @@ Willst Du:<br><br>
 =Raum 2 EG: Das Telefon
 Vor Dir hängt das Telefon.<br>
 Welche Nummer willst Du wählen?<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :telefon1
 =Raum 2 EG: Das Telefon
@@ -912,7 +912,7 @@ Am anderen Ende ist eine Stimme zu hören...<br><br>
 Leider jedoch zu undeutlich, als daß Du etwas verstehen könntest.<br>
 Nach kurzen unverständlichen Worten bricht die Leitung ab...<br>
 Du legst auf.<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :polizei
 =Polizei
@@ -920,21 +920,21 @@ Du legst auf.<br><br>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
 Polizei **-**<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :notruf
 =Notruf
 <object data="/voc1.ogg" width="0" height="0">oggFile</object>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :satan
 =Telefon 666
 <object data="/voc2.ogg" width="0" height="0">oggFile</object>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :arrogant
 =Arrogant
@@ -951,7 +951,7 @@ Was wollt Ihr eigentlich? Ihr macht mir Angst!<br>
 Wollt Ihr verhindern, daß ich hier zufrieden leben kann?<br>
 Euer Geschwafel, das geht Hand in Hand mit Arroganz.<br>
 Ich bin arrogant. Du bist arrogant. Wir sind arrogant.<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :raum23
 =Raum 3 EG
@@ -1094,7 +1094,7 @@ Du faltest es auseinander...<br><br>
 %               ------------------------------------------------------
 %
 <br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :sonnenherzen
 =Sonnenherzen
@@ -1114,7 +1114,7 @@ Lass die Sonne in Dein Herz.<br>
 Versteh den Schmerz in Dir.<br>
 Lasst uns froh und munter sein.<br>
 Öffne Dein Herz - und lass die Sonne rein!"<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 
 :raum24
@@ -1601,7 +1601,7 @@ Möchtest Du:<br><br>
 %               |____________________________________________________|
 %
 <br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :fenster5
 =Am Fenster
@@ -1717,7 +1717,7 @@ Das ist doch gar nichts.<br>
 Ich wünschte, ich wär auch nochmal so jung.<br>
 Euer Leben liegt noch vor Euch.<br>
 Also macht das Beste draus!<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :pc
 =Der Personal-Computer
@@ -1777,7 +1777,7 @@ log out - log out<br>
 de-lete - de-lete<br>
 <b>delete and unfriend<br>
 fuck social networks!</b><br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :raum36
 =sechster Raum erstes OG
@@ -1899,7 +1899,7 @@ Karl - ist schon längst nicht mehr hier.<br>
 Ein Platz für Tiere, den gibt es nicht mehr.<br>
 DOrt wo Karl einmal zu Hause war,<br>
 fahren jetzt Käfer aus Blech und Stahl.<br><br>
-<a href="#" onclick="history.go(-1)">Zurück</a>
+<a href="#" class="back"">Zurück</a>
 
 :kaefer1
 =Karl der Käfer
@@ -2043,7 +2043,7 @@ You'll be free, hackers, you'll be free.<br>
 Join us now and share the software;<br>
 You'll be free, hackers, you'll be free.<br>
 <br>
-<a href="#" onclick="history.go(-1)">hehe</a>
+<a href="#" class="back"">hehe</a>
 
 :raus
 =Draussen
@@ -2113,4 +2113,4 @@ Willst Du:<br><br>
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>
 Mehr kannst Du nicht mitnehmen:(<br><br>
-<a href="#" onclick="history.go(-1)">verdammt</a>
+<a href="#" class="back"">verdammt</a>
