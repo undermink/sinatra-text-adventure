@@ -3,6 +3,7 @@ require 'sinatra'
 
 #enable :sessions
 #disable :protection
+set :show_exceptions, false
 use Rack::Session::Cookie, :key => 'rack.session',
                            :domain => 'localhost',
                            :path => '/',
@@ -44,6 +45,10 @@ helpers do
     pp stuff
     return stuff
   end
+end
+
+error 400..510 do
+  show(:what)
 end
 
 get '/' do

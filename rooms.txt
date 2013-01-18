@@ -75,7 +75,7 @@ Die Tür ist verschlossen...<br><br>
 <a href="#" class="back"">Zurück</a>
 
 :raum2
-=zweiter Raum
+=Zweiter Raum
 %                                               |
 %                     ______________           /o\
 %                     I|          |I
@@ -2113,4 +2113,18 @@ Willst Du:<br><br>
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>
 Mehr kannst Du nicht mitnehmen:(<br><br>
+<a href="#" class="back"">verdammt</a>
+
+:what
+=Huch!
+%                   _________     _________     _________
+%                  |\       /    |\       /    |\       /
+%                   \\     /      \\     /      \\     /
+%                    \\   /        \\   /        \\   /
+%                     \\_/          \\_/          \\_/
+%                      –_            –_            –_
+%                     ((_)          ((_)          ((_)
+%
+%                    H_U_C_H       H_U_C_H       H_U_C_H
+%
 <a href="#" class="back"">verdammt</a>
