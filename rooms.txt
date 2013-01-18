@@ -566,7 +566,7 @@ Du steckst ihn ein...<br><br>
 Zweitgolf - Kandahar<br><br>
 Text:<br>
 "Der neue Bürgermeister von Kandahar kommt in Wirklichkeit aus den USA"<br><br>
-<a href="#" onclick="history.go(-1)">ausschalten...</a>
+<a class='back' href="#kjdskjdshfdj" >ausschalten...</a>
 
 :raum7
 =Siebter Raum

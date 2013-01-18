@@ -2,7 +2,7 @@ require './parse.rb'
 require 'sinatra'
 
 #enable :sessions
-disable :protection
+#disable :protection
 use Rack::Session::Cookie, :key => 'rack.session',
                            :domain => 'localhost',
                            :path => '/',
@@ -814,31 +814,23 @@ get '/truhe1' do
   end
 end
 
-get '/untertruh' do
-  x = params["stuff"]
-  session['unterlagen']=truhenchk(session['unterlagen'],10)
-  erb :truhe
+post '/truhe/add/:name' do
+  if params["name"]=='goldbarren'
+    weight = 25
+  elsif ['unterlagen','saege','holzwolle'].member?(params["name"])
+    weight = 10
+  elsif ['map1','map2','map3'].member?(params["name"])
+    weight = 1
+  end
+  session[params["name"]]=truhenchk(session[params["name"]],weight)
+  "ok"
 end
 
-get '/goldtruh' do
-  session['goldbarren']=truhenchk(session['goldbarren'],25)
-  erb :truhe
+post '/truhe/sub/:name' do
+  session[params["name"]]=0
+  "ok"
 end
 
-get '/map1truh' do
-  session['map1']=truhenchk(session['map1'],1)
-  erb :truhe
-end
-
-get '/saegtruh' do
-  session['saege']=truhenchk(session['saege'],10)
-  erb :truhe
-end
-
-get '/holztruh' do
-  session['holzwolle']=truhenchk(session['holzwolle'],10)
-  erb :truhe
-end
 
 get '/polltruh' do
  if session['draht'] != 'truhe'
