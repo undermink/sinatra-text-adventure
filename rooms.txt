@@ -350,7 +350,7 @@ Kannst nichts dagegen tun<br>
 Nur sitzen, warten, ruh'n<br>
 Nimm dem Mottek und mach es kaputt<br>
 Los nimm den Mottek und mach es kaputt"<br><br>
-<a href="#" onclick="history.go(-2)">Zurück</a>
+<a href="#" onclick="history.go(-2); return false">Zurück</a>
 
 :mottek
 =Durchbruch
@@ -1762,7 +1762,7 @@ log out - log out<br>
 de-lete - de-lete<br>
 <b>delete and unfriend<br>
 fuck social networks!</b><br><br>
-<a href="#" onclick="history.go(-3)">Zurück</a>
+<a href="#" onclick="history.go(-3); return false">Zurück</a>
 
 :logout
 =log_out
@@ -1921,7 +1921,7 @@ Karl - ist schon längst nicht mehr hier.<br>
 Ein Platz für Tiere, den gibt es nicht mehr.<br>
 DOrt wo Karl einmal zu Hause war,<br>
 fahren jetzt Käfer aus Blech und Stahl.<br><br>
-<a href="#" onclick="history.go(-2)">Zurück</a>
+<a href="#" onclick="history.go(-2); return false">Zurück</a>
 
 :kaefer2
 =Der Swimmingpool
