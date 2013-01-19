@@ -2059,6 +2059,20 @@ Willst Du:<br><br>
 
 :haus
 =Das verlassene Haus
+%                         ______________________
+%                        /()(()()()()()()()()()(\
+%                       /                        \
+%                      /__________________________\
+%                       |  ____        _____     |
+%                       | ||_|_|      |__|__|    |
+%                       | |_|_||      |__|__|    |
+%                       |                        |
+%             :  :      |                        |
+%       :      \/     __|  ____      ____        |______________      :
+%       | .: : |.       | |    |    |_|_||       |___|____|____||   : |  :
+%     : | :| |:Y. :   __| |____|    ||_|_|       ||____|_____|__|  :| |…:| 
+%    _|_|_||_||V|_|__|__|________________________|___|____|_____|__||:|_||_þ_
+%
 Du gehst einmal um das ganze Haus rum...<br>
 Der Teil mit dem Swimmingpool und dem Garten<br>
 befinden sich hinter einer hohen Mauer.<br>
@@ -2109,6 +2123,53 @@ Willst Du:<br><br>
 [[bagpack|Deinen Rucksack durchsuchen]]<br>
 [[haus1|zurück zum Haus]]
 
+:strassel
+=Auf der Strasse
+%
+%
+%        .  .:.  :                          :::     .
+%       -:- .:. :::                        :::::   ;;;
+%     ___|___|._.:.____                    :::::  ;;;;; .        .
+%    /       ::: |     \                    :::    ;;; :::      :::
+%___/_______:::::_______\__                  |      | :::::    :::::
+%………………………………:::……………………………\……____________………|…………ŧ…|……:::……………:::::………
+%"""""""""""""|""""""""""""""/     __     \·······ŧ·····|·······:::···
+%"""""""""""""|"""""""""""""/     /__\     \"""""ŧŧŧ""""|""""""""|"""""
+%""""""""""""""""""""""""""/      ____      \"""ŧŧŧŧŧ""""""""""""|"""""
+%"""""""""""""""""""""""""/      /    \      \""""|""""""""""""""""""""
+Du gehst ein paar Meter die Strasse entlang.<br>
+Es ist eine lange Landstrasse,<br>
+aif der weit und breit kein Haus zu sehen ist.<br>
+Links und rechts entlang der Strasse sind nur Wiesen und Wälder.<br>
+Leider hast Du immer noch keine Ahnung wo Du genau steckst.<br>
+Willst Du:<br><br>
+[[strassel1|trotzdem weiter gehen]]<br>
+[[haus|lieber zurück zum Haus]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]
+
+:strasser
+=Auf der Strasse
+%                   ..                      ...       ...
+%                 ::::::                   :::::   ........
+%           _    ::::::::                 ::::::: ...........
+%         |  \/–  ::::::                  ::::::: : .:::::. :
+%        /\/ |_    ::::                    :::::  :  .:::.: :
+%         –\ /–     II                       I       : ł :  :
+%           I       II                       I         ł
+%|||||||||||I|||||||II|||||____________||||||I|||||||||ł||||||||||
+%···········I·············/    /__\    \||||||||||||||||||||||||||
+%||||||||||||||||||||||||/      __      \|||||||||||||||||||||||||
+%|||||||||||||||||||||||/      /  \      \||||||||||||||||||||||||
+%||||||||||||||||||||||/      /____\      \|||||||||||||||||||||||
+%·····················/                    \||||||||||||||||||||||
+Du gehst die Strasse nach rechts...<br>
+Die Strasse ist zu beiden Seiten stark bewachsen,<br>
+jedoch ist kein Haus in Sicht.<br>
+Willst Du:<br><br>
+[[strasser1|trotzdem weiter gehen]]<br>
+[[haus|zurück zum Haus]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]
+
 :voll
 =Dein Rucksack
 Leider ist Dein Rucksack voll...<br>
@@ -2127,4 +2188,4 @@ Mehr kannst Du nicht mitnehmen:(<br><br>
 %
 %                    H_U_C_H       H_U_C_H       H_U_C_H
 %
-<a href="#" class="back"">verdammt</a>
+<a href="#" class="back"">zurück</a>
