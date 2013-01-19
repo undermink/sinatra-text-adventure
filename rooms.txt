@@ -332,7 +332,7 @@ so daß Du keine Chance hast sie zu durchbrechen.<br><br>
 
 :mottek1
 =Durchbruch
-<object data="/durchbruch.ogg" width="0" height="0">oggFile</object>
+<object data="/durchbruch.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Du nimmst den Mottek und machst es kaputt...<br>
 Zweitgolf - Durchbruch<br><br>
 Text:<br>
@@ -354,7 +354,7 @@ Los nimm den Mottek und mach es kaputt"<br><br>
 
 :mottek
 =Durchbruch
-<object data="/durchbruch.ogg" width="0" height="0">oggFile</object>
+<object data="/durchbruch.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Durchbruch<br><br>
 Text:<br>
 "Worte - Menschen - leere Räume<br>
@@ -562,7 +562,7 @@ Du steckst ihn ein...<br><br>
 
 :radio1
 =Kandahar
-<object data="/kandahar.ogg" width="0" height="0">oggFile</object>
+<object data="/kandahar.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Kandahar<br><br>
 Text:<br>
 "Der neue Bürgermeister von Kandahar kommt in Wirklichkeit aus den USA"<br><br>
@@ -813,7 +813,7 @@ Willst Du sie Dir anhören?<br><br>
 
 :intro
 =Intro
-<object data="/12-intro.ogg" width="0" height="0">oggFile</object>
+<object data="/12-intro.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Das ist das intrumental 'Intro' von Zweitgolf...<br><br>
 <a href="#" class="back">Zurück</a>
 
@@ -916,7 +916,7 @@ Du legst auf.<br><br>
 
 :polizei
 =Polizei
-<object data="/polizei.ogg" width="0" height="0">oggFile</object>
+<object data="/polizei.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
 Polizei **-**<br><br>
@@ -924,21 +924,21 @@ Polizei **-**<br><br>
 
 :notruf
 =Notruf
-<object data="/voc1.ogg" width="0" height="0">oggFile</object>
+<object data="/voc1.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
 <a href="#" class="back"">Zurück</a>
 
 :satan
 =Telefon 666
-<object data="/voc2.ogg" width="0" height="0">oggFile</object>
+<object data="/voc2.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Es tutet...<br>
 Jemand hebt ab:<br><br>
 <a href="#" class="back"">Zurück</a>
 
 :arrogant
 =Arrogant
-<object data="/vielzuarrogant.ogg" width="0" height="0">oggFile</object>
+<object data="/vielzuarrogant.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Viel zu arrogant<br>Text:<br>
 "Ich hoffe Ihr seht mich.<br>
 Ich hoff Ihr versteht mich.<br>
@@ -1041,7 +1041,7 @@ Willst Du ihn freilassen?<br><br>
 
 :kaefig1
 =Sonnenherzen
-<object data="/sonnenherzen.ogg" width="0" height="0">oggFile</object>
+<object data="/sonnenherzen.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Du lässt den armen Vogel frei...<br><br>
 Zweitgolf - Sonnenherzen<br><br>
 Text:<br>
@@ -1098,7 +1098,7 @@ Du faltest es auseinander...<br><br>
 
 :sonnenherzen
 =Sonnenherzen
-<object data="/sonnenherzen.ogg" width="0" height="0">oggFile</object>
+<object data="/sonnenherzen.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Sonnenherzen<br><br>
 Text:<br>
 "Ich sag Dir:<br>
@@ -1689,7 +1689,7 @@ Möchtest Du:<br><br>
 
 :schrank5
 =Der Schrank
-<object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
+<object data="/sophie-peter.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Du öffnest den Schrank...<br>
 Im Schrank liegt eine Geburtstags Karte.<br><br>
 Zweitgolf - Sophie und Peter<br><br>
@@ -1706,7 +1706,7 @@ Also macht das Beste draus!<br><br>
 
 :geb
 =Sophie & Peter
-<object data="/sophie-peter.ogg" width="0" height="0">oggFile</object>
+<object data="/sophie-peter.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Sophie und Peter<br><br>
 Wir wünschen Dir Sophie alles Gute zum Geburtstag<br>
 weil Du 30 Jahre alt geworden bist.<br>
@@ -1751,7 +1751,7 @@ Du bist jetzt angemeldet.<br><br>
 
 :logout1
 =log_out
-<object data="/log_out.ogg" width="0" height="0">oggFile</object>
+<object data="/log_out.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf & Irrlicht Projekt<br><br>
 Update your status and upload some pictures.<br>
 Add some more people and comment on others.<br>
@@ -1766,7 +1766,7 @@ fuck social networks!</b><br><br>
 
 :logout
 =log_out
-<object data="/log_out.ogg" width="0" height="0">oggFile</object>
+<object data="/log_out.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf & Irrlicht Projekt<br><br>
 Update your status and upload some pictures.<br>
 Add some more people and comment on others.<br>
@@ -1881,7 +1881,7 @@ Du kannst aber nichts besonderes entdecken...<br><br>
 
 :kaefer
 =Karl der Käfer
-<object data="/karl.ogg" width="0" height="0">oggFile</object>
+<object data="/karl.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Karl der Käfer (text:gänsehaut)<br>
 Tief im Wald zwischen Moos und Farn.<br>
 Da lebte ein Köfer mit Namen Karl.<br>
@@ -1903,7 +1903,7 @@ fahren jetzt Käfer aus Blech und Stahl.<br><br>
 
 :kaefer1
 =Karl der Käfer
-<object data="/karl.ogg" width="0" height="0">oggFile</object>
+<object data="/karl.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 Zweitgolf - Karl der Käfer (text:gänsehaut)<br>
 Tief im Wald zwischen Moos und Farn.<br>
 Da lebte ein Köfer mit Namen Karl.<br>
@@ -2020,7 +2020,7 @@ Jetzt ist er wieder still.<br><br>
 
 :fsws
 =Free Software Song
-<object data="/free_software_song.ogg" width="0" height="0">oggFile</object>
+<object data="/free_software_song.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
 (Text by Richard Stallman)<br>
 Zweitgolf - Free Sonftware Song<br><br>
 Join us now and share the software;<br>
@@ -2132,43 +2132,87 @@ Willst Du:<br><br>
 %     ___|___|._.:.____                    :::::  ;;;;; .        .
 %    /       ::: |     \                    :::    ;;; :::      :::
 %___/_______:::::_______\__                  |      | :::::    :::::
-%………………………………:::……………………………\……____________………|…………ŧ…|……:::……………:::::………
-%"""""""""""""|""""""""""""""/     __     \·······ŧ·····|·······:::···
-%"""""""""""""|"""""""""""""/     /__\     \"""""ŧŧŧ""""|""""""""|"""""
-%""""""""""""""""""""""""""/      ____      \"""ŧŧŧŧŧ""""""""""""|"""""
-%"""""""""""""""""""""""""/      /    \      \""""|""""""""""""""""""""
+%………………………………:::……………………………\……____________………|…………ŧ…|……:::……………:::::…………………………
+%"""""""""""""|""""""""""""""/     __     \·······ŧ·····|·······:::···········
+%"""""""""""""|"""""""""""""/     /__\     \"""""ŧŧŧ""""|""""""""|""""""""""""
+%""""""""""""""""""""""""""/      ____      \"""ŧŧŧŧŧ""""""""""""|""""""""""""
+%"""""""""""""""""""""""""/      /    \      \""""|"""""""""""""""""""""""""""
 Du gehst ein paar Meter die Strasse entlang.<br>
 Es ist eine lange Landstrasse,<br>
-aif der weit und breit kein Haus zu sehen ist.<br>
+auf der weit und breit kein Haus zu sehen ist.<br>
 Links und rechts entlang der Strasse sind nur Wiesen und Wälder.<br>
 Leider hast Du immer noch keine Ahnung wo Du genau steckst.<br>
 Willst Du:<br><br>
 [[strassel1|trotzdem weiter gehen]]<br>
-[[haus|lieber zurück zum Haus]]<br>
+[[querfeldl|einfach querfeldein gehen]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]<br>
+[[haus|lieber zurück zum Haus]]
+
+:querfeldl
+=Querfeldein
+%                                                    333
+%        ..                                        3333333
+%    .:.;;;;      ratter                          333333333
+%   :::;;;;;;         ratter              ___      3333333
+%   ::;;;;;;;;            RATTER         / _ \      33333
+%    ::;;;;;;                  .  ____  /_/ \ \       I
+% .   I ;;;;   :              _|__|þŧ|_.:   | |       I              :
+% | . I  II  : | .            |Ooø ::| :/  _| |__     I   .  : .    :|
+%…|……\I……II=–|…|/…………………______|_–____|_/__(_)____)…………I………|……|/……………||……………………
+%||||||||II||||||||||||/.........................\||||||||||||||||||||||||||||
+%||||||||II||||||||||||...........................||||||||||||||||||||||||||||
+%||||||||||||||||||||||\_________________________/||||||||||||||||||||||||||||
+Du gehst eine Weile einfach der Nase nach...<br>
+Plötzlich erreichst Du eine Lichtung.<br>
+Mitten auf der Lichtung scheint eine Art Maschine zu stehen.<br>
+Ein grosser, seltsamer Apparat<br>
+der ganz alleine vor sich hin rattert.<br>
+Du kannst das Ding absolut nicht einordnen.<br><br>
+[[apparat|Näher ran gehen]]<br>
+[[strassel|lieber zurück zur Strasse]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
+
+:apparat
+=Mein Blut Dein Blut
+<object data="/mein_blut_dein_blut.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
+Zweitgolf - Mein Blut Dein Blut<br><br>
+Deine Wahrheit ist ne Lebenslüge<br>
+denn die Arbeit macht Dich lebensmüde<br>
+Hier sollst Du nur verlieren<br>
+doch lass Dich nicht frustrieren<br>
+Gesellschaft ist nur ein Konstrukt<br>
+und Du bist ihr Produkt<br><br>
+<b>Der Lügenapparat wird geölt<br>
+mit dem Blut jener Sklaven<br>
+die die Lügen nicht ertragen</b><br><br>
+Warum musst Du jeden Scheiß schlucken?<br>
+Wen willst Du beeindrucken?<br>
+Das hier ist mein Leben!<br>
+Lass mir nicht rein reden!<br>
 
 :strasser
 =Auf der Strasse
-%                   ..                      ...       ...
-%                 ::::::                   :::::   ........
-%           _    ::::::::                 ::::::: ...........
-%         |  \/–  ::::::                  ::::::: : .:::::. :
-%        /\/ |_    ::::                    :::::  :  .:::.: :
-%         –\ /–     II                       I       : ł :  :
-%           I       II                       I         ł
-%|||||||||||I|||||||II|||||____________||||||I|||||||||ł||||||||||
-%···········I·············/    /__\    \||||||||||||||||||||||||||
-%||||||||||||||||||||||||/      __      \|||||||||||||||||||||||||
-%|||||||||||||||||||||||/      /  \      \||||||||||||||||||||||||
-%||||||||||||||||||||||/      /____\      \|||||||||||||||||||||||
-%·····················/                    \||||||||||||||||||||||
+%                       ..                      ...       ...
+%                     ::::::                   :::::   ........
+%               _    ::::::::                 ::::::: ...........
+%             |  \/–  ::::::                  ::::::: : .:::::. :
+%            /\/ |_    ::::                    :::::  :  .:::.: :
+%             –\ /–     II                       I       : ł :  :
+%               I       II                       I         ł
+%|||||||||||||||I|||||||II|||||____________||||||I|||||||||ł||||||||||||||||||
+%···········I·················/    /__\    \||||||||||||||||||||||||||||||||||
+%||||||||||||||||||||||||||||/      __      \|||||||||||||||||||||||||||||||||
+%|||||||||||||||||||||||||||/      /  \      \||||||||||||||||||||||||||||||||
+%||||||||||||||||||||||||||/      /____\      \|||||||||||||||||||||||||||||||
+%·························/                    \||||||||||||||||||||||||||||||
 Du gehst die Strasse nach rechts...<br>
 Die Strasse ist zu beiden Seiten stark bewachsen,<br>
 jedoch ist kein Haus in Sicht.<br>
 Willst Du:<br><br>
 [[strasser1|trotzdem weiter gehen]]<br>
-[[haus|zurück zum Haus]]<br>
+[[querfeldr|einfach querfeldein gehen]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
+[[haus|zurück zum Haus]]
 
 :voll
 =Dein Rucksack
