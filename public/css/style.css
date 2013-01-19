@@ -35,7 +35,7 @@ h1 {
 #room{
 	width: 650px;
 	background: white;
-	border: dashed 20px #aaa;
+	border: dashed 20px #000;
 	border-radius: 25px;
 	margin:auto;
 }
