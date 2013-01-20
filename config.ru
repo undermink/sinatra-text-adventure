@@ -5,7 +5,7 @@ require 'sinatra'
 #disable :protection
 set :show_exceptions, false
 use Rack::Session::Cookie, :key => 'rack.session',
-                           :domain => 'localhost',
+                           :domain => 'www.zweitgolf.tk',
                            :path => '/',
                            :expire_after => 2592000, # In seconds
                            :secret => 'zweitgolf'
