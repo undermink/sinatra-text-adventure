@@ -969,6 +969,15 @@ get '/back' do
   end
 end
 
+get '/apparat' do
+  if session['blut'] != '1'
+    session['blut'] = '1'
+    show(:apparat)
+  else 
+    show(:apparat1)
+  end
+end
+
 get '/typ' do
   pp session['typ']
   if !session['typ']

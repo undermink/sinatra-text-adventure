@@ -2172,6 +2172,18 @@ Du kannst das Ding absolut nicht einordnen.<br><br>
 [[strassel|lieber zurück zur Strasse]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
 
+:apparat1
+=Der Lügenapparat
+Du stehst vor einem riesengrossen Lügenapparat<br>
+der geölt wird mit dem Blut jener Sklaven<br>
+die die Lügen nicht ertragen...<br><br>
+Du hälst einen Moment inne.<br>
+Soetwas hast Du noch nie gesehen.<br>
+Willst Du:<br><br>
+[[apaarat/aus|versuchen, den Apparat auszuschalten]]<br>
+[[haus1|lieber auf dem schnellsten Wege weg von hier]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]
+
 :apparat
 =Mein Blut Dein Blut
 <object data="/mein_blut_dein_blut.ogg" width="0" height="0"><param name="autoplay" value="true"></object>
