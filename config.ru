@@ -978,6 +978,23 @@ get '/apparat' do
   end
 end
 
+get '/apparat/aus' do
+  if session['apparat'] == '0'
+    session['apparat'] = '1'
+    show(:apan)
+  else
+    session['apparat'] = '0'
+    show(:apaus)
+  end
+end
+
+get '/strassel1' do
+  session.clear
+  session['key'] ||= '0'
+  session['geld'] ||= 0
+  show(:strassel1)
+end
+
 get '/typ' do
   pp session['typ']
   if !session['typ']
