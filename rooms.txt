@@ -2118,12 +2118,12 @@ Nach einigen Minuten erreichst Du eine Strasse.<br>
 Du bist Dir nicht sicher, ob Du wirklich weisst,<br>
 wo Du bist...<br>
 Willst Du:<br><br>
-[[strassel|die Strasse nach links gehen]]<br>
-[[strasser|die Strasse nach rechts gehen]]<br>
+[[strassel|die Strasse auf der rechten Seite nach links gehen]]<br>
+[[strasser|die Strasse auf der linken Seite nach rechts gehen]]<br>
 [[bagpack|Deinen Rucksack durchsuchen]]<br>
 [[haus1|zurück zum Haus]]
 
-:strassel
+:strasser
 =Auf der Strasse
 %
 %
@@ -2143,12 +2143,12 @@ auf der weit und breit kein Haus zu sehen ist.<br>
 Links und rechts entlang der Strasse sind nur Wiesen und Wälder.<br>
 Leider hast Du immer noch keine Ahnung wo Du genau steckst.<br>
 Willst Du:<br><br>
-[[strassel1|trotzdem weiter gehen]]<br>
-[[querfeldl|einfach querfeldein gehen]]<br>
+[[strasser1|trotzdem weiter gehen]]<br>
+[[querfeldr|einfach querfeldein gehen]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]<br>
-[[haus|lieber zurück zum Haus]]
+[[haus1|lieber zurück zum Haus]]
 
-:querfeldl
+:querfeldr
 =Querfeldein
 %                                                    333
 %        ..                                        3333333
@@ -2169,7 +2169,7 @@ Ein grosser, seltsamer Apparat<br>
 der ganz alleine vor sich hin rattert.<br>
 Du kannst das Ding absolut nicht einordnen.<br><br>
 [[apparat|Näher ran gehen]]<br>
-[[strassel|lieber zurück zur Strasse]]<br>
+[[strasser|lieber zurück zur Strasse]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
 
 :apparat1
@@ -2180,9 +2180,36 @@ die die Lügen nicht ertragen...<br><br>
 Du hälst einen Moment inne.<br>
 Soetwas hast Du noch nie gesehen.<br>
 Willst Du:<br><br>
-[[apaarat/aus|versuchen, den Apparat auszuschalten]]<br>
+[[apparat/aus|versuchen, den Apparat auszuschalten]]<br>
 [[haus1|lieber auf dem schnellsten Wege weg von hier]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
+
+:apaus
+=Der Lügenapparat
+Du drückst wahrlos ein paar Knöpfe<br>
+und schiebst ein paar Regler...<br>
+Nach wenigen Versuchen hört der Lügenapparat auf zu rattern.<br>
+Es sieht so aus, als hättest Du ihn abgeschaltet.<br>
+Willst Du:<br><br>
+[[apparat/aus|den Apparat wieder einschalten?]]<br>
+[[back2|zurück zum Haus gehen]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]<br>
+[[back2|Dich noch ein wenig umsehen]]
+
+:apan
+=Der Lügenapparat
+Du versuchst lieber den Apparat wieder einzuschalten,<br>
+bevor jemand merkt, daß Du ihn abgeschaltet hast.<br>
+Wieder drückst Du wahrlos ein paar Knöpfe<br>
+und bewegst einige Schiebregler...<br>
+Der Apparat macht Geräusche wie ein Auto beim anlassen<br>
+aber nach einigen Sekunden rattert er wieder vor sich hin.<br>
+Willst Du:<br><br>
+[[apparat/aus|den Apparat wieder anschalten]]<br>
+[[strasser|zurück zur Strasse]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]<br>
+[[haus1|lieber wieder zum Haus]]
+
 
 :apparat
 =Mein Blut Dein Blut
@@ -2202,29 +2229,53 @@ Wen willst Du beeindrucken?<br>
 Das hier ist mein Leben!<br>
 Lass mir nicht rein reden!<br>
 
-:strasser
+:strassel
 =Auf der Strasse
 %                       ..                      ...       ...
-%                     ::::::                   :::::   ........
-%               _    ::::::::                 ::::::: ...........
-%             |  \/–  ::::::                  ::::::: : .:::::. :
+%                     ::::::                   :::::    .:::::.
+%               _/   ::::::::                 :::::::  .:::::::.
+%            \/  \/–  ::::::                  ::::::: : .:::::. :
 %            /\/ |_    ::::                    :::::  :  .:::.: :
-%             –\ /–     II                       I       : ł :  :
-%               I       II                       I         ł
-%|||||||||||||||I|||||||II|||||____________||||||I|||||||||ł||||||||||||||||||
-%···········I·················/    /__\    \||||||||||||||||||||||||||||||||||
-%||||||||||||||||||||||||||||/      __      \|||||||||||||||||||||||||||||||||
-%|||||||||||||||||||||||||||/      /  \      \||||||||||||||||||||||||||||||||
-%||||||||||||||||||||||||||/      /____\      \|||||||||||||||||||||||||||||||
-%·························/                    \||||||||||||||||||||||||||||||
-Du gehst die Strasse nach rechts...<br>
-Die Strasse ist zu beiden Seiten stark bewachsen,<br>
+%  :  . :     –\ /––    ||                       I    ·  : ł :  :
+%. |:. \|:.     |    ¸  ||                       I   .:::. ł ·  ·
+%|…|||……|||……………|…………v……||……………____________………………I………:::::…ł………………………………………………
+%··········:·.··|·········.·:./    /__\    \----------:::---------------------
+%··········|·|·:|··········Vv/      __      \----------|----------------------
+%----:--.------|:.--.:.-----/      /  \      \---------|----------------------
+%····|··|·······||··|||····/      /____\      \-.:..:.:|""""""""""""""""""""""
+%|||||||||||||||||||||||||/                    \||||||||||||||||||||||||||||||
+Du gehst die Strasse auf der rechten Seite nach links...<br>
+Nur Wiesen und Wälder soweit das Auge reicht,<br>
 jedoch ist kein Haus in Sicht.<br>
+Du hast absolut keine Ahnung wo Du genau steckst.<br>
 Willst Du:<br><br>
-[[strasser1|trotzdem weiter gehen]]<br>
-[[querfeldr|einfach querfeldein gehen]]<br>
+[[strassel1|trotzdem weiter gehen]]<br>
+[[querfeldl|einfach querfeldein gehen]]<br>
+[[bagpack|Deinen Rucksack durchforsten]]<br>
+[[haus1|zurück zum Haus]]
+
+:strassel1
+=Die Landstrasse
+Du gehst weiter auf der rechten Seite der Strasse...<br>
+Hättest Du doch nur Rolf Zuchowski als Kind gehört.<br>
+Ein Auto (das Du, da Du rechts gehst nicht kommen siehst)<br>
+kommt von hinten und erfasst Dich.<br><br>
+<b>Du bist auf der Stelle tot.</b><br><br>
+Der Autofahrer begeht Unfallflucht.<br>
+Er konnte nie ermittelt werden.<br><br>
+[[raum1|OH NEIN!]]
+
+:querfeldl
+=Querfeldein
+Du gehst von der Strasse ab...<br>
+direkt durch den nahegelegenen Wald.<br>
+Du gehst so lange einfach weiter,<br>
+bis es allmählich dunkel wird.<br>
+Leider weisst Du immer noch nicht, wo Du Dich befindest.<br>
+Willst Du:<br><br>
+[[haus1|versuchen bevor es dunkel wird zum Haus zurück zu finden]]<br>
+[[wald|einfach noch weiter gehen und im Notfall im Wald schlafen]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]
-[[haus|zurück zum Haus]]
 
 :voll
 =Dein Rucksack
