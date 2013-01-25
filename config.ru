@@ -826,6 +826,8 @@ post '/truhe/add/:name' do
     weight = 10
   elsif ['map1','map2','map3'].member?(params["name"])
     weight = 1
+  else
+    weight = 0
   end
   session[params["name"]]=truhenchk(session[params["name"]],weight)
   "ok"

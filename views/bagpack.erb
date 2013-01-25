@@ -37,13 +37,13 @@
       		if session['map3'] == '1' then @inventar+='<a class="link" href="/map3">die Karte für die erste Etage</a><br>' end
       		if ['1','2'].member?(session['leiter']) then @inventar='nichts, weil Du den irgendwo abgestellt hast...<br>' end
       			
-      			#session['back'] = '0'
+      			#session['key2'] = '1'
       			#session['bag'] = 65
    		%>
       	<%=@inventar%><br>
       	<br>
       	Füllstand:<br>
       	<%=session['bag']%>/ 100  <br><br>
-      <a href="#" onclick="history.go(-1)">Zurück</a></p>
+      <a href="#" class="back">Zurück</a></p>
       </table>
    </div>

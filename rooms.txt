@@ -1085,10 +1085,10 @@ Du faltest es auseinander...<br><br>
 %
 %               ------------------------------------------------------
 %               |                   --Erdgeschoss--                  |
-%               |                                       (1.OG)       |
-%               |    _(1)-(2)-(3)-(4)-(5)-(7)         _|             |
-%               |  _|              |                _|               |
-%               | |               (6)-(8)-(9)-(10)_|                 |
+%               |                                    (1.OG)          |
+%               |    _(1)-(2)-(3)-(4)-(5)            _|              |
+%               |  _|              |               _|                |
+%               | |               (6)-(7)-(8)-(9)_|                  |
 %               |(UG)   2:Telefonzimmer                              |
 %               |       3:Vogelzimmer                                |
 %               ------------------------------------------------------
@@ -2205,7 +2205,7 @@ und bewegst einige Schiebregler...<br>
 Der Apparat macht Geräusche wie ein Auto beim anlassen<br>
 aber nach einigen Sekunden rattert er wieder vor sich hin.<br>
 Willst Du:<br><br>
-[[apparat/aus|den Apparat wieder anschalten]]<br>
+[[apparat/aus|den Apparat wieder abschalten]]<br>
 [[strasser|zurück zur Strasse]]<br>
 [[bagpack|Deinen Rucksack durchforsten]]<br>
 [[haus1|lieber wieder zum Haus]]
