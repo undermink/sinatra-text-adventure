@@ -954,7 +954,7 @@ get '/ampan' do
     session['freesoft'] ='1'
     show(:ampan)
   elsif session['freesoft'] =='1'
-    session['freesoft'] ='0'
+    session['freesoft'] ='2'
     show(:ampaus)
   end
 end
