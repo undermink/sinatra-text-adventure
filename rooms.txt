@@ -846,9 +846,9 @@ Möchtest Du:<br><br>
 %           /                                                          \
 %
 Ausser den beiden Türen findest Du nichts besonderes hier.<br><br>
-[[raum10|Die Treppe hinunter gehen?]]<br>
+[[raum10|In den Keller gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
-[[raum22|Durch die linke Tür in den zweiten Raum gehen?]]
+[[raum22|Durch die linke Tür gehen?]]
 
 :raum22
 =Raum 2 Erdgeschoss
@@ -869,7 +869,7 @@ Du befindest Dich im zweiten Raum.<br>
 Vor Dir hängt ein Telefon an der Wand.<br>
 Es klingelt...<br>
 Willst Du:<br><br>
-[[telefon|Ans Telefon dran gehen?]]<br>
+[[telefon|Ans Telefon gehen?]]<br>
 [[raum22|Das Telefon nicht weiter beachten?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
 [[raum21|Zurück in den ersten Raum?]]<br>
@@ -1033,7 +1033,7 @@ Willst Du:<br><br>
 
 :kaefig
 =Raum 3 EG: Der Vogelkäfig
-Du gehst zum Voglekäfig rüber...<br>
+Du gehst zum Vogelkäfig rüber...<br>
 Im Käfig ist ein Vogel gefangen.<br><br>
 Willst Du ihn freilassen?<br><br>
 [[kaefig1|Ja, klar!]]<br>
@@ -1458,7 +1458,7 @@ Beim Sprung aus dem Fenster brichst Du Dir das Genick.<br><br>
 Du bist jetzt im 3. Raum des ersten Obergeschosses.<br><br>
 Möchtest Du:<br><br>
 [[raum33a|Den Raum durchsuchen?]]<br>
-[[raum32|Zürück in den zweiten Raum?]]<br>
+[[raum32|Zurück in den zweiten Raum?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]
 
 :raum33a
@@ -1975,7 +1975,7 @@ Möchtest Du die Säge mitnehmen?<br><br>
 %    /                                           \
 Dieser Raum sieht aus, als hätte hier<br>
 kürzlich ein Konzert stattgefunden.<br>
-Überall liege leere Flaschen und Zigarettenstummel herum<br>
+Überall liegen leere Flaschen und Zigarettenstummel herum<br>
 und die Luft ist abgestanden.<br>
 Irgendwie kommt Dir das hier alles bekannt vor...<br>
 ...Du warst schon mal hier.<br><br>
@@ -1990,7 +1990,7 @@ Hinten links liegen ein paar leere Bierflaschen<br>
 und eine Menge Kippenstummel.<br>
 Rechts steht ein E-Gitarren Verstärker.<br>
 Dahinter hat jemand mit einem Edding 'Zweitgolf'<br>
-An die Wand geschrieben.<br>
+an die Wand geschrieben.<br>
 Die Wand rechts von Dir ist mit dem Wort 'Punk' besprüht.<br>
 Was hast Du vor:<br><br>
 [[amp|den Verstärker untersuchen]]<br>
