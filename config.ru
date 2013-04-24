@@ -965,7 +965,7 @@ get '/back' do
     redirect 'raum37'
   elsif session['back'] == '1'
     session['back'] = '2'
-    show(:typ)
+    redirect 'typ'
   elsif session['back'] == '2'
     redirect 'raum37'
   end
