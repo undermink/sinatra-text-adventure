@@ -949,7 +949,7 @@ end
 get '/ampan' do
   if !['1','2'].member?(session['freesoft'])
     session['freesoft'] = '1'
-    show(:fsws)
+    redirect 'fsws'
   elsif session['freesoft'] =='2'
     session['freesoft'] ='1'
     show(:ampan)
