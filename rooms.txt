@@ -829,7 +829,7 @@ Möchtest Du:<br><br>
 [[raum21|Den Raum durchsuchen?]]<br>
 [[raum10|Die Treppe hinunter gehen?]]<br>
 [[bagpack|Deinen Rucksack durchsuchen?]]<br>
-[[raum22|Durch die Tür zweiten Raum gehen?]]
+[[raum22|Durch die Tür in den zweiten Raum gehen?]]
 
 :raum21
 =Erdgeschoss
